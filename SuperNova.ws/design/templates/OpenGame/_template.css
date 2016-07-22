@@ -1,0 +1,581 @@
+textarea {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+}
+
+input, textarea, button {
+  font-weight: bold !important;
+}
+
+.subheader, tr.subheader > td, tr.subheader > th {
+  background: #233452;
+}
+
+.note_coordinates {
+  color: #00B7F3;
+}
+
+.income_with_fleet {
+  color: #80a0C0;
+}
+
+/* Universe/Galaxy ---------------------------------------------------------------------------------------------------*/
+.universe_main > tbody > tr > td, .universe_main > tbody > tr > th {
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.uni_show_planet, .uni_show_debris, .uni_show_user, .uni_show_ally {
+  cursor: pointer;
+}
+
+.uni_show_user {
+  min-width: 130px;
+}
+
+.uni_show_planet {
+  max-width: 30px;
+  width: 30px;
+}
+.uni_show_planet > div {
+  position: relative;
+  height: 30px;
+  width: 30px;
+}
+.uni_show_planet > div > :first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+}
+.uni_show_planet > div > :nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.uni_show_debris {
+  background-image: none;
+  max-width: 60px;
+  width: 60px;
+  height: 100%;
+}
+.uni_show_debris > div {
+  margin:auto;
+  position: relative;
+  height: 30px;
+  width: 30px;
+}
+.uni_show_debris > div > :first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+}
+.uni_show_debris > div > :nth-child(2) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Empire overview -------------------------------------------------------------- */
+[go] {
+  cursor: pointer;
+}
+
+td[go]:hover { /* Skin specific */
+  background-color: #415680;
+}
+
+[name=save_production] {
+  float: right;
+}
+
+tr[prod_mode] > th:first-child {
+  text-align: left;
+  position: relative;
+}
+
+tr[prod_mode] > td:first-child {
+  text-align: center;
+}
+
+tr[prod_mode] > th:first-child > span  {
+  position: absolute;
+  top: 6px;
+}
+
+tr[prod_mode] > :not(:first-child) {
+  text-align: center;
+  position: relative;
+  z-index: 100;
+}
+/* Production builder filler - i.e. production % for mine etc */
+tr[prod_mode] > :not(:first-child) > span[style] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 200;
+}
+
+tr[prod_mode] > [ecs]:not(:first-child) {
+/* Standard single-height empire cell */
+  height: 13px;
+}
+/* Double-height empire cell - i.e. for Mines */
+tr[prod_mode] > [ecd]:not(:first-child), tr[prod_mode] > [ecd]:not(:first-child) > span[style] {
+  height: 35px;
+}
+tr[prod_mode] > :not(:first-child) > span:not([style]) { /* Content of empire cell */
+  z-index: 300;
+  position: relative;
+}
+
+
+/* Menu ------------------------------------------------------------------------- */
+#left_menu {
+  margin: 5px 10px 0 5px;
+  text-align: left;
+  z-index: 999;
+}
+
+#left_menu_show {
+  /*left: 0;*/
+  /*top: 0;*/
+  /*width: 140px;*/
+  /*position: fixed;*/
+  z-index: 9999;
+}
+
+#left_menu tr, #left_menu td, #left_menu th {
+  height: 16px;
+}
+
+#menu_show_hidden {
+  color: yellow;
+  cursor: pointer;
+}
+
+.menu_visible {
+  width: 16px;
+  margin-left: 5px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.menu_drag {
+  margin-right: 5px;
+  width: 16px;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+  left: 0;
+  background-size: contain !important;
+}
+
+.i_icon_visible {
+  background-image: url(../../images/icon_eye_visible.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.i_icon_invisible {
+  background-image: url(../../images/icon_eye_invisible.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+/* Unit purchase --------------------------------------------------------------- */
+#unit_table {
+  width: 530px;
+}
+
+.unit_preview .unit_image {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+
+  border: 0;
+  vertical-align: top;
+}
+
+.unit_preview .time {
+  position: absolute;
+  right: 18px;
+  bottom: 0;
+
+  height: 16px;
+  width: 70%;
+
+  font-size: 100%;
+
+  text-align: right;
+  white-space: nowrap;
+}
+
+.unit_preview .level, .unit_preview .count {
+  position: absolute;
+  top: 0;
+
+  height: 16px;
+
+  font-size: 120%;
+
+  text-align: center;
+  white-space: nowrap;
+}
+
+.unit_preview .level {
+  left: 15%;
+  width: 70%;
+}
+
+.unit_preview .count {
+  left: 0;
+  width: 100%;
+}
+
+.unit_preview .name {
+  position: absolute;
+  left: 0;
+  top: 18px;
+
+  width: 100%;
+  height: 5ex;
+
+  font-size: 100%;
+}
+
+.unit_preview .resource_container {
+  position: absolute;
+  left: 0;
+  top: 48px;
+  width: 100%;
+  text-align: left;
+}
+
+.unit_preview .restrict {
+  position: absolute;
+  left: 0;
+  bottom: 18px;
+  width: 100%;
+  /*height: 20%;*/
+
+  font-size: 90%;
+  line-height: 90%;
+}
+
+.ov_planet_fill_bar {
+  position: relative; width: 100%; height: 15px; border: 1px solid rgb(153, 153, 255);
+}
+
+
+/* Admin interface - userlist ------------------------------------------------ */
+#user_list {
+  white-space: nowrap;
+}
+#user_list th {
+  text-align: center;
+}
+#user_list tr td:first-child, #user_list tr td:nth-child(3) {
+  text-align: right;
+}
+#user_list tr td:first-child, #user_list tr td:nth-child(2), #user_list tr td:last-child {
+  cursor: pointer;
+}
+/*
+#user_list tr td:first-child:hover, #user_list tr td:nth-child(2):hover {
+  background-color: yellow;
+}
+*/
+#user_list tr:hover {
+  color: yellow;
+}
+
+
+
+
+
+
+/* Chat ---------------------------------------------------------------- */
+/*
+#chat_command_menu div:not(:first-child):not(:last-child):hover {
+  background-color: darkgoldenrod;
+}
+*/
+/* Shoutbox */
+#shoutbox {
+  background-color: black;
+}
+#shoutbox img {
+  vertical-align: top;
+  margin: 0 1px 0 0;
+}
+#shoutbox .chat_private {
+  color: lightblue; font-style: italic;
+}
+#shoutbox span {
+  vertical-align: top;
+}
+/* Chat messages on table */
+#shoutbox > table {
+  border: 0;
+  padding: 0;
+  background-color: black;
+  margin: 3px 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+#shoutbox > table > tbody > tr {
+  background-color: black;
+}
+#shoutbox > table > tbody > tr > td {
+  border: 0;
+  padding: 0;
+  background-color: black;
+  text-align: left;
+  vertical-align: top;
+}
+#shoutbox > table > tbody > tr > td:not(:last-child) {
+  white-space: nowrap;
+}
+#shoutbox > table > tbody > tr > td:last-child {
+  width: 100%;
+  padding-left: 2px;
+}
+
+/* Chat messages on div */
+#shoutbox > div {
+  margin: 2px 0;
+}
+#shoutbox > div:after { /* Float clear */
+  content: '';
+  display: block;
+  clear: both;
+}
+#shoutbox > div > div:not(:last-child) { /* All div except message should float left */
+  float: left;
+}
+#shoutbox > div > div:last-child { /* Message itself */
+  overflow: hidden;
+}
+
+/* Nick colors in chat */
+.chat_nick_whisper, .chat_nick_msg {
+  border-bottom: 1px dashed;
+  font-weight: bold;
+  cursor: pointer;
+}
+.player_nick_award, .player_nick_race {
+  cursor: pointer;
+}
+
+/* Input elements - color, smile, text, send button */
+#chat_color_button, #chat_smile_point, #chat_message_inputs #msg, #chat_message_inputs #msg, #chat_message_inputs #send {
+  vertical-align: top;
+  margin: 0 5px;
+}
+#chat_color_button {
+  float: left;
+}
+#chat_smile_point {
+  float: left;
+  width: 24px;
+  height: 24px;
+}
+
+#chat_message_inputs #send {
+  float: right;
+  width: 100px;
+}
+
+#chat_msg_wrapper {
+  display: block;
+  overflow: hidden;
+}
+#chat_msg_wrapper:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#chat_msg_wrapper #msg {
+  background-color: black;
+  width: 100%;
+}
+
+
+#chat_message_inputs {
+  vertical-align: top;
+}
+#chat_color_button div { /* Colored ABCDEFG */
+  display: inline-block;
+}
+
+
+/* Popups - color select, smile select, tooltip and admin command menu */
+#chat_color_select, #chat_message_smiles2, #chat_command_menu, #chat_muted_tooltip {
+  display: none;
+  background-color: #233452;
+  vertical-align: top;
+  text-align: center;
+  padding: 4px;
+  border: 1px solid;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+}
+#chat_color_select {
+  max-width: 280px;
+}
+#chat_message_smiles2 {
+  max-width: 340px;
+}
+#chat_command_menu {
+  max-width: 360px;
+}
+#chat_muted_tooltip {
+  max-width: 300px;
+}
+#chat_muted_tooltip img, #chat_command_menu img {
+  vertical-align: top;
+}
+
+/* Popup internal elements - color buttons, smile buttons, command length buttons */
+#chat_color_select div, #chat_message_smiles2 div, #chat_command_menu div:not(:first-child):not(:last-child) {
+  margin: 2px;
+  border: 1px solid;
+  vertical-align: top;
+  display: inline-block;
+}
+#chat_message_smiles2 div {
+  width: 50px;
+  height: 40px;
+
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+#chat_message_smiles2 div img {
+  /*  display: inline-block;*/
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-51%);
+  -webkit-transform: translateY(-51%);
+  -o-transform: translateY(-51%);
+  -moz-transform: translateY(-51%);
+  transform: translateY(-51%);
+}
+
+
+#chat_command_menu div:not(:first-child):not(:last-child) {
+  width: 80px;
+}
+#chat_command_menu div:last-child {
+  margin-top: 5px;
+}
+
+
+#chat_color_select div:first-child, #chat_color_button div:first-child {
+  color: cyan;
+}
+#chat_color_select div:nth-child(2), #chat_color_button div:nth-child(2) {
+  color: yellow;
+}
+#chat_color_select div:nth-child(3), #chat_color_button div:nth-child(3) {
+  color: green;
+}
+#chat_color_select div:nth-child(4), #chat_color_button div:nth-child(4) {
+  color: pink;
+}
+#chat_color_select div:nth-child(5), #chat_color_button div:nth-child(5) {
+  color: maroon;
+}
+#chat_color_select div:nth-child(6), #chat_color_button div:nth-child(6) {
+  color: orange;
+}
+#chat_color_select div:nth-child(7), #chat_color_button div:nth-child(7) {
+  color: white;
+}
+
+#stat_cell_min_max {
+  position: relative;
+}
+#stat_cell_min_max > .stat_min, #stat_cell_min_max > .stat_avg, #stat_cell_min_max > .stat_max {
+  text-align: center;
+  width: 100%;
+
+  position: absolute;
+  left: 0;
+}
+#stat_cell_min_max > .stat_max {
+  top: 0;
+}
+#stat_cell_min_max > .stat_avg {
+  top: 45%;
+}
+#stat_cell_min_max > .stat_min {
+  bottom: 0;
+}
+
+.stat_cell, .stat_date_cell {
+  width: 40px;
+}
+
+.stat_cell {
+  height: 200px;
+
+  position: relative;
+}
+.stat_cell > .stat_value {
+  text-align: center;
+  width: 100%;
+
+  position: absolute;
+  left: 0;
+  bottom: 1.1em;
+}
+.stat_cell > .stat_delta {
+  text-align: center;
+  width: 100%;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.stat_bar {
+  width: 100%;
+  height: 0;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+/*
+.stat_text {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+*/
+
+.blitz_admin > div {
+  margin-top: 20px;
+}

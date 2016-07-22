@@ -1,0 +1,1081 @@
+[23-Mar-2014 02:58:40 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/games/2moons/includes/classes/class.StatBanner.php on line 68
+[23-Mar-2014 02:58:45] NOTICE: "Undefined index: username"
+File: /home/qwa/public_html/games/2moons/cache/pt^d798adaa54357e91010f1ee3c84080fb6153c0e9.extends.page.messages.default.tpl.cache.php | Line: 380
+URL: http://2moons-host.com/games/2moons/game.php?page=messages | Version: 1.7.2676
+Stack trace:
+#0 /cache/pt^d798adaa54357e91010f1ee3c84080fb6153c0e9.extends.page.messages.default.tpl.cache.php(380): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 380, Array)
+#1 /cache/pt^d798adaa54357e91010f1ee3c84080fb6153c0e9.extends.page.messages.default.tpl.cache.php(68): content_532e4de5a07db9_12580202(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_532e4de5b572d4_94572376(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(246): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowMessagesPage.php(305): AbstractPage-&gt;display('page.messages.d...')
+#7 /game.php(65): ShowMessagesPage-&gt;show()
+#8 {main}
+[23-Mar-2014 02:58:55] NOTICE: "Undefined index: username"
+File: /home/qwa/public_html/games/2moons/cache/pt^d798adaa54357e91010f1ee3c84080fb6153c0e9.extends.page.messages.default.tpl.cache.php | Line: 380
+URL: http://2moons-host.com/games/2moons/game.php?page=messages | Version: 1.7.2676
+Stack trace:
+#0 /cache/pt^d798adaa54357e91010f1ee3c84080fb6153c0e9.extends.page.messages.default.tpl.cache.php(380): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 380, Array)
+#1 /cache/pt^d798adaa54357e91010f1ee3c84080fb6153c0e9.extends.page.messages.default.tpl.cache.php(68): content_532e4def72caf1_59481247(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_532e4de5b572d4_94572376(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(246): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowMessagesPage.php(305): AbstractPage-&gt;display('page.messages.d...')
+#7 /game.php(65): ShowMessagesPage-&gt;show()
+#8 {main}
+[23-Mar-2014 03:17:02] NOTICE: "Undefined index: resourceID"
+File: /home/qwa/public_html/games/2moons/cache/pt^6704bde54afc22b0695637fabc98f6bf682db924.extends.page.overview.default.tpl.cache.php | Line: 763
+URL: http://2moons-host.com/games/2moons/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/pt^6704bde54afc22b0695637fabc98f6bf682db924.extends.page.overview.default.tpl.cache.php(763): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 763, Array)
+#1 /cache/pt^6704bde54afc22b0695637fabc98f6bf682db924.extends.page.overview.default.tpl.cache.php(69): content_532e522e97a773_96951994(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_532e4a5f2c3715_06934345(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(246): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(273): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[23-Mar-2014 03:18:20] NOTICE: "Undefined index: username"
+File: /home/qwa/public_html/games/2moons/cache/pt^ca2c4cfe52b92effe8e90b68f7a7776731f4a9cf.extends.page.galaxy.default.tpl.cache.php | Line: 957
+URL: http://2moons-host.com/games/2moons/game.php?page=galaxy&galaxy=1&system=1 | Version: 1.7.2676
+Stack trace:
+#0 /cache/pt^ca2c4cfe52b92effe8e90b68f7a7776731f4a9cf.extends.page.galaxy.default.tpl.cache.php(957): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 957, Array)
+#1 /cache/pt^ca2c4cfe52b92effe8e90b68f7a7776731f4a9cf.extends.page.galaxy.default.tpl.cache.php(70): content_532e527d126d98_83965195(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_532e527d9cf591_54431433(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(246): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowGalaxyPage.php(129): AbstractPage-&gt;display('page.galaxy.def...')
+#7 /game.php(65): ShowGalaxyPage-&gt;show()
+#8 {main}
+[23-Mar-2014 12:24:39 UTC] PHP Fatal error:  Call to undefined function TOPNAV_SHORTLY_NUMBER() in /home/qwa/public_html/games/2moons/includes/pages/game/class.AbstractPage.php on line 161
+[23-Mar-2014 12:27:27] NOTICE: "Array to string conversion"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code | Line: 267
+URL: http://2moons-host.com/games/2moons/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code(267): errorHandler(8, 'Array to string...', '/home/qwa/publi...', 267, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252): eval()
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(248): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowOverviewPage.php(273): AbstractPage-&gt;display('page.overview.d...')
+#6 /game.php(65): ShowOverviewPage-&gt;show()
+#7 {main}
+[23-Mar-2014 12:27:54] NOTICE: "Undefined index: current"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code | Line: 275
+URL: http://2moons-host.com/games/2moons/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code(275): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 275, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252): eval()
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(248): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowOverviewPage.php(273): AbstractPage-&gt;display('page.overview.d...')
+#6 /game.php(65): ShowOverviewPage-&gt;show()
+#7 {main}
+[23-Mar-2014 12:28:13] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/main.topnav.tpl&quot;  on line 115 &quot;&amp;lt;td class=&amp;quot;res_current tooltip&amp;quot; data-tooltip-content=&amp;quot;{$resouceData.current|1}&amp;amp;nbsp;/&amp;amp;nbsp;{$resouceData.max|1}&amp;quot;&amp;gt;&amp;lt;span{if $resouceData.current &amp;lt; 0} style=&amp;quot;color:red&amp;quot;{/if}&amp;gt;{shortly_number($resouceData.current)}&amp;amp;nbsp;/&amp;amp;nbsp;{shortly_number($resouceData.max)}&amp;lt;/span&amp;gt;&amp;lt;/td&amp;gt;&quot;  - Unexpected &quot;1&quot;, expected one of: &quot;identifier&quot; , &quot;@&quot;"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3144): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error()
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3209): Smarty_Internal_Templateparser-&gt;yy_syntax_error(36, '1')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(36, '1')
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('&lt;div id=&quot;wrap&quot; ...')
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_compile_include.php(146): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Include-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('include', Array, Array)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2388): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('include', Array)
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r36()
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(36)
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '??&lt;div id=&quot;cont...')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#15 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#16 /includes/pages/game/class.AbstractPage.php(248): template-&gt;display('extends:layout....')
+#17 /includes/pages/game/class.ShowOverviewPage.php(273): AbstractPage-&gt;display('page.overview.d...')
+#18 /game.php(65): ShowOverviewPage-&gt;show()
+#19 {main}
+[23-Mar-2014 12:28:53] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/main.topnav.tpl&quot;  on line 121 &quot;| {shortly_number($PLANET[$resource['901']]}&quot;  - Unexpected &quot;}&quot;, expected one of: &quot;&quot;,&quot;&quot; , &quot;)&quot;"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3144): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error()
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3209): Smarty_Internal_Templateparser-&gt;yy_syntax_error(17, '}')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(17, '}')
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('&lt;div id=&quot;wrap&quot; ...')
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_compile_include.php(146): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Include-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('include', Array, Array)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2388): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('include', Array)
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r36()
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(36)
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '??&lt;div id=&quot;cont...')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#15 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#16 /includes/pages/game/class.AbstractPage.php(248): template-&gt;display('extends:layout....')
+#17 /includes/pages/game/class.ShowOverviewPage.php(273): AbstractPage-&gt;display('page.overview.d...')
+#18 /game.php(65): ShowOverviewPage-&gt;show()
+#19 {main}
+[23-Mar-2014 12:30:20] NOTICE: "Undefined offset: 920"
+File: /home/qwa/public_html/games/2moons/includes/pages/game/class.AbstractPage.php | Line: 164
+URL: http://2moons-host.com/games/2moons/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.AbstractPage.php(164): errorHandler(8, 'Undefined offse...', '/home/qwa/publi...', 164, Array)
+#1 /includes/pages/game/class.AbstractPage.php(173): AbstractPage-&gt;getNavigationData()
+#2 /includes/pages/game/class.AbstractPage.php(236): AbstractPage-&gt;getPageData()
+#3 /includes/pages/game/class.ShowOverviewPage.php(273): AbstractPage-&gt;display('page.overview.d...')
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[23-Mar-2014 12:30:28] NOTICE: "Undefined offset: 920"
+File: /home/qwa/public_html/games/2moons/includes/pages/game/class.AbstractPage.php | Line: 164
+URL: http://2moons-host.com/games/2moons/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.AbstractPage.php(164): errorHandler(8, 'Undefined offse...', '/home/qwa/publi...', 164, Array)
+#1 /includes/pages/game/class.AbstractPage.php(173): AbstractPage-&gt;getNavigationData()
+#2 /includes/pages/game/class.AbstractPage.php(236): AbstractPage-&gt;getPageData()
+#3 /includes/pages/game/class.ShowOverviewPage.php(273): AbstractPage-&gt;display('page.overview.d...')
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[23-Mar-2014 16:33:46] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/main.topnav.tpl&quot;  on line 35 &quot;&amp;lt;div class=&amp;quot;ressdm&amp;quot;&amp;gt;{shortly_number($tinyDarkMatter}&amp;lt;/div&amp;gt;&quot;  - Unexpected &quot;}&quot;, expected one of: &quot;&quot;,&quot;&quot; , &quot;)&quot;"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3144): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error()
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3209): Smarty_Internal_Templateparser-&gt;yy_syntax_error(17, '}')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(17, '}')
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('&lt;div id=&quot;wrap&quot; ...')
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_compile_include.php(146): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Include-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('include', Array, Array)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2388): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('include', Array)
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r36()
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(36)
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '??&lt;div id=&quot;cont...')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#15 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#16 /includes/pages/game/class.AbstractPage.php(253): template-&gt;display('extends:layout....')
+#17 /includes/pages/game/class.ShowOverviewPage.php(273): AbstractPage-&gt;display('page.overview.d...')
+#18 /game.php(65): ShowOverviewPage-&gt;show()
+#19 {main}
+[23-Mar-2014 16:38:02] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/main.topnav.tpl&quot;  on line 36 &quot;&amp;lt;a href=&amp;quot;#&amp;quot; class=&amp;quot;tip&amp;quot; title=&amp;quot;{$LNG.tech.921&amp;quot;&amp;gt;&quot;  - Unexpected &quot;&quot;&quot;, expected one of: &quot;}&quot; , &quot; &quot; , ATTR"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3144): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error()
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3209): Smarty_Internal_Templateparser-&gt;yy_syntax_error(78, '&quot;')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(78, '&quot;')
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('&lt;div id=&quot;wrap&quot; ...')
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_compile_include.php(146): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Include-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('include', Array, Array)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2388): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('include', Array)
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r36()
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(36)
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '??&lt;div id=&quot;cont...')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#15 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#16 /includes/pages/game/class.AbstractPage.php(253): template-&gt;display('extends:layout....')
+#17 /includes/pages/game/class.ShowOverviewPage.php(273): AbstractPage-&gt;display('page.overview.d...')
+#18 /game.php(65): ShowOverviewPage-&gt;show()
+#19 {main}
+[23-Mar-2014 22:24:45] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/page.buildings.default.tpl&quot;  on line 112 &quot;&quot; unclosed {if} tag"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_compilebase.php(166): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {if} t...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_compile_foreach.php(224): Smarty_Internal_CompileBase-&gt;closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(473): Smarty_Internal_Compile_Foreachclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('foreachclose', Array, Array)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('foreachclose', Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '??    &lt;/tr&gt;??  ...')
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('??{if !empty($Q...')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#16 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;/div&gt;??')
+#17 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#18 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#19 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#20 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#21 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#22 /includes/pages/game/class.AbstractPage.php(259): template-&gt;display('extends:layout....')
+#23 /includes/pages/game/class.ShowBuildingsPage.php(361): AbstractPage-&gt;display('page.buildings....')
+#24 /game.php(65): ShowBuildingsPage-&gt;show()
+#25 {main}
+[23-Mar-2014 22:25:04] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/page.buildings.default.tpl&quot;  on line 112 &quot;&quot; unclosed {if} tag"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_compilebase.php(166): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {if} t...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_compile_foreach.php(224): Smarty_Internal_CompileBase-&gt;closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(473): Smarty_Internal_Compile_Foreachclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('foreachclose', Array, Array)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('foreachclose', Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '??    &lt;/tr&gt;??  ...')
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('????&lt;table styl...')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#16 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;/div&gt;??')
+#17 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#18 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#19 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#20 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#21 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#22 /includes/pages/game/class.AbstractPage.php(259): template-&gt;display('extends:layout....')
+#23 /includes/pages/game/class.ShowBuildingsPage.php(361): AbstractPage-&gt;display('page.buildings....')
+#24 /game.php(65): ShowBuildingsPage-&gt;show()
+#25 {main}
+[23-Mar-2014 22:25:55] NOTICE: "Undefined index: id"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code | Line: 374
+URL: http://2moons-host.com/games/2moons/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code(374): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 374, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252): eval()
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(259): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowBuildingsPage.php(361): AbstractPage-&gt;display('page.buildings....')
+#6 /game.php(65): ShowBuildingsPage-&gt;show()
+#7 {main}
+[23-Mar-2014 22:26:04] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/page.buildings.default.tpl&quot;  on line 112 &quot;&quot; unclosed {if} tag"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_compilebase.php(166): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {if} t...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_compile_foreach.php(224): Smarty_Internal_CompileBase-&gt;closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(473): Smarty_Internal_Compile_Foreachclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('foreachclose', Array, Array)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('foreachclose', Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '??    &lt;/tr&gt;??  ...')
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('??????&lt;table st...')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#16 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;/div&gt;??')
+#17 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#18 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#19 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#20 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#21 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#22 /includes/pages/game/class.AbstractPage.php(259): template-&gt;display('extends:layout....')
+#23 /includes/pages/game/class.ShowBuildingsPage.php(361): AbstractPage-&gt;display('page.buildings....')
+#24 /game.php(65): ShowBuildingsPage-&gt;show()
+#25 {main}
+[23-Mar-2014 22:27:11] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/page.buildings.default.tpl&quot;  on line 110 &quot;&quot; unclosed {if} tag"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_compilebase.php(166): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {if} t...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_compile_foreach.php(224): Smarty_Internal_CompileBase-&gt;closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(473): Smarty_Internal_Compile_Foreachclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('foreachclose', Array, Array)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('foreachclose', Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '??    &lt;/tr&gt;??  ...')
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('????&lt;table styl...')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#16 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;/div&gt;??')
+#17 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#18 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#19 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#20 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#21 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#22 /includes/pages/game/class.AbstractPage.php(259): template-&gt;display('extends:layout....')
+#23 /includes/pages/game/class.ShowBuildingsPage.php(361): AbstractPage-&gt;display('page.buildings....')
+#24 /game.php(65): ShowBuildingsPage-&gt;show()
+#25 {main}
+[23-Mar-2014 22:27:38] NOTICE: "Undefined index: mobile_state"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code | Line: 515
+URL: http://2moons-host.com/games/2moons/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code(515): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 515, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252): eval()
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(259): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowBuildingsPage.php(361): AbstractPage-&gt;display('page.buildings....')
+#6 /game.php(65): ShowBuildingsPage-&gt;show()
+#7 {main}
+[23-Mar-2014 22:31:12] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/page.buildings.default.tpl&quot;  on line 23 &quot;&amp;lt;/div&amp;gt;{/foreach}&quot; unexpected closing tag"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_compilebase.php(170): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unexpected clos...', 23)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_compile_foreach.php(224): Smarty_Internal_CompileBase-&gt;closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(473): Smarty_Internal_Compile_Foreachclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('foreachclose', Array, Array)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('foreachclose', Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '??')
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('?????{foreach $...')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#16 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;/div&gt;??')
+#17 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#18 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#19 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#20 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#21 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#22 /includes/pages/game/class.AbstractPage.php(259): template-&gt;display('extends:layout....')
+#23 /includes/pages/game/class.ShowBuildingsPage.php(361): AbstractPage-&gt;display('page.buildings....')
+#24 /game.php(65): ShowBuildingsPage-&gt;show()
+#25 {main}
+[23-Mar-2014 22:32:10] NOTICE: "Undefined index: Element"
+File: /home/qwa/public_html/games/2moons/cache/en^cd52aebd1a14ad06a0d4a6233c5ff98ed480e3c4.extends.page.buildings.default.tpl.cache.php | Line: 101
+URL: http://2moons-host.com/games/2moons/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^cd52aebd1a14ad06a0d4a6233c5ff98ed480e3c4.extends.page.buildings.default.tpl.cache.php(101): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 101, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_532f5becbd9516_14784603(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(259): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowBuildingsPage.php(361): AbstractPage-&gt;display('page.buildings....')
+#6 /game.php(65): ShowBuildingsPage-&gt;show()
+#7 {main}
+[23-Mar-2014 23:15:36] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/page.buildings.default.tpl&quot;  on line 11 &quot;{else}&quot; unexpected closing tag"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_compilebase.php(170): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unexpected clos...', 11)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_compile_if.php(85): Smarty_Internal_CompileBase-&gt;closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Else-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('else', Array, Array)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2393): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('else', Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r37()
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(37)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '??&lt;/td&gt;??&lt;td&gt;??...')
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('????&lt;div id=&quot;pr...')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#16 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;/div&gt;??')
+#17 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#18 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#19 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#20 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#21 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#22 /includes/pages/game/class.AbstractPage.php(259): template-&gt;display('extends:layout....')
+#23 /includes/pages/game/class.ShowBuildingsPage.php(361): AbstractPage-&gt;display('page.buildings....')
+#24 /game.php(65): ShowBuildingsPage-&gt;show()
+#25 {main}
+[23-Mar-2014 23:16:05] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/page.buildings.default.tpl&quot;  on line 23 &quot;{/foreach}&quot; unexpected closing tag"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_compilebase.php(170): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unexpected clos...', 23)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_compile_foreach.php(224): Smarty_Internal_CompileBase-&gt;closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Foreachclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('foreachclose', Array, Array)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('foreachclose', Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '??&lt;/div&gt;?????')
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('????{if $List@f...')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#16 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;/div&gt;??')
+#17 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#18 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#19 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#20 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#21 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#22 /includes/pages/game/class.AbstractPage.php(259): template-&gt;display('extends:layout....')
+#23 /includes/pages/game/class.ShowBuildingsPage.php(361): AbstractPage-&gt;display('page.buildings....')
+#24 /game.php(65): ShowBuildingsPage-&gt;show()
+#25 {main}
+[24-Mar-2014 01:28:18] USER ERROR: "SQL Error: Out of range value for column 'b_building' at row 1Query Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 61068631078.7,
+				   p.crystal = 38167863172.7,
+				   p.deuterium = 44878316192.5,
+				   p.eco_hash = 'f0c16e889e32586c499688819d9ee1bb',
+				   p.last_update = 1395624498,
+				   p.b_building = '2510664084',
+				   p.b_building_id = 'a:1:{i:0;a:5:{i:0;i:31;i:1;i:26;i:2;d:1115039586;i:3;d:2510664084;i:4;s:5:"build";}}',
+				   p.field_current = 409,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 9085225.974710,
+				   p.crystal_perhour = 6900445.442700,
+				   p.deuterium_perhour = -35261263.262400,
+				   p.metal_max = 23773845000000,
+				   p.crystal_max = 23773845000000,
+				   p.deuterium_max = 23773845000000,
+				   p.energy_used = -16764,
+				   p.energy = 1312746021,
+				   p.b_hangar = 0, u.darkmatter = 0,
+					u.b_tech = '0',
+					u.b_tech_id = '0',
+					u.b_tech_planet = '0',
+					u.b_tech_queue = ''
+					WHERE
+					p.id = 1 AND
+					u.id = 1;
+					UNLOCK TABLES;"
+File: /home/qwa/public_html/games/2moons/includes/classes/class.Database.php | Line: 274
+URL: http://2moons-host.com/games/2moons/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/pages/game/class.AbstractPage.php(234): ResourceUpdate-&gt;SavePlanetToDB()
+#2 /includes/pages/game/class.AbstractPage.php(270): AbstractPage-&gt;save()
+#3 /includes/pages/game/class.ShowBuildingsPage.php(269): AbstractPage-&gt;redirectTo('game.php?page=b...')
+#4 /game.php(65): ShowBuildingsPage-&gt;show()
+#5 {main}
+[24-Mar-2014 01:30:40] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/page.research.default.tpl&quot;  on line 93 &quot;&quot; unclosed {if} tag"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=research | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {if} t...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('????{if $IsLabi...')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;/div&gt;??')
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#14 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#15 /includes/pages/game/class.AbstractPage.php(259): template-&gt;display('extends:layout....')
+#16 /includes/pages/game/class.ShowResearchPage.php(375): AbstractPage-&gt;display('page.research.d...')
+#17 /game.php(65): ShowResearchPage-&gt;show()
+#18 {main}
+[24-Mar-2014 12:42:52] NOTICE: "Undefined index: IsLabinBuild"
+File: /home/qwa/public_html/games/2moons/cache/en^410376272c5f839f7f83004d05058f0b33a7cb25.extends.page.shipyard.default.tpl.cache.php | Line: 72
+URL: http://2moons-host.com/games/2moons/game.php?page=shipyard | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^410376272c5f839f7f83004d05058f0b33a7cb25.extends.page.shipyard.default.tpl.cache.php(72): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 72, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_5330284d613000_86558045(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowShipyardPage.php(274): AbstractPage-&gt;display('page.shipyard.d...')
+#6 /game.php(65): ShowShipyardPage-&gt;show()
+#7 {main}
+[24-Mar-2014 12:43:13] NOTICE: "Undefined index: IsLabinBuild"
+File: /home/qwa/public_html/games/2moons/cache/en^410376272c5f839f7f83004d05058f0b33a7cb25.extends.page.shipyard.default.tpl.cache.php | Line: 72
+URL: http://2moons-host.com/games/2moons/game.php?page=shipyard | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^410376272c5f839f7f83004d05058f0b33a7cb25.extends.page.shipyard.default.tpl.cache.php(72): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 72, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_5330284d613000_86558045(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowShipyardPage.php(274): AbstractPage-&gt;display('page.shipyard.d...')
+#6 /game.php(65): ShowShipyardPage-&gt;show()
+#7 {main}
+[24-Mar-2014 20:58:10] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/page.officier.default.tpl&quot;  on line 104 &quot;&quot; unclosed {if} tag"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=officier | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {if} t...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('????{foreach $d...')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;/div&gt;??')
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#14 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#15 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#16 /includes/pages/game/class.ShowOfficierPage.php(160): AbstractPage-&gt;display('page.officier.d...')
+#17 /game.php(65): ShowOfficierPage-&gt;show()
+#18 {main}
+[24-Mar-2014 20:58:39] NOTICE: "Undefined index: time"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code | Line: 488
+URL: http://2moons-host.com/games/2moons/game.php?page=officier | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code(488): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 488, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252): eval()
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowOfficierPage.php(160): AbstractPage-&gt;display('page.officier.d...')
+#6 /game.php(65): ShowOfficierPage-&gt;show()
+#7 {main}
+[24-Mar-2014 20:59:13] NOTICE: "Undefined index: time"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code | Line: 488
+URL: http://2moons-host.com/games/2moons/game.php?page=officier | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code(488): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 488, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252): eval()
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowOfficierPage.php(160): AbstractPage-&gt;display('page.officier.d...')
+#6 /game.php(65): ShowOfficierPage-&gt;show()
+#7 {main}
+[25-Mar-2014 00:18:50] USER ERROR: "unmatched {block} {/block} pairs in template file 'page.fleetTable.default.tpl'"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_resource_extends.php | Line: 115
+URL: https://2moons-host.com/games/2moons/game.php?page=fleetTable | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_resource.php(779): Smarty_Internal_Resource_Extends-&gt;getContent(Object(Smarty_Template_Source))
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(185): Smarty_Template_Source-&gt;__get('content')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#5 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#7 /includes/pages/game/class.ShowFleetTablePage.php(288): AbstractPage-&gt;display('page.fleetTable...')
+#8 /game.php(65): ShowFleetTablePage-&gt;show()
+#9 {main}
+[25-Mar-2014 20:18:34] NOTICE: "Undefined index: bonusAttack"
+File: /home/qwa/public_html/games/2moons/cache/en^25bdd6fb7d05e6e94547cef9f33e433dd7574a1b.extends.page.fleetStep1.default.tpl.cache.php | Line: 102
+URL: https://2moons-host.com/games/2moons/game.php?page=fleetStep1 | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^25bdd6fb7d05e6e94547cef9f33e433dd7574a1b.extends.page.fleetStep1.default.tpl.cache.php(102): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 102, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_5331e2fd8fe3b1_98120064(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowFleetStep1Page.php(114): AbstractPage-&gt;display('page.fleetStep1...')
+#6 /game.php(65): ShowFleetStep1Page-&gt;show()
+#7 {main}
+[26-Mar-2014 00:18:55] WARNING: "Illegal offset type"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code | Line: 364
+URL: http://2moons-host.com/games/2moons/game.php?page=techtree | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code(364): errorHandler(2, 'Illegal offset ...', '/home/qwa/publi...', 364, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252): eval()
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowTechtreePage.php(70): AbstractPage-&gt;display('page.techtree.d...')
+#6 /game.php(65): ShowTechtreePage-&gt;show()
+#7 {main}
+[26-Mar-2014 00:19:48] WARNING: "Illegal offset type"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code | Line: 364
+URL: http://2moons-host.com/games/2moons/game.php?page=techtree | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code(364): errorHandler(2, 'Illegal offset ...', '/home/qwa/publi...', 364, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252): eval()
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowTechtreePage.php(70): AbstractPage-&gt;display('page.techtree.d...')
+#6 /game.php(65): ShowTechtreePage-&gt;show()
+#7 {main}
+[26-Mar-2014 00:23:23] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/page.techtree.default.tpl&quot;  on line 33 &quot;{/foreach}&quot; unclosed {foreach} tag"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=techtree | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_compilebase.php(166): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {forea...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_compile_if.php(197): Smarty_Internal_CompileBase-&gt;closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(473): Smarty_Internal_Compile_Ifclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('ifclose', Array, Array)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('ifclose', Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '??')
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('??????{foreach ...')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#16 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;/div&gt;??')
+#17 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#18 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#19 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#20 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#21 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#22 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#23 /includes/pages/game/class.ShowTechtreePage.php(70): AbstractPage-&gt;display('page.techtree.d...')
+#24 /game.php(65): ShowTechtreePage-&gt;show()
+#25 {main}
+[26-Mar-2014 00:31:46] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/page.techtree.default.tpl&quot;  on line 28 &quot;{/foreach}&quot; unclosed {foreach} tag"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=techtree | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_compilebase.php(166): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {forea...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_compile_if.php(85): Smarty_Internal_CompileBase-&gt;closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(473): Smarty_Internal_Compile_Else-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('else', Array, Array)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2393): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('else', Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r37()
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(37)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, 'No Requirements...')
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('??????{foreach ...')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#16 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;/div&gt;??')
+#17 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#18 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#19 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#20 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#21 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#22 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#23 /includes/pages/game/class.ShowTechtreePage.php(70): AbstractPage-&gt;display('page.techtree.d...')
+#24 /game.php(65): ShowTechtreePage-&gt;show()
+#25 {main}
+[26-Mar-2014 10:09:33] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/page.resources.default.tpl&quot;  on line 48 &quot;&amp;lt;tr class=&amp;quot;gradeA&amp;quot;&amp;gt;&quot;  - Unexpected &quot;gradeA&quot;, expected one of: &quot;}&quot; , &quot; &quot; , ATTR"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=resources | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3144): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error()
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3209): Smarty_Internal_Templateparser-&gt;yy_syntax_error(19, 'gradeA')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(19, 'gradeA')
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('??&lt;form action=...')
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;/div&gt;??')
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#16 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#17 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#18 /includes/pages/game/class.ShowResourcesPage.php(219): AbstractPage-&gt;display('page.resources....')
+#19 /game.php(65): ShowResourcesPage-&gt;show()
+#20 {main}
+[26-Mar-2014 10:11:15] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/page.resources.default.tpl&quot;  on line 50 &quot;&amp;lt;tr class=&amp;quot;gradeA&amp;quot;&amp;gt;&quot;  - Unexpected &quot;gradeA&quot;, expected one of: &quot;}&quot; , &quot; &quot; , ATTR"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=resources | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3144): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error()
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3209): Smarty_Internal_Templateparser-&gt;yy_syntax_error(19, 'gradeA')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(19, 'gradeA')
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('&lt;form action=&quot;?...')
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;/div&gt;??')
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#16 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#17 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#18 /includes/pages/game/class.ShowResourcesPage.php(219): AbstractPage-&gt;display('page.resources....')
+#19 /game.php(65): ShowResourcesPage-&gt;show()
+#20 {main}
+[26-Mar-2014 10:11:31] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/page.resources.default.tpl&quot;  on line 50 &quot;&amp;lt;tr class=&amp;quot;&amp;quot;&amp;gt;&quot;  - Unexpected &quot;&quot;&quot;, expected one of: &quot;}&quot; , &quot; &quot; , ATTR"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=resources | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3144): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error()
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3209): Smarty_Internal_Templateparser-&gt;yy_syntax_error(78, '&quot;')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(78, '&quot;')
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('&lt;form action=&quot;?...')
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;/div&gt;??')
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#16 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#17 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#18 /includes/pages/game/class.ShowResourcesPage.php(219): AbstractPage-&gt;display('page.resources....')
+#19 /game.php(65): ShowResourcesPage-&gt;show()
+#20 {main}
+[26-Mar-2014 10:12:06] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/page.resources.default.tpl&quot;  on line 50 &quot;&amp;lt;tr class=&amp;quot;gradeA&amp;quot;&amp;gt;&quot;  - Unexpected &quot;gradeA&quot;, expected one of: &quot;}&quot; , &quot; &quot; , ATTR"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=resources | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3144): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error()
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3209): Smarty_Internal_Templateparser-&gt;yy_syntax_error(19, 'gradeA')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(19, 'gradeA')
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('&lt;form action=&quot;?...')
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;/div&gt;??')
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#16 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#17 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#18 /includes/pages/game/class.ShowResourcesPage.php(219): AbstractPage-&gt;display('page.resources....')
+#19 /game.php(65): ShowResourcesPage-&gt;show()
+#20 {main}
+[26-Mar-2014 10:12:44] USER ERROR: "Syntax Error in template &quot;/home/qwa/public_html/games/2moons/styles/templates/game/page.resources.default.tpl&quot;  on line 50 &quot;&amp;lt;tr class=&amp;quot;gradeA&amp;quot;&amp;gt;&quot;  - Unexpected &quot;gradeA&quot;, expected one of: &quot;}&quot; , &quot; &quot; , ATTR"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://2moons-host.com/games/2moons/game.php?page=resources | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3144): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error()
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3209): Smarty_Internal_Templateparser-&gt;yy_syntax_error(19, 'gradeA')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(19, 'gradeA')
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('&lt;form action=&quot;?...')
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;/div&gt;??')
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#16 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#17 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#18 /includes/pages/game/class.ShowResourcesPage.php(219): AbstractPage-&gt;display('page.resources....')
+#19 /game.php(65): ShowResourcesPage-&gt;show()
+#20 {main}
+[26-Mar-2014 16:48:03] NOTICE: "Undefined index: a1"
+File: /home/qwa/public_html/games/2moons/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code | Line: 446
+URL: http://2moons-host.com/games/2moons/game.php?page=galaxy | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code(446): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 446, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252): eval()
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowGalaxyPage.php(129): AbstractPage-&gt;display('page.galaxy.def...')
+#6 /game.php(65): ShowGalaxyPage-&gt;show()
+#7 {main}
+[29-Mar-2014 14:10:19 UTC] PHP Fatal error:  Class 'mysqli' not found in /home/hydrasys/public_html/includes/classes/class.Database.php on line 30
+[29-Mar-2014 15:33:40 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/hydrasys/public_html/includes/classes/class.StatBanner.php on line 68
+[30-Mar-2014 13:18:53] USER ERROR: "SQL Error: Query was emptyQuery Code: "
+File: /home/hydrasys/public_html/includes/classes/class.Database.php | Line: 274
+URL: http://hydra-system.net/game.php?page=alliance&mode=admin&action=permissionsSend | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowAlliancePage.php(985): Database-&gt;multi_query('')
+#1 /includes/pages/game/class.ShowAlliancePage.php(602): ShowAlliancePage-&gt;adminPermissionsSend()
+#2 /game.php(65): ShowAlliancePage-&gt;admin()
+#3 {main}
+[30-Mar-2014 13:36:00] USER ERROR: "Syntax Error in template &quot;/home/hydrasys/public_html/styles/templates/game/page.alliance.admin.permissions.tpl&quot;  on line 85 &quot;&quot; unclosed {foreach} tag"
+File: /home/hydrasys/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://hydra-system.net/game.php?page=alliance&mode=admin&action=permissions | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {forea...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('?{$countRank = ...')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;/div&gt;?')
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#14 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#15 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#16 /includes/pages/game/class.ShowAlliancePage.php(940): AbstractPage-&gt;display('page.alliance.a...')
+#17 /includes/pages/game/class.ShowAlliancePage.php(602): ShowAlliancePage-&gt;adminPermissions()
+#18 /game.php(65): ShowAlliancePage-&gt;admin()
+#19 {main}
+[30-Mar-2014 13:39:05] USER ERROR: "Syntax Error in template &quot;/home/hydrasys/public_html/styles/templates/game/page.alliance.admin.overview.tpl&quot;  on line 149 &quot;&quot; unclosed {if} tag"
+File: /home/hydrasys/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://hydra-system.net/game.php?page=alliance&mode=admin&textMode=external | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {if} t...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('??&lt;div class=&quot;g...')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;/div&gt;?')
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#14 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#15 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#16 /includes/pages/game/class.ShowAlliancePage.php(725): AbstractPage-&gt;display('page.alliance.a...')
+#17 /includes/pages/game/class.ShowAlliancePage.php(602): ShowAlliancePage-&gt;adminOverview()
+#18 /game.php(65): ShowAlliancePage-&gt;admin()
+#19 {main}
+[30-Mar-2014 14:22:30] USER ERROR: "Syntax Error in template &quot;/home/hydrasys/public_html/styles/templates/game/shared.statistics.playerTable.tpl&quot;  on line 10 &quot;&amp;lt;td&amp;gt;{$RangeInfo.rank} (&amp;lt;span style='color:#87CEEB'&amp;gt;*&amp;lt;/span&amp;gt;{elseif $RangeInfo.ranking &amp;lt; 0}&amp;lt;span style='color:red'&amp;gt;-{$RangeInfo.ranking}&amp;lt;/span&amp;gt;{elseif $RangeInfo.ranking &amp;gt; 0}&amp;lt;span style='color:green'&amp;gt;+{$RangeInfo.ranking}&amp;lt;/span&amp;gt;{/if}&amp;quot;&amp;gt;) &amp;lt;/td&amp;gt;&quot; unclosed {foreach} tag"
+File: /home/hydrasys/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://hydra-system.net/game.php?page=statistics&who=1 | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_compilebase.php(166): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {forea...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_compile_if.php(114): Smarty_Internal_CompileBase-&gt;closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Elseif-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('elseif', Array, Array)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2416): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('elseif', Array, Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r41()
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(41)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;span style='co...')
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('&lt;tr&gt;??&lt;th style...')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(286): Smarty_Internal_TemplateBase-&gt;fetch(NULL, NULL, NULL, NULL, false, false, true)
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code(386): Smarty_Internal_Template-&gt;getSubTemplate('shared.statisti...', NULL, NULL, 0, NULL, Array, 0)
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252): eval()
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#15 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#16 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#17 /includes/pages/game/class.ShowStatisticsPage.php(176): AbstractPage-&gt;display('page.statistics...')
+#18 /game.php(65): ShowStatisticsPage-&gt;show()
+#19 {main}
+[30-Mar-2014 14:58:00] WARNING: "Illegal string offset 'status'"
+File: /home/hydrasys/public_html/includes/pages/game/class.ShowTicketPage.php | Line: 101
+URL: http://hydra-system.net/game.php?page=ticket&mode=send | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowTicketPage.php(101): errorHandler(2, 'Illegal string ...', '/home/hydrasys/...', 101, Array)
+#1 /game.php(65): ShowTicketPage-&gt;send()
+#2 {main}
+[30-Mar-2014 14:58:19] WARNING: "Illegal string offset 'status'"
+File: /home/hydrasys/public_html/includes/pages/game/class.ShowTicketPage.php | Line: 101
+URL: http://hydra-system.net/game.php?page=ticket&mode=send | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowTicketPage.php(101): errorHandler(2, 'Illegal string ...', '/home/hydrasys/...', 101, Array)
+#1 /game.php(65): ShowTicketPage-&gt;send()
+#2 {main}
+[30-Mar-2014 14:58:43] WARNING: "Illegal string offset 'status'"
+File: /home/hydrasys/public_html/includes/pages/game/class.ShowTicketPage.php | Line: 101
+URL: http://hydra-system.net/game.php?page=ticket&mode=send | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowTicketPage.php(101): errorHandler(2, 'Illegal string ...', '/home/hydrasys/...', 101, Array)
+#1 /game.php(65): ShowTicketPage-&gt;send()
+#2 {main}
+[30-Mar-2014 14:59:17] WARNING: "Illegal string offset 'status'"
+File: /home/hydrasys/public_html/includes/pages/game/class.ShowTicketPage.php | Line: 101
+URL: http://hydra-system.net/game.php?page=ticket&mode=send | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowTicketPage.php(101): errorHandler(2, 'Illegal string ...', '/home/hydrasys/...', 101, Array)
+#1 /game.php(65): ShowTicketPage-&gt;send()
+#2 {main}
+[30-Mar-2014 15:01:20] WARNING: "Illegal string offset 'status'"
+File: /home/hydrasys/public_html/includes/pages/game/class.ShowTicketPage.php | Line: 101
+URL: http://hydra-system.net/game.php?page=ticket&mode=send | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowTicketPage.php(101): errorHandler(2, 'Illegal string ...', '/home/hydrasys/...', 101, Array)
+#1 /game.php(65): ShowTicketPage-&gt;send()
+#2 {main}
+[30-Mar-2014 15:19:07] USER ERROR: "Syntax Error in template &quot;/home/hydrasys/public_html/styles/templates/game/page.battleSimulator.default.tpl&quot;  on line 92 &quot;{/section}&quot; unknown tag &quot;sectionclose&quot;"
+File: /home/hydrasys/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://hydra-system.net/game.php?page=battleSimulator&action=moreslots | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(451): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unknown tag &quot;se...', 92)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('sectionclose', Array)
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '?????&lt;/div&gt;????...')
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('?&lt;form id=&quot;form...')
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '&lt;/div&gt;?')
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#16 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#17 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#18 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#19 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#20 /includes/pages/game/class.ShowBattleSimulatorPage.php(293): AbstractPage-&gt;display('page.battleSimu...')
+#21 /game.php(65): ShowBattleSimulatorPage-&gt;show()
+#22 {main}
+[30-Mar-2014 17:26:05] NOTICE: "Undefined offset: 109"
+File: /home/hydrasys/public_html/includes/pages/game/class.ShowBattleSimulatorPage.php | Line: 112
+URL: http://hydra-system.net/game.php?page=battleSimulator&mode=send | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowBattleSimulatorPage.php(112): errorHandler(8, 'Undefined offse...', '/home/hydrasys/...', 112, Array)
+#1 /game.php(65): ShowBattleSimulatorPage-&gt;send()
+#2 {main}
+[30-Mar-2014 17:26:29] NOTICE: "Undefined offset: 109"
+File: /home/hydrasys/public_html/includes/pages/game/class.ShowBattleSimulatorPage.php | Line: 112
+URL: http://hydra-system.net/game.php?page=battleSimulator&mode=send | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowBattleSimulatorPage.php(112): errorHandler(8, 'Undefined offse...', '/home/hydrasys/...', 112, Array)
+#1 /game.php(65): ShowBattleSimulatorPage-&gt;send()
+#2 {main}
+[30-Mar-2014 17:29:58] NOTICE: "Undefined offset: 109"
+File: /home/hydrasys/public_html/includes/pages/game/class.ShowBattleSimulatorPage.php | Line: 112
+URL: http://hydra-system.net/game.php?page=battleSimulator&mode=send | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowBattleSimulatorPage.php(112): errorHandler(8, 'Undefined offse...', '/home/hydrasys/...', 112, Array)
+#1 /game.php(65): ShowBattleSimulatorPage-&gt;send()
+#2 {main}
+[30-Mar-2014 17:31:12] NOTICE: "Undefined offset: 109"
+File: /home/hydrasys/public_html/includes/pages/game/class.ShowBattleSimulatorPage.php | Line: 112
+URL: http://hydra-system.net/game.php?page=battleSimulator&mode=send | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowBattleSimulatorPage.php(112): errorHandler(8, 'Undefined offse...', '/home/hydrasys/...', 112, Array)
+#1 /game.php(65): ShowBattleSimulatorPage-&gt;send()
+#2 {main}
+[30-Mar-2014 17:36:14] USER ERROR: "Syntax Error in template &quot;/home/hydrasys/public_html/styles/templates/game/page.messages.view.tpl&quot;  on line 55 &quot;{/if}&quot; unexpected closing tag"
+File: /home/hydrasys/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://hydra-system.net/game.php?page=messages&mode=view&messcat=3&site=1&ajax=1 | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_compilebase.php(170): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unexpected clos...', 55)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_compile_if.php(197): Smarty_Internal_CompileBase-&gt;closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(473): Smarty_Internal_Compile_Ifclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('ifclose', Array, Array)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('ifclose', Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '?&lt;/table&gt;?&lt;/for...')
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('?&lt;form action=&quot;...')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#16 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(113): Smarty_Internal_Templateparser-&gt;doParse(0, 0)
+#17 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{block name=&quot;co...')
+#18 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#19 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#20 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#21 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#22 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#23 /includes/pages/game/class.ShowMessagesPage.php(97): AbstractPage-&gt;display('page.messages.v...')
+#24 /game.php(65): ShowMessagesPage-&gt;view()
+#25 {main}
+[30-Mar-2014 17:36:17] USER ERROR: "Syntax Error in template &quot;/home/hydrasys/public_html/styles/templates/game/page.messages.view.tpl&quot;  on line 55 &quot;{/if}&quot; unexpected closing tag"
+File: /home/hydrasys/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://hydra-system.net/game.php?page=messages&mode=view&messcat=100&site=1&ajax=1 | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_compilebase.php(170): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unexpected clos...', 55)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_compile_if.php(197): Smarty_Internal_CompileBase-&gt;closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(473): Smarty_Internal_Compile_Ifclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('ifclose', Array, Array)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('ifclose', Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '?&lt;/table&gt;?&lt;/for...')
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('?&lt;form action=&quot;...')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#16 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(113): Smarty_Internal_Templateparser-&gt;doParse(0, 0)
+#17 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{block name=&quot;co...')
+#18 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#19 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#20 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#21 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#22 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#23 /includes/pages/game/class.ShowMessagesPage.php(97): AbstractPage-&gt;display('page.messages.v...')
+#24 /game.php(65): ShowMessagesPage-&gt;view()
+#25 {main}
+[30-Mar-2014 17:36:21] USER ERROR: "Syntax Error in template &quot;/home/hydrasys/public_html/styles/templates/game/page.messages.view.tpl&quot;  on line 55 &quot;{/if}&quot; unexpected closing tag"
+File: /home/hydrasys/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://hydra-system.net/game.php?page=messages&mode=view&messcat=100&site=1&ajax=1 | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_compilebase.php(170): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unexpected clos...', 55)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_compile_if.php(197): Smarty_Internal_CompileBase-&gt;closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(473): Smarty_Internal_Compile_Ifclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('ifclose', Array, Array)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('ifclose', Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '?&lt;/table&gt;?&lt;/for...')
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('?&lt;form action=&quot;...')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(202): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(260): Smarty_Internal_Compile_Block::compileChildBlock(Object(Smarty_Internal_SmartyTemplateCompiler), 'content')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Blockclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('blockclose', Array, Array)
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('blockclose', Array)
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#16 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(113): Smarty_Internal_Templateparser-&gt;doParse(0, 0)
+#17 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{block name=&quot;co...')
+#18 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#19 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#20 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#21 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#22 /includes/pages/game/class.AbstractPage.php(263): template-&gt;display('extends:layout....')
+#23 /includes/pages/game/class.ShowMessagesPage.php(97): AbstractPage-&gt;display('page.messages.v...')
+#24 /game.php(65): ShowMessagesPage-&gt;view()
+#25 {main}
+[30-Mar-2014 17:43:55 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/hydrasys/public_html/includes/classes/class.StatBanner.php on line 68

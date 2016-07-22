@@ -1,0 +1,304 @@
+[04-Jan-2014 02:43:58] NOTICE: "Undefined index: max_player_planets"
+File: C:\Xampp\htdocs\Server\includes\pages\game\class.ShowAchievementsPage.php | Line: 857
+URL: http://localhost/Server/game.php?page=achievements | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowAchievementsPage.php(857): errorHandler(8, 'Undefined index...', 'C:/Xampp/htdocs...', 857, Array)
+#1 /game.php(65): ShowAchievementsPage-&gt;show()
+#2 {main}
+[04-Jan-2014 02:43:59] NOTICE: "Undefined index: max_player_planets"
+File: C:\Xampp\htdocs\Server\includes\pages\game\class.ShowAchievementsPage.php | Line: 857
+URL: http://localhost/Server/game.php?page=achievements | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowAchievementsPage.php(857): errorHandler(8, 'Undefined index...', 'C:/Xampp/htdocs...', 857, Array)
+#1 /game.php(65): ShowAchievementsPage-&gt;show()
+#2 {main}
+[04-Jan-2014 02:48:02] NOTICE: "Undefined index: max_player_planets"
+File: C:\Xampp\htdocs\Server\includes\pages\game\class.ShowAchievementsPage.php | Line: 987
+URL: http://localhost/Server/game.php?page=achievements | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowAchievementsPage.php(987): errorHandler(8, 'Undefined index...', 'C:/Xampp/htdocs...', 987, Array)
+#1 /game.php(65): ShowAchievementsPage-&gt;show()
+#2 {main}
+[04-Jan-2014 02:48:20] NOTICE: "Undefined variable: destroy1_req2"
+File: C:\Xampp\htdocs\Server\includes\pages\game\class.ShowAchievementsPage.php | Line: 1180
+URL: http://localhost/Server/game.php?page=achievements | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowAchievementsPage.php(1180): errorHandler(8, 'Undefined varia...', 'C:/Xampp/htdocs...', 1180, Array)
+#1 /game.php(65): ShowAchievementsPage-&gt;show()
+#2 {main}
+[04-Jan-2014 02:48:39] NOTICE: "Undefined index: darkmatter"
+File: C:\Xampp\htdocs\Server\includes\pages\game\class.ShowAchievementsPage.php | Line: 1914
+URL: http://localhost/Server/game.php?page=achievements | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowAchievementsPage.php(1914): errorHandler(8, 'Undefined index...', 'C:/Xampp/htdocs...', 1914, Array)
+#1 /game.php(65): ShowAchievementsPage-&gt;show()
+#2 {main}
+[04-Jan-2014 02:50:05] NOTICE: "Undefined index: darkmatter"
+File: C:\Xampp\htdocs\Server\includes\pages\game\class.ShowAchievementsPage.php | Line: 1914
+URL: http://localhost/Server/game.php?page=achievements | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowAchievementsPage.php(1914): errorHandler(8, 'Undefined index...', 'C:/Xampp/htdocs...', 1914, Array)
+#1 /game.php(65): ShowAchievementsPage-&gt;show()
+#2 {main}
+[04-Jan-2014 02:50:36] NOTICE: "Undefined index: darkmatter"
+File: C:\Xampp\htdocs\Server\includes\pages\game\class.ShowAchievementsPage.php | Line: 1947
+URL: http://localhost/Server/game.php?page=achievements | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowAchievementsPage.php(1947): errorHandler(8, 'Undefined index...', 'C:/Xampp/htdocs...', 1947, Array)
+#1 /game.php(65): ShowAchievementsPage-&gt;show()
+#2 {main}
+[04-Jan-2014 02:50:50] NOTICE: "Undefined index: darkmatter"
+File: C:\Xampp\htdocs\Server\includes\pages\game\class.ShowAchievementsPage.php | Line: 2013
+URL: http://localhost/Server/game.php?page=achievements | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowAchievementsPage.php(2013): errorHandler(8, 'Undefined index...', 'C:/Xampp/htdocs...', 2013, Array)
+#1 /game.php(65): ShowAchievementsPage-&gt;show()
+#2 {main}
+[04-Jan-2014 02:51:02] NOTICE: "Undefined index: achievements_darkmatter"
+File: C:\Xampp\htdocs\Server\includes\pages\game\class.ShowAchievementsPage.php | Line: 2068
+URL: http://localhost/Server/game.php?page=achievements | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowAchievementsPage.php(2068): errorHandler(8, 'Undefined index...', 'C:/Xampp/htdocs...', 2068, Array)
+#1 /game.php(65): ShowAchievementsPage-&gt;show()
+#2 {main}
+[04-Jan-2014 02:52:58] NOTICE: "Undefined index: achievements_badge"
+File: C:\Xampp\htdocs\Server\includes\pages\game\class.ShowAchievementsPage.php | Line: 2401
+URL: http://localhost/Server/game.php?page=achievements | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowAchievementsPage.php(2401): errorHandler(8, 'Undefined index...', 'C:/Xampp/htdocs...', 2401, Array)
+#1 /game.php(65): ShowAchievementsPage-&gt;show()
+#2 {main}
+[04-Jan-2014 02:53:00] NOTICE: "Undefined index: achievements_badge"
+File: C:\Xampp\htdocs\Server\includes\pages\game\class.ShowAchievementsPage.php | Line: 2401
+URL: http://localhost/Server/game.php?page=achievements | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowAchievementsPage.php(2401): errorHandler(8, 'Undefined index...', 'C:/Xampp/htdocs...', 2401, Array)
+#1 /game.php(65): ShowAchievementsPage-&gt;show()
+#2 {main}
+[04-Jan-2014 02:53:39] NOTICE: "Undefined index: achievements_badge"
+File: C:\Xampp\htdocs\Server\includes\pages\game\class.ShowAchievementsPage.php | Line: 2401
+URL: http://localhost/Server/game.php?page=achievements | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowAchievementsPage.php(2401): errorHandler(8, 'Undefined index...', 'C:/Xampp/htdocs...', 2401, Array)
+#1 /game.php(65): ShowAchievementsPage-&gt;show()
+#2 {main}
+[04-Jan-2014 02:54:07] NOTICE: "Undefined index: lab_req"
+File: C:\Xampp\htdocs\Server\cache\pt^42be2afc9ccdb70a72ec856416227aca24a7b648.extends.page.achievements.body.tpl.cache.php | Line: 252
+URL: http://localhost/Server/game.php?page=achievements | Version: 1.7.2676
+Stack trace:
+#0 /cache/pt^42be2afc9ccdb70a72ec856416227aca24a7b648.extends.page.achievements.body.tpl.cache.php(252): errorHandler(8, 'Undefined index...', 'C:/Xampp/htdocs...', 252, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_52c769c0e8f4f9_46530567(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(246): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowAchievementsPage.php(2626): AbstractPage-&gt;display('page.achievemen...')
+#6 /game.php(65): ShowAchievementsPage-&gt;show()
+#7 {main}
+[04-Jan-2014 02:54:36] NOTICE: "Undefined index: lab_req"
+File: C:\Xampp\htdocs\Server\cache\pt^42be2afc9ccdb70a72ec856416227aca24a7b648.extends.page.achievements.body.tpl.cache.php | Line: 252
+URL: http://localhost/Server/game.php?page=achievements | Version: 1.7.2676
+Stack trace:
+#0 /cache/pt^42be2afc9ccdb70a72ec856416227aca24a7b648.extends.page.achievements.body.tpl.cache.php(252): errorHandler(8, 'Undefined index...', 'C:/Xampp/htdocs...', 252, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_52c769c0e8f4f9_46530567(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(246): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowAchievementsPage.php(2626): AbstractPage-&gt;display('page.achievemen...')
+#6 /game.php(65): ShowAchievementsPage-&gt;show()
+#7 {main}
+[04-Jan-2014 02:56:19] NOTICE: "Undefined index: badge_title"
+File: C:\Xampp\htdocs\Server\cache\pt^42be2afc9ccdb70a72ec856416227aca24a7b648.extends.page.achievements.body.tpl.cache.php | Line: 280
+URL: http://localhost/Server/game.php?page=achievements | Version: 1.7.2676
+Stack trace:
+#0 /cache/pt^42be2afc9ccdb70a72ec856416227aca24a7b648.extends.page.achievements.body.tpl.cache.php(280): errorHandler(8, 'Undefined index...', 'C:/Xampp/htdocs...', 280, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_52c769c0e8f4f9_46530567(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(246): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowAchievementsPage.php(2626): AbstractPage-&gt;display('page.achievemen...')
+#6 /game.php(65): ShowAchievementsPage-&gt;show()
+#7 {main}
+[13-Jan-2014 00:59:08] USER ERROR: "unmatched {block} {/block} pairs in template file 'page.banList.default.tpl'"
+File: C:\Xampp\htdocs\Server\includes\libs\Smarty\sysplugins\smarty_internal_resource_extends.php | Line: 115
+URL: http://localhost/Server/index.php?page=banList | Version: 1.7.2772
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_resource.php(779): Smarty_Internal_Resource_Extends-&gt;getContent(Object(Smarty_Template_Source))
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(185): Smarty_Template_Source-&gt;__get('content')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(155): Smarty_Internal_Template-&gt;compileTemplateSource()
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#5 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#6 /includes/pages/login/AbstractPage.class.php(154): template-&gt;display('extends:layout....')
+#7 /includes/pages/login/ShowBanListPage.class.php(80): AbstractPage-&gt;render('page.banList.de...')
+#8 /index.php(129): ShowBanListPage-&gt;show()
+#9 {main}
+[13-Jan-2014 16:00:21] USER ERROR: "Connection to database failed: Access denied for user 'root'@'localhost' (using password: NO)"
+File: /home/u196361351/public_html/live/includes/classes/class.Database.php | Line: 57
+URL: http://qwatakayean.co.vu/live/ | Version: 1.7.2749 (FILE)
+Stack trace:
+#0 /includes/common.php(102): Database-&gt;__construct()
+#1 /index.php(35): require('/home/u19636135...')
+#2 {main}
+[13-Jan-2014 16:17:36 America/New_York] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language/pt/L18N.php): failed to open stream: No such file or directory' in /home/u196361351/public_html/live/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/u196361351/public_html/live/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/u19636135...', 148, Array)
+#1 /home/u196361351/public_html/live/includes/classes/Language.class.php(148): Language::includeData()
+#2 /home/u196361351/public_html/live/includes/common.php(188): Language->includeData(Array)
+#3 /home/u196361351/public_html/live/index.php(35): require('/home/u19636135...')
+#4 {main}
+  thrown in /home/u196361351/public_html/live/includes/classes/Language.class.php on line 148
+[13-Jan-2014 16:17:36 America/New_York] PHP Fatal error:  Language::includeData(): Failed opening required 'language/pt/L18N.php' (include_path='/home/u196361351/public_html/live/') in /home/u196361351/public_html/live/includes/classes/Language.class.php on line 148
+[13-Jan-2014 16:18:36] NOTICE: "Undefined index: achievements_mines1"
+File: /home/u196361351/public_html/live/includes/pages/game/class.ShowAchievementsPage.php | Line: 82
+URL: http://qwatakayean.co.vu/live/game.php?page=achievements | Version: 1.7.2772
+Stack trace:
+#0 /includes/pages/game/class.ShowAchievementsPage.php(82): errorHandler(8, 'Undefined index...', '/home/u19636135...', 82, Array)
+#1 /game.php(65): ShowAchievementsPage-&gt;show()
+#2 {main}
+[13-Jan-2014 16:19:19] NOTICE: "Undefined index: achievements_mines1"
+File: /home/u196361351/public_html/live/includes/pages/game/class.ShowAchievementsPage.php | Line: 82
+URL: http://qwatakayean.co.vu/live/game.php?page=achievements | Version: 1.7.2772
+Stack trace:
+#0 /includes/pages/game/class.ShowAchievementsPage.php(82): errorHandler(8, 'Undefined index...', '/home/u19636135...', 82, Array)
+#1 /game.php(65): ShowAchievementsPage-&gt;show()
+#2 {main}
+[13-Jan-2014 16:19:21] NOTICE: "Undefined index: achievements_mines1"
+File: /home/u196361351/public_html/live/includes/pages/game/class.ShowAchievementsPage.php | Line: 82
+URL: http://qwatakayean.co.vu/live/game.php?page=achievements | Version: 1.7.2772
+Stack trace:
+#0 /includes/pages/game/class.ShowAchievementsPage.php(82): errorHandler(8, 'Undefined index...', '/home/u19636135...', 82, Array)
+#1 /game.php(65): ShowAchievementsPage-&gt;show()
+#2 {main}
+[13-Jan-2014 16:29:56] USER ERROR: "Unable to load template extends 'layout.full.tpl|page.planetradar.default.tpl'"
+File: /home/u196361351/public_html/live/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php | Line: 127
+URL: http://qwatakayean.co.vu/live/game.php?page=planetRadar&search=players | Version: 1.7.2772
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#1 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#2 /includes/pages/game/class.AbstractPage.php(246): template-&gt;display('extends:layout....')
+#3 /includes/pages/game/class.ShowPlanetRadarPage.php(96): AbstractPage-&gt;display('page.planetrada...')
+#4 /game.php(65): ShowPlanetRadarPage-&gt;show()
+#5 {main}
+[13-Jan-2014 17:00:29] NOTICE: "Undefined index: Piece_1_2_Image"
+File: /home/u196361351/public_html/live/cache/en^2645df86bfe56d31fb01e0f4f76690893df9a7c5.extends.page.hallofglory.default.tpl.cache.php | Line: 115
+URL: http://qwatakayean.co.vu/live/game.php?page=hallGlory | Version: 1.7.2772
+Stack trace:
+#0 /cache/en^2645df86bfe56d31fb01e0f4f76690893df9a7c5.extends.page.hallofglory.default.tpl.cache.php(115): errorHandler(8, 'Undefined index...', '/home/u19636135...', 115, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_52d461fdd52ba0_09513153(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(246): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowHallGloryPage.php(203): AbstractPage-&gt;display('page.hallofglor...')
+#6 /game.php(65): ShowHallGloryPage-&gt;show()
+#7 {main}
+[13-Jan-2014 17:01:54] NOTICE: "Undefined index: Piece_1_2_Image"
+File: /home/u196361351/public_html/live/cache/en^2645df86bfe56d31fb01e0f4f76690893df9a7c5.extends.page.hallofglory.default.tpl.cache.php | Line: 115
+URL: http://qwatakayean.co.vu/live/game.php?page=hallGlory | Version: 1.7.2772
+Stack trace:
+#0 /cache/en^2645df86bfe56d31fb01e0f4f76690893df9a7c5.extends.page.hallofglory.default.tpl.cache.php(115): errorHandler(8, 'Undefined index...', '/home/u19636135...', 115, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_52d461fdd52ba0_09513153(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(246): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowHallGloryPage.php(203): AbstractPage-&gt;display('page.hallofglor...')
+#6 /game.php(65): ShowHallGloryPage-&gt;show()
+#7 {main}
+[13-Jan-2014 17:01:56] NOTICE: "Undefined index: Piece_1_2_Image"
+File: /home/u196361351/public_html/live/cache/en^2645df86bfe56d31fb01e0f4f76690893df9a7c5.extends.page.hallofglory.default.tpl.cache.php | Line: 115
+URL: http://qwatakayean.co.vu/live/game.php?page=hallGlory | Version: 1.7.2772
+Stack trace:
+#0 /cache/en^2645df86bfe56d31fb01e0f4f76690893df9a7c5.extends.page.hallofglory.default.tpl.cache.php(115): errorHandler(8, 'Undefined index...', '/home/u19636135...', 115, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_52d461fdd52ba0_09513153(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(246): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowHallGloryPage.php(203): AbstractPage-&gt;display('page.hallofglor...')
+#6 /game.php(65): ShowHallGloryPage-&gt;show()
+#7 {main}
+[13-Jan-2014 17:02:35] NOTICE: "Undefined index: Piece_1_2_Image"
+File: /home/u196361351/public_html/live/cache/en^2645df86bfe56d31fb01e0f4f76690893df9a7c5.extends.page.hallofglory.default.tpl.cache.php | Line: 115
+URL: http://qwatakayean.co.vu/live/game.php?page=hallGlory | Version: 1.7.2772
+Stack trace:
+#0 /cache/en^2645df86bfe56d31fb01e0f4f76690893df9a7c5.extends.page.hallofglory.default.tpl.cache.php(115): errorHandler(8, 'Undefined index...', '/home/u19636135...', 115, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_52d461fdd52ba0_09513153(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(246): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowHallGloryPage.php(203): AbstractPage-&gt;display('page.hallofglor...')
+#6 /game.php(65): ShowHallGloryPage-&gt;show()
+#7 {main}
+[13-Jan-2014 17:03:58] NOTICE: "Undefined index: Piece_1_2_Image"
+File: /home/u196361351/public_html/live/cache/en^2645df86bfe56d31fb01e0f4f76690893df9a7c5.extends.page.hallofglory.default.tpl.cache.php | Line: 115
+URL: http://qwatakayean.co.vu/live/game.php?page=hallGlory | Version: 1.7.2772
+Stack trace:
+#0 /cache/en^2645df86bfe56d31fb01e0f4f76690893df9a7c5.extends.page.hallofglory.default.tpl.cache.php(115): errorHandler(8, 'Undefined index...', '/home/u19636135...', 115, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_52d461fdd52ba0_09513153(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(246): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowHallGloryPage.php(203): AbstractPage-&gt;display('page.hallofglor...')
+#6 /game.php(65): ShowHallGloryPage-&gt;show()
+#7 {main}
+[13-Jan-2014 17:17:10] USER ERROR: "SQL Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1'_'1' = '1' WHERE id = 1' at line 1Query Code: UPDATE uni1_users SET hog_piece_'1'_'1' = '1' WHERE id = 1 ;"
+File: /home/u196361351/public_html/live/includes/classes/class.Database.php | Line: 80
+URL: http://qwatakayean.co.vu/live/game.php?page=overview | Version: 1.7.2772
+Stack trace:
+#0 /game.php(62): Database-&gt;query('UPDATE uni1_use...')
+#1 {main}
+[13-Jan-2014 17:19:19 America/New_York] PHP Fatal error:  Using $this when not in object context in /home/u196361351/public_html/live/game.php on line 64
+[14-Jan-2014 20:09:07 Europe/Lisbon] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/fallenun/public_html/fallenskin/styles/theme/gow/style.cfg on line 1
+[14-Jan-2014 20:10:30 Europe/Lisbon] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/fallenun/public_html/fallenskin/styles/theme/gow/style.cfg on line 1
+[14-Jan-2014 20:10:31 Europe/Lisbon] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/fallenun/public_html/fallenskin/styles/theme/gow/style.cfg on line 1
+[14-Jan-2014 20:11:11 Europe/Lisbon] PHP Parse error:  syntax error, unexpected $end, expecting ')' in /home/fallenun/public_html/fallenskin/styles/theme/gow/style.cfg on line 5
+[14-Jan-2014 20:11:12 Europe/Lisbon] PHP Parse error:  syntax error, unexpected $end, expecting ')' in /home/fallenun/public_html/fallenskin/styles/theme/gow/style.cfg on line 5
+[14-Jan-2014 20:11:21 Europe/Lisbon] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/fallenun/public_html/fallenskin/styles/theme/gow/settings.cfg on line 1
+[14-Jan-2014 20:11:22 Europe/Lisbon] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/fallenun/public_html/fallenskin/styles/theme/gow/settings.cfg on line 1
+[14-Jan-2014 20:20:25] NOTICE: "Undefined index: hog_time"
+File: /home/fallenun/public_html/fallenskin/game.php | Line: 60
+URL: http://fallen-universe.net/fallenskin/game.php | Version: 1.7.2676
+Stack trace:
+#0 /game.php(60): errorHandler(8, 'Undefined index...', '/home/fallenun/...', 60, Array)
+#1 {main}
+[14-Jan-2014 20:21:22] NOTICE: "unserialize() [function.unserialize]: Error at offset 122878 of 122880 bytes"
+File: /home/fallenun/public_html/fallenskin/includes/classes/class.Cache.php | Line: 73
+URL: http://fallen-universe.net/fallenskin/cronjob.php?cronjobID=7 | Version: 1.7.2676
+Stack trace:
+#0 [internal function]: errorHandler(8, 'unserialize() [...', '/home/fallenun/...', 73, Array)
+#1 /includes/classes/class.Cache.php(73): unserialize('a:6:{s:7:&quot;resli...')
+#2 /includes/classes/class.Cache.php(45): Cache-&gt;load('vars')
+#3 /includes/vars.php(32): Cache-&gt;get('vars')
+#4 /includes/common.php(111): require('/home/fallenun/...')
+#5 /cronjob.php(33): require('/home/fallenun/...')
+#6 {main}
+[14-Jan-2014 20:21:22] NOTICE: "unserialize() [function.unserialize]: Error at offset 131063 of 131072 bytes"
+File: /home/fallenun/public_html/fallenskin/includes/classes/class.Cache.php | Line: 73
+URL: http://fallen-universe.net/fallenskin/cronjob.php?cronjobID=8 | Version: 1.7.2676
+Stack trace:
+#0 [internal function]: errorHandler(8, 'unserialize() [...', '/home/fallenun/...', 73, Array)
+#1 /includes/classes/class.Cache.php(73): unserialize('a:6:{s:7:&quot;resli...')
+#2 /includes/classes/class.Cache.php(45): Cache-&gt;load('vars')
+#3 /includes/vars.php(32): Cache-&gt;get('vars')
+#4 /includes/common.php(111): require('/home/fallenun/...')
+#5 /cronjob.php(33): require('/home/fallenun/...')
+#6 {main}
+[26-Feb-2014 18:18:49 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language/pt/L18N.php): failed to open stream: No such file or directory' in /home/qwa/public_html/source/fallenskin/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/qwa/public_html/source/fallenskin/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/qwa/publi...', 148, Array)
+#1 /home/qwa/public_html/source/fallenskin/includes/classes/Language.class.php(148): Language::includeData()
+#2 /home/qwa/public_html/source/fallenskin/includes/common.php(145): Language->includeData(Array)
+#3 /home/qwa/public_html/source/fallenskin/game.php(35): require('/home/qwa/publi...')
+#4 {main}
+  thrown in /home/qwa/public_html/source/fallenskin/includes/classes/Language.class.php on line 148
+[26-Feb-2014 18:18:49 UTC] PHP Fatal error:  Language::includeData(): Failed opening required 'language/pt/L18N.php' (include_path='/home/qwa/public_html/source/fallenskin/') in /home/qwa/public_html/source/fallenskin/includes/classes/Language.class.php on line 148
+[26-Feb-2014 18:18:56 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language/pt/L18N.php): failed to open stream: No such file or directory' in /home/qwa/public_html/source/fallenskin/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/qwa/public_html/source/fallenskin/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/qwa/publi...', 148, Array)
+#1 /home/qwa/public_html/source/fallenskin/includes/classes/Language.class.php(148): Language::includeData()
+#2 /home/qwa/public_html/source/fallenskin/includes/common.php(145): Language->includeData(Array)
+#3 /home/qwa/public_html/source/fallenskin/game.php(35): require('/home/qwa/publi...')
+#4 {main}
+  thrown in /home/qwa/public_html/source/fallenskin/includes/classes/Language.class.php on line 148
+[26-Feb-2014 18:18:56 UTC] PHP Fatal error:  Language::includeData(): Failed opening required 'language/pt/L18N.php' (include_path='/home/qwa/public_html/source/fallenskin/') in /home/qwa/public_html/source/fallenskin/includes/classes/Language.class.php on line 148
+[19-May-2014 11:57:53 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/fallenblack/includes/classes/class.StatBanner.php on line 68
+[19-May-2014 11:57:53 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/fallenblack/includes/classes/class.StatBanner.php on line 68
+[09-Jun-2014 20:48:35 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/fallenblack/includes/classes/class.StatBanner.php on line 68

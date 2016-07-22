@@ -1,0 +1,699 @@
+[25-Apr-2014 15:14:21 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[26-Apr-2014 21:00:11 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[26-Apr-2014 21:02:25 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[29-Apr-2014 17:38:21 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[30-Apr-2014 04:40:12 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[02-May-2014 17:52:06 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[02-May-2014 17:59:46] NOTICE: "Undefined index: modinstantbuilds"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowBuildingsInstantPage.php | Line: 394
+URL: http://live.2moons-host.com/game.php?page=buildingsInstant | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowBuildingsInstantPage.php(394): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 394, Array)
+#1 /game.php(65): ShowBuildingsInstantPage-&gt;show()
+#2 {main}
+[02-May-2014 18:14:47 UTC] PHP Fatal error:  Class 'ShowResearchInstantPage' not found in /home/qwa/public_html/demo/live/game.php on line 49
+[03-May-2014 18:48:52 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[04-May-2014 20:42:59] NOTICE: "Undefined index: immunity_until"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowImmunityPage.php | Line: 54
+URL: http://live.2moons-host.com/game.php?page=immunity | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowImmunityPage.php(54): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 54, Array)
+#1 /game.php(65): ShowImmunityPage-&gt;show()
+#2 {main}
+[04-May-2014 20:45:19] NOTICE: "Undefined index: next_immunity"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowImmunityPage.php | Line: 56
+URL: http://live.2moons-host.com/game.php?page=immunity | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowImmunityPage.php(56): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 56, Array)
+#1 /game.php(65): ShowImmunityPage-&gt;show()
+#2 {main}
+[04-May-2014 20:45:20] NOTICE: "Undefined index: next_immunity"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowImmunityPage.php | Line: 56
+URL: http://live.2moons-host.com/game.php?page=immunity | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowImmunityPage.php(56): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 56, Array)
+#1 /game.php(65): ShowImmunityPage-&gt;show()
+#2 {main}
+[04-May-2014 20:49:32] NOTICE: "Undefined index: harvest_delay"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowHarvestPage.php | Line: 16
+URL: http://live.2moons-host.com/game.php?page=harvest | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowHarvestPage.php(16): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 16, Array)
+#1 /game.php(65): ShowHarvestPage-&gt;show()
+#2 {main}
+[04-May-2014 20:49:40] NOTICE: "Undefined index: harvest_time"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowHarvestPage.php | Line: 18
+URL: http://live.2moons-host.com/game.php?page=harvest | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowHarvestPage.php(18): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 18, Array)
+#1 /game.php(65): ShowHarvestPage-&gt;show()
+#2 {main}
+[04-May-2014 20:53:18] NOTICE: "Undefined variable: cost"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowDefBonusPage.php | Line: 57
+URL: http://live.2moons-host.com/game.php?page=defBonus | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowDefBonusPage.php(57): errorHandler(8, 'Undefined varia...', '/home/qwa/publi...', 57, Array)
+#1 /game.php(65): ShowDefBonusPage-&gt;show()
+#2 {main}
+[04-May-2014 22:39:05 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[04-May-2014 22:39:06 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[04-May-2014 22:39:18] NOTICE: "Undefined variable: cost"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowDefBonusPage.php | Line: 57
+URL: http://live.2moons-host.com/game.php?page=defBonus | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowDefBonusPage.php(57): errorHandler(8, 'Undefined varia...', '/home/qwa/publi...', 57, Array)
+#1 /game.php(65): ShowDefBonusPage-&gt;show()
+#2 {main}
+[04-May-2014 22:40:02] NOTICE: "Undefined index: def_bonus_time"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowDefBonusPage.php | Line: 58
+URL: http://live.2moons-host.com/game.php?page=defBonus | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowDefBonusPage.php(58): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 58, Array)
+#1 /game.php(65): ShowDefBonusPage-&gt;show()
+#2 {main}
+[04-May-2014 22:40:39] NOTICE: "Undefined index: def_bonus_time"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowDefBonusPage.php | Line: 60
+URL: http://live.2moons-host.com/game.php?page=defBonus | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowDefBonusPage.php(60): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 60, Array)
+#1 /game.php(65): ShowDefBonusPage-&gt;show()
+#2 {main}
+[04-May-2014 22:42:54] NOTICE: "Undefined index: fleet_bonus_time"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowFleetBonusPage.php | Line: 53
+URL: http://live.2moons-host.com/game.php?page=fleetBonus | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowFleetBonusPage.php(53): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 53, Array)
+#1 /game.php(65): ShowFleetBonusPage-&gt;show()
+#2 {main}
+[04-May-2014 22:43:31] NOTICE: "Undefined index: res_bonus_time"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowResBonusPage.php | Line: 82
+URL: http://live.2moons-host.com/game.php?page=resBonus | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowResBonusPage.php(82): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 82, Array)
+#1 /game.php(65): ShowResBonusPage-&gt;show()
+#2 {main}
+[04-May-2014 22:43:57] NOTICE: "Undefined index: bonus_page_time2"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowLuckyPage.php | Line: 81
+URL: http://live.2moons-host.com/game.php?page=lucky | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowLuckyPage.php(81): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 81, Array)
+#1 /game.php(65): ShowLuckyPage-&gt;show()
+#2 {main}
+[05-May-2014 14:02:30 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[07-May-2014 00:57:24 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[07-May-2014 21:07:26 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[08-May-2014 13:19:15 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[08-May-2014 13:19:35 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[08-May-2014 13:58:22 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[08-May-2014 22:43:57 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[10-May-2014 18:00:25] USER ERROR: "SQL Error: Table 'qwa_game.uni1_allopass_log' doesn't existQuery Code: SELECT *FROM `uni1_allopass_log` where `code` = '' ;"
+File: /home/qwa/public_html/demo/live/includes/classes/class.Database.php | Line: 80
+URL: http://live.2moons-host.com/game.php?page=allo | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowAlloPage.php(20): Database-&gt;query('SELECT *FROM `u...')
+#1 /game.php(65): ShowAlloPage-&gt;show()
+#2 {main}
+[10-May-2014 18:13:20] USER ERROR: "SQL Error: Table 'qwa_game.ALLOPASS' doesn't existQuery Code: SELECT COUNT(*) FROM ALLOPASS ;"
+File: /home/qwa/public_html/demo/live/includes/classes/class.Database.php | Line: 80
+URL: http://live.2moons-host.com/admin.php?page=allopass | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.Database.php(112): Database-&gt;query('SELECT COUNT(*)...')
+#1 /includes/classes/class.Database.php(108): Database-&gt;countquery('SELECT COUNT(*)...')
+#2 /includes/pages/adm/ShowAlloPassPage.php(61): Database-&gt;getFirstCell('SELECT COUNT(*)...')
+#3 /admin.php(213): ShowAlloPassPage()
+#4 {main}
+[10-May-2014 18:13:55] USER ERROR: "SQL Error: Unknown column 'm.id' in 'on clause'Query Code: SELECT u.username, us.username as senderName, m.* 
+		FROM uni1_allopass_log as m 
+		LEFT JOIN uni1_users as u ON m.id = u.id 
+		LEFT JOIN uni1_users as us ON m.id = us.id
+		
+		
+		ORDER BY date DESC
+		LIMIT 0, 49;"
+File: /home/qwa/public_html/demo/live/includes/classes/class.Database.php | Line: 80
+URL: http://live.2moons-host.com/admin.php?page=allopass | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/adm/ShowAlloPassPage.php(78): Database-&gt;query('SELECT u.userna...')
+#1 /admin.php(213): ShowAlloPassPage()
+#2 {main}
+[10-May-2014 18:14:44] USER ERROR: "SQL Error: Unknown column 'm.id' in 'on clause'Query Code: SELECT u.username, us.username as senderName, m.* 
+		FROM uni1_allopass_log as m 
+		LEFT JOIN uni1_users as u ON m.id = u.id 
+		LEFT JOIN uni1_users as us ON m.id = us.id
+		
+		
+		ORDER BY date DESC
+		LIMIT 0, 49;"
+File: /home/qwa/public_html/demo/live/includes/classes/class.Database.php | Line: 80
+URL: http://live.2moons-host.com/admin.php?page=allopass | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/adm/ShowAlloPassPage.php(78): Database-&gt;query('SELECT u.userna...')
+#1 /admin.php(213): ShowAlloPassPage()
+#2 {main}
+[10-May-2014 18:15:38] USER ERROR: "SQL Error: Unknown column 'm.id' in 'on clause'Query Code: SELECT u.username, us.username as senderName, m.* 
+		FROM uni1_allopass_log as m 
+		LEFT JOIN uni1_users as u ON m.id = u.id 
+		LEFT JOIN uni1_users as us ON m.id = us.id
+		
+		
+		ORDER BY date DESC
+		LIMIT 0, 49;"
+File: /home/qwa/public_html/demo/live/includes/classes/class.Database.php | Line: 80
+URL: http://live.2moons-host.com/admin.php?page=allopass | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/adm/ShowAlloPassPage.php(78): Database-&gt;query('SELECT u.userna...')
+#1 /admin.php(213): ShowAlloPassPage()
+#2 {main}
+[10-May-2014 18:16:35] USER ERROR: "SQL Error: Table 'qwa_game.ALLOPASS' doesn't existQuery Code: SELECT COUNT(*) FROM ALLOPASS ;"
+File: /home/qwa/public_html/demo/live/includes/classes/class.Database.php | Line: 80
+URL: http://live.2moons-host.com/admin.php?page=allopass | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.Database.php(112): Database-&gt;query('SELECT COUNT(*)...')
+#1 /includes/classes/class.Database.php(108): Database-&gt;countquery('SELECT COUNT(*)...')
+#2 /includes/pages/adm/ShowAlloPassPage.php(61): Database-&gt;getFirstCell('SELECT COUNT(*)...')
+#3 /admin.php(213): ShowAlloPassPage()
+#4 {main}
+[10-May-2014 18:25:50] USER ERROR: "Unkown Config Key asteroid_metal!"
+File: /home/qwa/public_html/demo/live/includes/classes/Config.class.php | Line: 84
+URL: http://live.2moons-host.com/game.php?page=debrisEvent | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowDebrisEventPage.php(42): Config::get('asteroid_metal')
+#1 /game.php(65): ShowDebrisEventPage-&gt;show()
+#2 {main}
+[10-May-2014 18:26:11] NOTICE: "Use of undefined constant Asteroid_Id - assumed 'Asteroid_Id'"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowDebrisEventPage.php | Line: 46
+URL: http://live.2moons-host.com/game.php?page=debrisEvent | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowDebrisEventPage.php(46): errorHandler(8, 'Use of undefine...', '/home/qwa/publi...', 46, Array)
+#1 /game.php(65): ShowDebrisEventPage-&gt;show()
+#2 {main}
+[10-May-2014 18:38:26] USER ERROR: "Unable to load template extends 'layout.full.tpl|page.bet.default.tpl'"
+File: /home/qwa/public_html/demo/live/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php | Line: 127
+URL: http://live.2moons-host.com/game.php?page=bet | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#1 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#2 /includes/pages/game/class.AbstractPage.php(246): template-&gt;display('extends:layout....')
+#3 /includes/pages/game/class.ShowBetPage.php(49): AbstractPage-&gt;display('page.bet.defaul...')
+#4 /game.php(65): ShowBetPage-&gt;show()
+#5 {main}
+[10-May-2014 20:11:08] USER ERROR: "SQL Error: Out of range value for column 'rpg_amiral' at row 1Query Code: UPDATE uni1_users SET `spy_tech` = 0, `computer_tech` = 0, `military_tech` = 0, `defence_tech` = 0, `shield_tech` = 0, `energy_tech` = 0, `hyperspace_tech` = 0, `combustion_tech` = 0, `impulse_motor_tech` = 0, `hyperspace_motor_tech` = 0, `laser_tech` = 0, `ionic_tech` = 0, `buster_tech` = 0, `intergalactic_tech` = 0, `expedition_tech` = 0, `metal_proc_tech` = 0, `crystal_proc_tech` = 0, `deuterium_proc_tech` = 0, `graviton_tech` = 0, `rpg_geologue` = 200, `rpg_amiral` = 200, `rpg_ingenieur` = 200, `rpg_technocrate` = 200, `rpg_constructeur` = 200, `rpg_scientifique` = 200, `rpg_stockeur` = 200, `rpg_defenseur` = 200, `rpg_bunker` = 200, `rpg_espion` = 200, `rpg_commandant` = 200, `rpg_destructeur` = 200, `rpg_general` = 200, `rpg_raideur` = 200, `rpg_empereur` = 200, `darkmatter` = '500000', `username` = 'ADM', `authattack` = '0' WHERE `id` = '9' AND `universe` = '1';"
+File: /home/qwa/public_html/demo/live/includes/classes/class.Database.php | Line: 80
+URL: http://live.2moons-host.com/admin.php?page=qeditor&edit=player&id=9&action=send | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/adm/ShowQuickEditorPage.php(171): Database-&gt;query('UPDATE uni1_use...')
+#1 /admin.php(145): ShowQuickEditorPage()
+#2 {main}
+[10-May-2014 20:11:10] USER ERROR: "SQL Error: Out of range value for column 'rpg_amiral' at row 1Query Code: UPDATE uni1_users SET `spy_tech` = 0, `computer_tech` = 0, `military_tech` = 0, `defence_tech` = 0, `shield_tech` = 0, `energy_tech` = 0, `hyperspace_tech` = 0, `combustion_tech` = 0, `impulse_motor_tech` = 0, `hyperspace_motor_tech` = 0, `laser_tech` = 0, `ionic_tech` = 0, `buster_tech` = 0, `intergalactic_tech` = 0, `expedition_tech` = 0, `metal_proc_tech` = 0, `crystal_proc_tech` = 0, `deuterium_proc_tech` = 0, `graviton_tech` = 0, `rpg_geologue` = 200, `rpg_amiral` = 200, `rpg_ingenieur` = 200, `rpg_technocrate` = 200, `rpg_constructeur` = 200, `rpg_scientifique` = 200, `rpg_stockeur` = 200, `rpg_defenseur` = 200, `rpg_bunker` = 200, `rpg_espion` = 200, `rpg_commandant` = 200, `rpg_destructeur` = 200, `rpg_general` = 200, `rpg_raideur` = 200, `rpg_empereur` = 200, `darkmatter` = '500000', `username` = 'ADM', `authattack` = '0' WHERE `id` = '9' AND `universe` = '1';"
+File: /home/qwa/public_html/demo/live/includes/classes/class.Database.php | Line: 80
+URL: http://live.2moons-host.com/admin.php?page=qeditor&edit=player&id=9&action=send | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/adm/ShowQuickEditorPage.php(171): Database-&gt;query('UPDATE uni1_use...')
+#1 /admin.php(145): ShowQuickEditorPage()
+#2 {main}
+[10-May-2014 20:11:12] USER ERROR: "SQL Error: Out of range value for column 'rpg_amiral' at row 1Query Code: UPDATE uni1_users SET `spy_tech` = 0, `computer_tech` = 0, `military_tech` = 0, `defence_tech` = 0, `shield_tech` = 0, `energy_tech` = 0, `hyperspace_tech` = 0, `combustion_tech` = 0, `impulse_motor_tech` = 0, `hyperspace_motor_tech` = 0, `laser_tech` = 0, `ionic_tech` = 0, `buster_tech` = 0, `intergalactic_tech` = 0, `expedition_tech` = 0, `metal_proc_tech` = 0, `crystal_proc_tech` = 0, `deuterium_proc_tech` = 0, `graviton_tech` = 0, `rpg_geologue` = 200, `rpg_amiral` = 200, `rpg_ingenieur` = 200, `rpg_technocrate` = 200, `rpg_constructeur` = 200, `rpg_scientifique` = 200, `rpg_stockeur` = 200, `rpg_defenseur` = 200, `rpg_bunker` = 200, `rpg_espion` = 200, `rpg_commandant` = 200, `rpg_destructeur` = 200, `rpg_general` = 200, `rpg_raideur` = 200, `rpg_empereur` = 200, `darkmatter` = '500000', `username` = 'ADM', `authattack` = '0' WHERE `id` = '9' AND `universe` = '1';"
+File: /home/qwa/public_html/demo/live/includes/classes/class.Database.php | Line: 80
+URL: http://live.2moons-host.com/admin.php?page=qeditor&edit=player&id=9&action=send | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/adm/ShowQuickEditorPage.php(171): Database-&gt;query('UPDATE uni1_use...')
+#1 /admin.php(145): ShowQuickEditorPage()
+#2 {main}
+[10-May-2014 20:13:57] NOTICE: "Undefined variable: nr_comm"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowBattleHallPage.php | Line: 88
+URL: http://live.2moons-host.com/game.php?page=battleHall | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowBattleHallPage.php(88): errorHandler(8, 'Undefined varia...', '/home/qwa/publi...', 88, Array)
+#1 /game.php(65): ShowBattleHallPage-&gt;show()
+#2 {main}
+[10-May-2014 20:14:51] NOTICE: "Undefined variable: nr_comm"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowBattleHallPage.php | Line: 88
+URL: http://live.2moons-host.com/game.php?page=battleHall | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowBattleHallPage.php(88): errorHandler(8, 'Undefined varia...', '/home/qwa/publi...', 88, Array)
+#1 /game.php(65): ShowBattleHallPage-&gt;show()
+#2 {main}
+[10-May-2014 20:15:17] NOTICE: "Undefined variable: nr_comm"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowBattleHallPage.php | Line: 88
+URL: http://live.2moons-host.com/game.php?page=battleHall | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowBattleHallPage.php(88): errorHandler(8, 'Undefined varia...', '/home/qwa/publi...', 88, Array)
+#1 /game.php(65): ShowBattleHallPage-&gt;show()
+#2 {main}
+[10-May-2014 20:15:18] NOTICE: "Undefined variable: nr_comm"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowBattleHallPage.php | Line: 88
+URL: http://live.2moons-host.com/game.php?page=battleHall | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowBattleHallPage.php(88): errorHandler(8, 'Undefined varia...', '/home/qwa/publi...', 88, Array)
+#1 /game.php(65): ShowBattleHallPage-&gt;show()
+#2 {main}
+[10-May-2014 20:39:13] NOTICE: "Undefined index: lp_points"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowLoyalPage.php | Line: 15
+URL: http://live.2moons-host.com/game.php?page=loyal | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowLoyalPage.php(15): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 15, Array)
+#1 /game.php(65): ShowLoyalPage-&gt;show()
+#2 {main}
+[10-May-2014 20:44:01] NOTICE: "Undefined index: message_ban"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowMessagesPage.php | Line: 215
+URL: http://live.2moons-host.com/game.php?page=messages&mode=send&id=1&ajax=1 | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowMessagesPage.php(215): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 215, Array)
+#1 /game.php(65): ShowMessagesPage-&gt;send()
+#2 {main}
+[10-May-2014 20:44:16] NOTICE: "Undefined index: message_ban"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowMessagesPage.php | Line: 215
+URL: http://live.2moons-host.com/game.php?page=messages&mode=send&id=2&ajax=1 | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowMessagesPage.php(215): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 215, Array)
+#1 /game.php(65): ShowMessagesPage-&gt;send()
+#2 {main}
+[10-May-2014 23:41:38 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[10-May-2014 23:43:20 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[11-May-2014 06:27:36] NOTICE: "Undefined index: ifrit"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowImperiumPage.php | Line: 94
+URL: http://live.2moons-host.com/game.php?page=imperium | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowImperiumPage.php(94): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 94, Array)
+#1 /game.php(65): ShowImperiumPage-&gt;show()
+#2 {main}
+[11-May-2014 06:34:08] USER ERROR: "SQL Error: Unknown column 'p.ifrit' in 'field list'Query Code: SELECT SQL_BIG_RESULT DISTINCT  u.spy_tech, u.computer_tech, u.military_tech, u.defence_tech, u.shield_tech, u.energy_tech, u.hyperspace_tech, u.combustion_tech, u.impulse_motor_tech, u.hyperspace_motor_tech, u.laser_tech, u.ionic_tech, u.buster_tech, u.intergalactic_tech, u.expedition_tech, u.metal_proc_tech, u.crystal_proc_tech, u.deuterium_proc_tech, u.graviton_tech, SUM(p.small_ship_cargo) as small_ship_cargo, SUM(p.big_ship_cargo) as big_ship_cargo, SUM(p.light_hunter) as light_hunter, SUM(p.heavy_hunter) as heavy_hunter, SUM(p.crusher) as crusher, SUM(p.battle_ship) as battle_ship, SUM(p.colonizer) as colonizer, SUM(p.recycler) as recycler, SUM(p.spy_sonde) as spy_sonde, SUM(p.bomber_ship) as bomber_ship, SUM(p.solar_satelit) as solar_satelit, SUM(p.destructor) as destructor, SUM(p.dearth_star) as dearth_star, SUM(p.battleship) as battleship, SUM(p.lune_noir) as lune_noir, SUM(p.ev_transporter) as ev_transporter, SUM(p.star_crasher) as star_crasher, SUM(p.giga_recykler) as giga_recykler, SUM(p.dm_ship) as dm_ship, SUM(p.stars_catcher) as stars_catcher, SUM(p.ifrit) as ifrit, SUM(p.shiva) as shiva, SUM(p.catoblepas) as catoblepas, SUM(p.ixion) as ixion, SUM(p.odin) as odin, SUM(p.misil_launcher) as misil_launcher, SUM(p.small_laser) as small_laser, SUM(p.big_laser) as big_laser, SUM(p.gauss_canyon) as gauss_canyon, SUM(p.ionic_canyon) as ionic_canyon, SUM(p.buster_canyon) as buster_canyon, SUM(p.small_protection_shield) as small_protection_shield, SUM(p.big_protection_shield) as big_protection_shield, SUM(p.planet_protector) as planet_protector, SUM(p.graviton_canyon) as graviton_canyon, SUM(p.orbital_station) as orbital_station, SUM(p.interceptor_misil) as interceptor_misil, SUM(p.interplanetary_misil) as interplanetary_misil, u.id, u.ally_id, u.authlevel, u.bana, u.universe, u.username, s.tech_rank AS old_tech_rank, s.build_rank AS old_build_rank, s.defs_rank AS old_defs_rank, s.fleet_rank AS old_fleet_rank, s.total_rank AS old_total_rank FROM uni1_users as u LEFT JOIN uni1_statpoints as s ON s.stat_type = 1 AND s.id_owner = u.id LEFT JOIN uni1_planets as p ON u.id = p.id_owner GROUP BY s.id_owner, u.id, u.authlevel;"
+File: /home/qwa/public_html/demo/live/includes/classes/class.Database.php | Line: 80
+URL: http://live.2moons-host.com/cronjob.php?cronjobID=2 | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.statbuilder.php(117): Database-&gt;query('SELECT SQL_BIG_...')
+#1 /includes/classes/class.statbuilder.php(363): statbuilder-&gt;GetUsersInfosFromDB()
+#2 /includes/classes/cronjob/StatisticCronjob.class.php(37): statbuilder-&gt;MakeStats()
+#3 /includes/classes/Cronjob.class.php(53): StatisticCronjob-&gt;run()
+#4 /cronjob.php(62): Cronjob::execute(2)
+#5 {main}
+[11-May-2014 12:39:11] NOTICE: "Use of undefined constant RESE1_COL - assumed 'RESE1_COL'"
+File: /home/qwa/public_html/demo/live/includes/classes/PlayerUtil.class.php | Line: 141
+URL: http://live.2moons-host.com/index.php?page=vertify&i=15&k=5b3fd0cf9061c5df77d809d0693a5fa6 | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/PlayerUtil.class.php(141): errorHandler(8, 'Use of undefine...', '/home/qwa/publi...', 141, Array)
+#1 /includes/pages/login/ShowVertifyPage.class.php(54): PlayerUtil::createPlayer('1', 'Lord', '$2a$09$MIKpywu6...', 'steffen_ristl@l...', 'de')
+#2 /includes/pages/login/ShowVertifyPage.class.php(110): ShowVertifyPage-&gt;_activeUser()
+#3 /index.php(65): ShowVertifyPage-&gt;show()
+#4 {main}
+[11-May-2014 12:40:29] NOTICE: "Use of undefined constant RESE1_COL - assumed 'RESE1_COL'"
+File: /home/qwa/public_html/demo/live/includes/classes/PlayerUtil.class.php | Line: 141
+URL: http://live.2moons-host.com/index.php?page=vertify&i=16&k=ef136e8eb910ea627ab67a0a2a23e873 | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/PlayerUtil.class.php(141): errorHandler(8, 'Use of undefine...', '/home/qwa/publi...', 141, Array)
+#1 /includes/pages/login/ShowVertifyPage.class.php(54): PlayerUtil::createPlayer('1', 'Lord', '$2a$09$MIKpywu6...', 'steffen_ristl@l...', 'de')
+#2 /includes/pages/login/ShowVertifyPage.class.php(110): ShowVertifyPage-&gt;_activeUser()
+#3 /index.php(65): ShowVertifyPage-&gt;show()
+#4 {main}
+[11-May-2014 12:47:01] NOTICE: "Use of undefined constant RESE1_COL - assumed 'RESE1_COL'"
+File: /home/qwa/public_html/demo/live/includes/classes/PlayerUtil.class.php | Line: 141
+URL: http://live.2moons-host.com/index.php?page=vertify&i=17&k=58c99902722fa842ce20d645c4448d05 | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/PlayerUtil.class.php(141): errorHandler(8, 'Use of undefine...', '/home/qwa/publi...', 141, Array)
+#1 /includes/pages/login/ShowVertifyPage.class.php(54): PlayerUtil::createPlayer('1', 'Lord', '$2a$09$MIKpywu6...', 'steffen_ristl@l...', 'de')
+#2 /includes/pages/login/ShowVertifyPage.class.php(110): ShowVertifyPage-&gt;_activeUser()
+#3 /index.php(65): ShowVertifyPage-&gt;show()
+#4 {main}
+[11-May-2014 12:53:57] NOTICE: "Use of undefined constant RESE1_COL - assumed 'RESE1_COL'"
+File: /home/qwa/public_html/demo/live/includes/classes/PlayerUtil.class.php | Line: 141
+URL: http://live.2moons-host.com/index.php?page=vertify&i=18&k=b6034e8ecdd44f20f7b778d85e473f56 | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/PlayerUtil.class.php(141): errorHandler(8, 'Use of undefine...', '/home/qwa/publi...', 141, Array)
+#1 /includes/pages/login/ShowVertifyPage.class.php(54): PlayerUtil::createPlayer('1', 'Test121212', '$2a$09$MIKpywu6...', '123@demo.com', 'pt')
+#2 /includes/pages/login/ShowVertifyPage.class.php(110): ShowVertifyPage-&gt;_activeUser()
+#3 /index.php(65): ShowVertifyPage-&gt;show()
+#4 {main}
+[11-May-2014 12:56:43] NOTICE: "Use of undefined constant RESE1_COL - assumed 'RESE1_COL'"
+File: /home/qwa/public_html/demo/live/includes/classes/PlayerUtil.class.php | Line: 141
+URL: http://live.2moons-host.com/index.php?page=vertify&i=19&k=26136fc2c3fffc42ff97d9a539d1d3f7 | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/PlayerUtil.class.php(141): errorHandler(8, 'Use of undefine...', '/home/qwa/publi...', 141, Array)
+#1 /includes/pages/login/ShowVertifyPage.class.php(54): PlayerUtil::createPlayer('1', 'qwer', '$2a$09$MIKpywu6...', '123@demo.com', 'pt')
+#2 /includes/pages/login/ShowVertifyPage.class.php(110): ShowVertifyPage-&gt;_activeUser()
+#3 /index.php(65): ShowVertifyPage-&gt;show()
+#4 {main}
+[11-May-2014 13:29:58] NOTICE: "Undefined index: ifrit"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowFleetTablePage.php | Line: 256
+URL: http://live.2moons-host.com/game.php?page=fleetTable&galaxy=1&system=1&planet=2&planettype=1 | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowFleetTablePage.php(256): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 256, Array)
+#1 /game.php(65): ShowFleetTablePage-&gt;show()
+#2 {main}
+[11-May-2014 14:06:33] WARNING: "Cannot modify header information - headers already sent by (output started at /home/qwa/public_html/demo/live/includes/pages/game/class.ShowBuildingsInstantPage.php:1)"
+File: /home/qwa/public_html/demo/live/includes/classes/HTTP.class.php | Line: 46
+URL: http://live.2moons-host.com/game.php?page=buildingsInstant | Version: 1.7.2676
+Stack trace:
+#0 [internal function]: errorHandler(2, 'Cannot modify h...', '/home/qwa/publi...', 46, Array)
+#1 /includes/classes/HTTP.class.php(46): header('Location: http:...')
+#2 /includes/classes/HTTP.class.php(39): HTTP::sendHeader('Location', 'http://live.2mo...')
+#3 /includes/pages/game/class.AbstractPage.php(258): HTTP::redirectTo('game.php?page=b...')
+#4 /includes/pages/game/class.ShowBuildingsInstantPage.php(311): AbstractPage-&gt;redirectTo('game.php?page=b...')
+#5 /game.php(65): ShowBuildingsInstantPage-&gt;show()
+#6 {main}
+[11-May-2014 14:06:48] WARNING: "Cannot modify header information - headers already sent by (output started at /home/qwa/public_html/demo/live/includes/pages/game/class.ShowBuildingsInstantPage.php:1)"
+File: /home/qwa/public_html/demo/live/includes/classes/HTTP.class.php | Line: 46
+URL: http://live.2moons-host.com/game.php?page=buildingsInstant | Version: 1.7.2676
+Stack trace:
+#0 [internal function]: errorHandler(2, 'Cannot modify h...', '/home/qwa/publi...', 46, Array)
+#1 /includes/classes/HTTP.class.php(46): header('Location: http:...')
+#2 /includes/classes/HTTP.class.php(39): HTTP::sendHeader('Location', 'http://live.2mo...')
+#3 /includes/pages/game/class.AbstractPage.php(258): HTTP::redirectTo('game.php?page=b...')
+#4 /includes/pages/game/class.ShowBuildingsInstantPage.php(311): AbstractPage-&gt;redirectTo('game.php?page=b...')
+#5 /game.php(65): ShowBuildingsInstantPage-&gt;show()
+#6 {main}
+[11-May-2014 14:07:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/qwa/public_html/demo/live/includes/GeneralFunctions.php on line 296
+[11-May-2014 20:33:27] USER ERROR: "SQL Error: Unknown column 'ifrit' in 'field list'Query Code: SELECT `small_ship_cargo`,`big_ship_cargo`,`light_hunter`,`heavy_hunter`,`crusher`,`battle_ship`,`colonizer`,`recycler`,`spy_sonde`,`bomber_ship`,`solar_satelit`,`destructor`,`dearth_star`,`battleship`,`lune_noir`,`ev_transporter`,`star_crasher`,`giga_recykler`,`dm_ship`,`stars_catcher`,`ifrit`,`shiva`,`catoblepas`,`ixion`,`odin`,`metal_mine`,`crystal_mine`,`deuterium_sintetizer`,`solar_plant`,`university`,`fusion_plant`,`robot_factory`,`nano_factory`,`hangar`,`metal_store`,`crystal_store`,`deuterium_store`,`laboratory`,`terraformer`,`ally_deposit`,`mondbasis`,`phalanx`,`sprungtor`,`silo`,`misil_launcher`,`small_laser`,`big_laser`,`gauss_canyon`,`ionic_canyon`,`buster_canyon`,`small_protection_shield`,`big_protection_shield`,`planet_protector`,`graviton_canyon`,`orbital_station`, `name`, `id_owner`, `planet_type`, `galaxy`, `system`, `planet`, `destruyed`, `diameter`, `field_current`, `field_max`, `temp_min`, `temp_max`, `metal`, `crystal`, `deuterium` FROM uni1_planets WHERE `id` = '2';"
+File: /home/qwa/public_html/demo/live/includes/classes/class.Database.php | Line: 80
+URL: http://live.2moons-host.com/admin.php?page=qeditor&edit=planet&id=2 | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.Database.php(92): Database-&gt;query('SELECT `small_s...')
+#1 /includes/classes/class.Database.php(87): Database-&gt;uniquequery('SELECT `small_s...')
+#2 /includes/pages/adm/ShowQuickEditorPage.php(46): Database-&gt;getFirstRow('SELECT `small_s...')
+#3 /admin.php(145): ShowQuickEditorPage()
+#4 {main}
+[11-May-2014 20:33:47] USER ERROR: "SQL Error: Unknown column 'ifrit' in 'field list'Query Code: SELECT `small_ship_cargo`,`big_ship_cargo`,`light_hunter`,`heavy_hunter`,`crusher`,`battle_ship`,`colonizer`,`recycler`,`spy_sonde`,`bomber_ship`,`solar_satelit`,`destructor`,`dearth_star`,`battleship`,`lune_noir`,`ev_transporter`,`star_crasher`,`giga_recykler`,`dm_ship`,`stars_catcher`,`ifrit`,`shiva`,`catoblepas`,`ixion`,`odin`,`metal_mine`,`crystal_mine`,`deuterium_sintetizer`,`solar_plant`,`university`,`fusion_plant`,`robot_factory`,`nano_factory`,`hangar`,`metal_store`,`crystal_store`,`deuterium_store`,`laboratory`,`terraformer`,`ally_deposit`,`mondbasis`,`phalanx`,`sprungtor`,`silo`,`misil_launcher`,`small_laser`,`big_laser`,`gauss_canyon`,`ionic_canyon`,`buster_canyon`,`small_protection_shield`,`big_protection_shield`,`planet_protector`,`graviton_canyon`,`orbital_station`, `name`, `id_owner`, `planet_type`, `galaxy`, `system`, `planet`, `destruyed`, `diameter`, `field_current`, `field_max`, `temp_min`, `temp_max`, `metal`, `crystal`, `deuterium` FROM uni1_planets WHERE `id` = '2';"
+File: /home/qwa/public_html/demo/live/includes/classes/class.Database.php | Line: 80
+URL: http://live.2moons-host.com/admin.php?page=qeditor&edit=planet&id=2 | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.Database.php(92): Database-&gt;query('SELECT `small_s...')
+#1 /includes/classes/class.Database.php(87): Database-&gt;uniquequery('SELECT `small_s...')
+#2 /includes/pages/adm/ShowQuickEditorPage.php(46): Database-&gt;getFirstRow('SELECT `small_s...')
+#3 /admin.php(145): ShowQuickEditorPage()
+#4 {main}
+[12-May-2014 12:58:07] WARNING: "Cannot modify header information - headers already sent by (output started at /home/qwa/public_html/demo/live/includes/pages/game/class.ShowBuildingsInstantPage.php:1)"
+File: /home/qwa/public_html/demo/live/includes/classes/HTTP.class.php | Line: 46
+URL: http://live.2moons-host.com/game.php?page=buildingsInstant | Version: 1.7.2676
+Stack trace:
+#0 [internal function]: errorHandler(2, 'Cannot modify h...', '/home/qwa/publi...', 46, Array)
+#1 /includes/classes/HTTP.class.php(46): header('Location: http:...')
+#2 /includes/classes/HTTP.class.php(39): HTTP::sendHeader('Location', 'http://live.2mo...')
+#3 /includes/pages/game/class.AbstractPage.php(258): HTTP::redirectTo('game.php?page=b...')
+#4 /includes/pages/game/class.ShowBuildingsInstantPage.php(311): AbstractPage-&gt;redirectTo('game.php?page=b...')
+#5 /game.php(65): ShowBuildingsInstantPage-&gt;show()
+#6 {main}
+[12-May-2014 13:01:07] NOTICE: "Undefined index: ifrit"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowFleetTablePage.php | Line: 256
+URL: http://live.2moons-host.com/game.php?page=fleetTable&galaxy=1&system=1&planet=8&planettype=1&target_mission=1 | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowFleetTablePage.php(256): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 256, Array)
+#1 /game.php(65): ShowFleetTablePage-&gt;show()
+#2 {main}
+[12-May-2014 13:01:37] NOTICE: "Undefined index: ifrit"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowBattleSimulatorPage.php | Line: 266
+URL: http://live.2moons-host.com/game.php?page=battleSimulator | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowBattleSimulatorPage.php(266): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 266, Array)
+#1 /game.php(65): ShowBattleSimulatorPage-&gt;show()
+#2 {main}
+[12-May-2014 13:51:07] NOTICE: "Undefined index: ifrit"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowShipyardPage.php | Line: 256
+URL: http://live.2moons-host.com/game.php?page=shipyard&mode=fleet | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowShipyardPage.php(256): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 256, Array)
+#1 /game.php(65): ShowShipyardPage-&gt;show()
+#2 {main}
+[12-May-2014 18:46:26] USER ERROR: "SQL Error: Table 'qwa_game.ALLOPASS' doesn't existQuery Code: SELECT COUNT(*) FROM ALLOPASS ;"
+File: /home/qwa/public_html/demo/live/includes/classes/class.Database.php | Line: 80
+URL: http://live.2moons-host.com/admin.php?page=allopass | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.Database.php(112): Database-&gt;query('SELECT COUNT(*)...')
+#1 /includes/classes/class.Database.php(108): Database-&gt;countquery('SELECT COUNT(*)...')
+#2 /includes/pages/adm/ShowAlloPassPage.php(61): Database-&gt;getFirstCell('SELECT COUNT(*)...')
+#3 /admin.php(213): ShowAlloPassPage()
+#4 {main}
+[12-May-2014 19:32:39] NOTICE: "Use of undefined constant Asteroid_Id - assumed 'Asteroid_Id'"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowDebrisEventPage.php | Line: 46
+URL: http://live.2moons-host.com/game.php?page=debrisEvent | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowDebrisEventPage.php(46): errorHandler(8, 'Use of undefine...', '/home/qwa/publi...', 46, Array)
+#1 /game.php(65): ShowDebrisEventPage-&gt;show()
+#2 {main}
+[12-May-2014 19:38:31] NOTICE: "Undefined index: lp_points"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowLoyalPage.php | Line: 15
+URL: http://live.2moons-host.com/game.php?page=loyal | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowLoyalPage.php(15): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 15, Array)
+#1 /game.php(65): ShowLoyalPage-&gt;show()
+#2 {main}
+[12-May-2014 19:38:32] NOTICE: "Undefined index: lp_points"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowLoyalPage.php | Line: 15
+URL: http://live.2moons-host.com/game.php?page=loyal | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowLoyalPage.php(15): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 15, Array)
+#1 /game.php(65): ShowLoyalPage-&gt;show()
+#2 {main}
+[12-May-2014 19:38:33] NOTICE: "Undefined index: lp_points"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowLoyalPage.php | Line: 15
+URL: http://live.2moons-host.com/game.php?page=loyal | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowLoyalPage.php(15): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 15, Array)
+#1 /game.php(65): ShowLoyalPage-&gt;show()
+#2 {main}
+[12-May-2014 23:08:02 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[12-May-2014 23:10:02 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/qwa/public_html/demo/live/includes/pages/game/class.ShowPaypalPage.php on line 151
+[12-May-2014 23:10:03 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/qwa/public_html/demo/live/includes/pages/game/class.ShowPaypalPage.php on line 151
+[12-May-2014 23:11:18 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/qwa/public_html/demo/live/includes/classes/class.paypal.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/qwa/public_html/demo/live/includes/pages/game/class.ShowPaypalPage.php:3
+Stack trace:
+#0 /home/qwa/public_html/demo/live/includes/pages/game/class.ShowPaypalPage.php(3): errorHandler(2, 'require_once(/h...', '/home/qwa/publi...', 3, Array)
+#1 /home/qwa/public_html/demo/live/includes/pages/game/class.ShowPaypalPage.php(3): require_once()
+#2 /home/qwa/public_html/demo/live/game.php(47): require('/home/qwa/publi...')
+#3 {main}
+  thrown in /home/qwa/public_html/demo/live/includes/pages/game/class.ShowPaypalPage.php on line 3
+[12-May-2014 23:11:18 UTC] PHP Fatal error:  main(): Failed opening required '/home/qwa/public_html/demo/live/includes/classes/class.paypal.php' (include_path='/home/qwa/public_html/demo/live/') in /home/qwa/public_html/demo/live/includes/pages/game/class.ShowPaypalPage.php on line 3
+[12-May-2014 23:11:19 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/qwa/public_html/demo/live/includes/classes/class.paypal.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/qwa/public_html/demo/live/includes/pages/game/class.ShowPaypalPage.php:3
+Stack trace:
+#0 /home/qwa/public_html/demo/live/includes/pages/game/class.ShowPaypalPage.php(3): errorHandler(2, 'require_once(/h...', '/home/qwa/publi...', 3, Array)
+#1 /home/qwa/public_html/demo/live/includes/pages/game/class.ShowPaypalPage.php(3): require_once()
+#2 /home/qwa/public_html/demo/live/game.php(47): require('/home/qwa/publi...')
+#3 {main}
+  thrown in /home/qwa/public_html/demo/live/includes/pages/game/class.ShowPaypalPage.php on line 3
+[12-May-2014 23:11:19 UTC] PHP Fatal error:  main(): Failed opening required '/home/qwa/public_html/demo/live/includes/classes/class.paypal.php' (include_path='/home/qwa/public_html/demo/live/') in /home/qwa/public_html/demo/live/includes/pages/game/class.ShowPaypalPage.php on line 3
+[12-May-2014 23:14:13] USER ERROR: "Unable to load template file 'error_message_body.tpl'"
+File: /home/qwa/public_html/demo/live/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php | Line: 127
+URL: http://live.2moons-host.com/game.php?page=paypal | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('error_message_b...', NULL, NULL, NULL, true)
+#1 /includes/classes/class.template.php(135): Smarty_Internal_TemplateBase-&gt;display('error_message_b...')
+#2 /includes/classes/class.template.php(165): template-&gt;show('error_message_b...')
+#3 /includes/GeneralFunctions.php(289): template-&gt;message('NOT VALID VALUE', '?page=overview', 3, true)
+#4 /includes/pages/game/class.ShowPaypalPage.php(132): message('NOT VALID VALUE', '?page=overview', 3)
+#5 /includes/pages/game/class.ShowPaypalPage.php(48): ShowPaypalPage-&gt;CallOrder()
+#6 /game.php(49): ShowPaypalPage-&gt;__construct()
+#7 {main}
+[12-May-2014 23:14:16] USER ERROR: "Unable to load template file 'error_message_body.tpl'"
+File: /home/qwa/public_html/demo/live/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php | Line: 127
+URL: http://live.2moons-host.com/game.php?page=paypal | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('error_message_b...', NULL, NULL, NULL, true)
+#1 /includes/classes/class.template.php(135): Smarty_Internal_TemplateBase-&gt;display('error_message_b...')
+#2 /includes/classes/class.template.php(165): template-&gt;show('error_message_b...')
+#3 /includes/GeneralFunctions.php(289): template-&gt;message('NOT VALID VALUE', '?page=overview', 3, true)
+#4 /includes/pages/game/class.ShowPaypalPage.php(132): message('NOT VALID VALUE', '?page=overview', 3)
+#5 /includes/pages/game/class.ShowPaypalPage.php(48): ShowPaypalPage-&gt;CallOrder()
+#6 /game.php(49): ShowPaypalPage-&gt;__construct()
+#7 {main}
+[12-May-2014 23:17:09] USER ERROR: "Unable to load template file 'error_message_body.tpl'"
+File: /home/qwa/public_html/demo/live/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php | Line: 127
+URL: http://live.2moons-host.com/game.php?page=paypal | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('error_message_b...', NULL, NULL, NULL, true)
+#1 /includes/classes/class.template.php(135): Smarty_Internal_TemplateBase-&gt;display('error_message_b...')
+#2 /includes/classes/class.template.php(165): template-&gt;show('error_message_b...')
+#3 /includes/GeneralFunctions.php(289): template-&gt;message('NOT VALID VALUE', '?page=overview', 3, true)
+#4 /includes/pages/game/class.ShowPaypalPage.php(132): message('NOT VALID VALUE', '?page=overview', 3)
+#5 /includes/pages/game/class.ShowPaypalPage.php(48): ShowPaypalPage-&gt;CallOrder()
+#6 /game.php(49): ShowPaypalPage-&gt;__construct()
+#7 {main}
+[12-May-2014 23:17:11] USER ERROR: "Unable to load template file 'error_message_body.tpl'"
+File: /home/qwa/public_html/demo/live/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php | Line: 127
+URL: http://live.2moons-host.com/game.php?page=paypal | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('error_message_b...', NULL, NULL, NULL, true)
+#1 /includes/classes/class.template.php(135): Smarty_Internal_TemplateBase-&gt;display('error_message_b...')
+#2 /includes/classes/class.template.php(165): template-&gt;show('error_message_b...')
+#3 /includes/GeneralFunctions.php(289): template-&gt;message('NOT VALID VALUE', '?page=overview', 3, true)
+#4 /includes/pages/game/class.ShowPaypalPage.php(132): message('NOT VALID VALUE', '?page=overview', 3)
+#5 /includes/pages/game/class.ShowPaypalPage.php(48): ShowPaypalPage-&gt;CallOrder()
+#6 /game.php(49): ShowPaypalPage-&gt;__construct()
+#7 {main}
+[12-May-2014 23:22:28] USER ERROR: "SQL Error: Unknown column 'collum_thriller' in 'field list'Query Code: SELECT small_ship_cargo, big_ship_cargo, light_hunter, heavy_hunter, crusher, battle_ship, colonizer, recycler, spy_sonde, bomber_ship, destructor, dearth_star, battleship, lune_noir, ev_transporter, star_crasher, giga_recykler, dm_ship, collum_thriller, fleet_saver, bahamuts, ifrits, shiva, catoblepas, ixion, odin, iberion FROM uni1_planets where `id` = '17';"
+File: /home/qwa/public_html/demo/live/includes/classes/class.Database.php | Line: 80
+URL: http://live.2moons-host.com/game.php?page=JumpFleet&act=take | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.Database.php(92): Database-&gt;query('SELECT small_sh...')
+#1 /includes/pages/game/class.ShowJumpFleetPage.php(31): Database-&gt;uniquequery('SELECT small_sh...')
+#2 /game.php(65): ShowJumpFleetPage-&gt;show()
+#3 {main}
+[15-May-2014 08:18:25] WARNING: "Cannot modify header information - headers already sent by (output started at /home/qwa/public_html/demo/live/includes/pages/game/class.ShowBuildingsInstantPage.php:1)"
+File: /home/qwa/public_html/demo/live/includes/classes/HTTP.class.php | Line: 46
+URL: http://live.2moons-host.com/game.php?page=buildingsInstant | Version: 1.7.2676
+Stack trace:
+#0 [internal function]: errorHandler(2, 'Cannot modify h...', '/home/qwa/publi...', 46, Array)
+#1 /includes/classes/HTTP.class.php(46): header('Location: http:...')
+#2 /includes/classes/HTTP.class.php(39): HTTP::sendHeader('Location', 'http://live.2mo...')
+#3 /includes/pages/game/class.AbstractPage.php(258): HTTP::redirectTo('game.php?page=b...')
+#4 /includes/pages/game/class.ShowBuildingsInstantPage.php(311): AbstractPage-&gt;redirectTo('game.php?page=b...')
+#5 /game.php(65): ShowBuildingsInstantPage-&gt;show()
+#6 {main}
+[15-May-2014 15:43:02] NOTICE: "Undefined index: ifrit"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowImperiumPage.php | Line: 94
+URL: http://live.2moons-host.com/game.php?page=imperium | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowImperiumPage.php(94): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 94, Array)
+#1 /game.php(65): ShowImperiumPage-&gt;show()
+#2 {main}
+[15-May-2014 20:26:18] WARNING: "Cannot modify header information - headers already sent by (output started at /home/qwa/public_html/demo/live/includes/pages/game/class.ShowBuildingsInstantPage.php:1)"
+File: /home/qwa/public_html/demo/live/includes/classes/HTTP.class.php | Line: 46
+URL: http://live.2moons-host.com/game.php?page=buildingsInstant | Version: 1.7.2676
+Stack trace:
+#0 [internal function]: errorHandler(2, 'Cannot modify h...', '/home/qwa/publi...', 46, Array)
+#1 /includes/classes/HTTP.class.php(46): header('Location: http:...')
+#2 /includes/classes/HTTP.class.php(39): HTTP::sendHeader('Location', 'http://live.2mo...')
+#3 /includes/pages/game/class.AbstractPage.php(258): HTTP::redirectTo('game.php?page=b...')
+#4 /includes/pages/game/class.ShowBuildingsInstantPage.php(311): AbstractPage-&gt;redirectTo('game.php?page=b...')
+#5 /game.php(65): ShowBuildingsInstantPage-&gt;show()
+#6 {main}
+[17-May-2014 07:21:25 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[17-May-2014 11:56:12] NOTICE: "Undefined offset: 223"
+File: /home/qwa/public_html/demo/live/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code | Line: 362
+URL: http://live.2moons-host.com/game.php?page=techtree | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code(362): errorHandler(8, 'Undefined offse...', '/home/qwa/publi...', 362, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252): eval()
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(246): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowTechtreePage.php(70): AbstractPage-&gt;display('page.techtree.d...')
+#6 /game.php(65): ShowTechtreePage-&gt;show()
+#7 {main}
+[18-May-2014 06:00:38] NOTICE: "Undefined index: deuterium"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowJumpFleetPage.php | Line: 35
+URL: http://live.2moons-host.com/game.php?page=JumpFleet&act=take | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowJumpFleetPage.php(35): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 35, Array)
+#1 /game.php(65): ShowJumpFleetPage-&gt;show()
+#2 {main}
+[18-May-2014 21:02:11] WARNING: "Cannot modify header information - headers already sent by (output started at /home/qwa/public_html/demo/live/includes/pages/game/class.ShowBuildingsInstantPage.php:1)"
+File: /home/qwa/public_html/demo/live/includes/classes/HTTP.class.php | Line: 46
+URL: http://live.2moons-host.com/game.php?page=buildingsInstant | Version: 1.7.2676
+Stack trace:
+#0 [internal function]: errorHandler(2, 'Cannot modify h...', '/home/qwa/publi...', 46, Array)
+#1 /includes/classes/HTTP.class.php(46): header('Location: http:...')
+#2 /includes/classes/HTTP.class.php(39): HTTP::sendHeader('Location', 'http://live.2mo...')
+#3 /includes/pages/game/class.AbstractPage.php(258): HTTP::redirectTo('game.php?page=b...')
+#4 /includes/pages/game/class.ShowBuildingsInstantPage.php(311): AbstractPage-&gt;redirectTo('game.php?page=b...')
+#5 /game.php(65): ShowBuildingsInstantPage-&gt;show()
+#6 {main}
+[18-May-2014 21:02:28] WARNING: "Cannot modify header information - headers already sent by (output started at /home/qwa/public_html/demo/live/includes/pages/game/class.ShowBuildingsInstantPage.php:1)"
+File: /home/qwa/public_html/demo/live/includes/classes/HTTP.class.php | Line: 46
+URL: http://live.2moons-host.com/game.php?page=buildingsInstant | Version: 1.7.2676
+Stack trace:
+#0 [internal function]: errorHandler(2, 'Cannot modify h...', '/home/qwa/publi...', 46, Array)
+#1 /includes/classes/HTTP.class.php(46): header('Location: http:...')
+#2 /includes/classes/HTTP.class.php(39): HTTP::sendHeader('Location', 'http://live.2mo...')
+#3 /includes/pages/game/class.AbstractPage.php(258): HTTP::redirectTo('game.php?page=b...')
+#4 /includes/pages/game/class.ShowBuildingsInstantPage.php(311): AbstractPage-&gt;redirectTo('game.php?page=b...')
+#5 /game.php(65): ShowBuildingsInstantPage-&gt;show()
+#6 {main}
+[18-May-2014 21:32:23] NOTICE: "Undefined index: deuterium"
+File: /home/qwa/public_html/demo/live/includes/pages/game/class.ShowJumpFleetPage.php | Line: 35
+URL: http://live.2moons-host.com/game.php?page=JumpFleet&act=take | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowJumpFleetPage.php(35): errorHandler(8, 'Undefined index...', '/home/qwa/publi...', 35, Array)
+#1 /game.php(65): ShowJumpFleetPage-&gt;show()
+#2 {main}
+[20-May-2014 21:25:11] WARNING: "Cannot modify header information - headers already sent by (output started at /home/qwa/public_html/demo/live/includes/pages/game/class.ShowBuildingsInstantPage.php:1)"
+File: /home/qwa/public_html/demo/live/includes/classes/HTTP.class.php | Line: 46
+URL: http://live.2moons-host.com/game.php?page=buildingsInstant | Version: 1.7.2676
+Stack trace:
+#0 [internal function]: errorHandler(2, 'Cannot modify h...', '/home/qwa/publi...', 46, Array)
+#1 /includes/classes/HTTP.class.php(46): header('Location: http:...')
+#2 /includes/classes/HTTP.class.php(39): HTTP::sendHeader('Location', 'http://live.2mo...')
+#3 /includes/pages/game/class.AbstractPage.php(258): HTTP::redirectTo('game.php?page=b...')
+#4 /includes/pages/game/class.ShowBuildingsInstantPage.php(311): AbstractPage-&gt;redirectTo('game.php?page=b...')
+#5 /game.php(65): ShowBuildingsInstantPage-&gt;show()
+#6 {main}
+[20-May-2014 21:25:25] WARNING: "Cannot modify header information - headers already sent by (output started at /home/qwa/public_html/demo/live/includes/pages/game/class.ShowBuildingsInstantPage.php:1)"
+File: /home/qwa/public_html/demo/live/includes/classes/HTTP.class.php | Line: 46
+URL: http://live.2moons-host.com/game.php?page=buildingsInstant | Version: 1.7.2676
+Stack trace:
+#0 [internal function]: errorHandler(2, 'Cannot modify h...', '/home/qwa/publi...', 46, Array)
+#1 /includes/classes/HTTP.class.php(46): header('Location: http:...')
+#2 /includes/classes/HTTP.class.php(39): HTTP::sendHeader('Location', 'http://live.2mo...')
+#3 /includes/pages/game/class.AbstractPage.php(258): HTTP::redirectTo('game.php?page=b...')
+#4 /includes/pages/game/class.ShowBuildingsInstantPage.php(311): AbstractPage-&gt;redirectTo('game.php?page=b...')
+#5 /game.php(65): ShowBuildingsInstantPage-&gt;show()
+#6 {main}
+[21-May-2014 21:11:38 UTC] PHP Fatal error:  Call to a member function assign_vars() on a non-object in /home/qwa/public_html/demo/live/includes/pages/game/class.AbstractPage.php on line 234
+[21-May-2014 21:12:12 UTC] PHP Fatal error:  Call to a member function assign_vars() on a non-object in /home/qwa/public_html/demo/live/includes/pages/game/class.AbstractPage.php on line 234
+[21-May-2014 21:12:12 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[21-May-2014 21:12:16 UTC] PHP Fatal error:  Call to a member function assign_vars() on a non-object in /home/qwa/public_html/demo/live/includes/pages/game/class.AbstractPage.php on line 234
+[26-May-2014 01:09:34 UTC] PHP Fatal error:  Call to undefined function imagettftext() in /home/qwa/public_html/demo/live/includes/classes/class.StatBanner.php on line 68
+[09-Jul-2014 23:12:23] NOTICE: "Undefined index: deuterium"
+File: /home/qwatakayean/public_html/demo/darkness/includes/pages/game/class.ShowJumpFleetPage.php | Line: 35
+URL: http://2moons-host.com/demo/darkness/game.php?page=JumpFleet&act=take | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowJumpFleetPage.php(35): errorHandler(8, 'Undefined index...', '/home/qwatakaye...', 35, Array)
+#1 /game.php(65): ShowJumpFleetPage-&gt;show()
+#2 {main}
+[09-Jul-2014 23:12:34] NOTICE: "Undefined index: deuterium"
+File: /home/qwatakayean/public_html/demo/darkness/includes/pages/game/class.ShowJumpFleetPage.php | Line: 35
+URL: http://2moons-host.com/demo/darkness/game.php?page=JumpFleet&act=take | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowJumpFleetPage.php(35): errorHandler(8, 'Undefined index...', '/home/qwatakaye...', 35, Array)
+#1 /game.php(65): ShowJumpFleetPage-&gt;show()
+#2 {main}
+[10-Oct-2014 22:07:29] WARNING: "Cannot modify header information - headers already sent by (output started at /home/qwatakayean/public_html/darkness/includes/pages/game/class.ShowBuildingsInstantPage.php:1)"
+File: /home/qwatakayean/public_html/darkness/includes/classes/HTTP.class.php | Line: 46
+URL: http://endlessuni.com/darkness/game.php?page=buildingsInstant | Version: 1.7.2676
+Stack trace:
+#0 [internal function]: errorHandler(2, 'Cannot modify h...', '/home/qwatakaye...', 46, Array)
+#1 /includes/classes/HTTP.class.php(46): header('Location: http:...')
+#2 /includes/classes/HTTP.class.php(39): HTTP::sendHeader('Location', 'http://endlessu...')
+#3 /includes/pages/game/class.AbstractPage.php(258): HTTP::redirectTo('game.php?page=b...')
+#4 /includes/pages/game/class.ShowBuildingsInstantPage.php(311): AbstractPage-&gt;redirectTo('game.php?page=b...')
+#5 /game.php(65): ShowBuildingsInstantPage-&gt;show()
+#6 {main}
+[10-Oct-2014 22:09:29] WARNING: "Cannot modify header information - headers already sent by (output started at /home/qwatakayean/public_html/darkness/includes/pages/game/class.ShowBuildingsInstantPage.php:1)"
+File: /home/qwatakayean/public_html/darkness/includes/classes/HTTP.class.php | Line: 46
+URL: http://endlessuni.com/darkness/game.php?page=buildingsInstant | Version: 1.7.2676
+Stack trace:
+#0 [internal function]: errorHandler(2, 'Cannot modify h...', '/home/qwatakaye...', 46, Array)
+#1 /includes/classes/HTTP.class.php(46): header('Location: http:...')
+#2 /includes/classes/HTTP.class.php(39): HTTP::sendHeader('Location', 'http://endlessu...')
+#3 /includes/pages/game/class.AbstractPage.php(258): HTTP::redirectTo('game.php?page=b...')
+#4 /includes/pages/game/class.ShowBuildingsInstantPage.php(311): AbstractPage-&gt;redirectTo('game.php?page=b...')
+#5 /game.php(65): ShowBuildingsInstantPage-&gt;show()
+#6 {main}
+[10-Oct-2014 22:09:32] WARNING: "Cannot modify header information - headers already sent by (output started at /home/qwatakayean/public_html/darkness/includes/pages/game/class.ShowBuildingsInstantPage.php:1)"
+File: /home/qwatakayean/public_html/darkness/includes/classes/HTTP.class.php | Line: 46
+URL: http://endlessuni.com/darkness/game.php?page=buildingsInstant | Version: 1.7.2676
+Stack trace:
+#0 [internal function]: errorHandler(2, 'Cannot modify h...', '/home/qwatakaye...', 46, Array)
+#1 /includes/classes/HTTP.class.php(46): header('Location: http:...')
+#2 /includes/classes/HTTP.class.php(39): HTTP::sendHeader('Location', 'http://endlessu...')
+#3 /includes/pages/game/class.AbstractPage.php(258): HTTP::redirectTo('game.php?page=b...')
+#4 /includes/pages/game/class.ShowBuildingsInstantPage.php(311): AbstractPage-&gt;redirectTo('game.php?page=b...')
+#5 /game.php(65): ShowBuildingsInstantPage-&gt;show()
+#6 {main}
+[09-Dec-2014 03:10:42] USER ERROR: "unable to write file /home/qwatakayean/public_html/darkness/cache/templates/wrt54866832514f95.22800134"
+File: /home/qwatakayean/public_html/darkness/includes/libs/Smarty/sysplugins/smarty_internal_write_file.php | Line: 44
+URL: http://endlessuni.com/darkness/index.php?page=banList | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_cacheresource_file.php(102): Smarty_Internal_Write_File::writeFile('/home/qwatakaye...', '&lt;?php /*%%Smart...', Object(template))
+#1 /includes/libs/Smarty/sysplugins/smarty_cacheresource.php(367): Smarty_Internal_CacheResource_File-&gt;writeCachedContent(Object(Smarty_Internal_Template), '&lt;?php /*%%Smart...')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(230): Smarty_Template_Cached-&gt;write(Object(Smarty_Internal_Template), '&lt;?php /*%%Smart...')
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(259): Smarty_Internal_Template-&gt;writeCachedContent('&lt;?php $_smarty ...')
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#5 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#6 /includes/pages/login/AbstractPage.class.php(154): template-&gt;display('extends:layout....')
+#7 /includes/pages/login/ShowBanListPage.class.php(80): AbstractPage-&gt;render('page.banList.de...')
+#8 /index.php(65): ShowBanListPage-&gt;show()
+#9 {main}
+[09-Dec-2014 03:10:44] USER ERROR: "unable to write file /home/qwatakayean/public_html/darkness/cache/templates/wrt54866834a1ced1.69219662"
+File: /home/qwatakayean/public_html/darkness/includes/libs/Smarty/sysplugins/smarty_internal_write_file.php | Line: 44
+URL: http://endlessuni.com/darkness/index.php?page=banList | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_cacheresource_file.php(102): Smarty_Internal_Write_File::writeFile('/home/qwatakaye...', '&lt;?php /*%%Smart...', Object(template))
+#1 /includes/libs/Smarty/sysplugins/smarty_cacheresource.php(367): Smarty_Internal_CacheResource_File-&gt;writeCachedContent(Object(Smarty_Internal_Template), '&lt;?php /*%%Smart...')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(230): Smarty_Template_Cached-&gt;write(Object(Smarty_Internal_Template), '&lt;?php /*%%Smart...')
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase

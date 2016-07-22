@@ -1,0 +1,176 @@
+<!-- IF $OVERVIEW -->
+  <!-- DEFINE $CELL_CLASS = 'tr' -->
+<!-- ELSE -->
+  <!-- DEFINE $CELL_CLASS = '' -->
+<!-- ENDIF -->
+
+<!-- IF $OVERVIEW && .planet > 5 -->
+  <!-- DEFINE $COLUMN_COUNT = 2 -->
+<!-- ENDIF -->
+
+<!-- BEGIN planet -->
+  <!-- IF $OVERVIEW && (! LIST_COLUMN_COUNT || planet.S_ROW_COUNT % LIST_COLUMN_COUNT == 0)  -->
+  <tr>
+  <!-- ENDIF -->
+  <td valign="top" class="{$CELL_CLASS} pointer" width="{$CELL_PLANET}" align="center">
+  <!-- IF planet.ID -->
+    <!-- IF planet.ID == PLANET_ID || (planet.MOON_ID == PLANET_ID && $OVERVIEW) -->
+      <!-- DEFINE $PLANET_IMG_SIZE = 100 -->
+      <!-- DEFINE $RESOURCE_BAR = 4 -->
+      <!-- DEFINE $METAL_BAR = 100 -->
+      <!-- DEFINE $CRYSTAL_BAR = 103 -->
+      <!-- DEFINE $DEUTERIUM_BAR = 106 -->
+      <!-- DEFINE $OVERALL_BAR = 109 -->
+      <!-- DEFINE $FRAME_WIDTH = 112 -->
+    <!-- ELSE -->
+      <!-- DEFINE $PLANET_IMG_SIZE = 75 -->
+      <!-- DEFINE $RESOURCE_BAR = 4 -->
+      <!-- DEFINE $METAL_BAR = 75 -->
+      <!-- DEFINE $CRYSTAL_BAR = 79 -->
+      <!-- DEFINE $DEUTERIUM_BAR = 83 -->
+      <!-- DEFINE $OVERALL_BAR = 87 -->
+      <!-- DEFINE $FRAME_WIDTH = 87 -->
+    <!-- ENDIF -->
+
+    <!-- IF planet.MOON_ID == PLANET_ID -->
+      <!-- DEFINE $MOON_IMG_SIZE = '66' -->
+    <!-- ELSE -->
+      <!-- DEFINE $MOON_IMG_SIZE = '33' -->
+    <!-- ENDIF -->
+
+    <div class="planet_list_top{$FRAME_WIDTH}">
+      <!-- IF $OVERVIEW -->
+      <div><!-- IF planet.MOON_ID == PLANET_ID -->{L_sys_moon} {planet.MOON_NAME}<!-- ELSE -->{planet.NAME}<!-- ENDIF --><br />[{planet.GALAXY}:{planet.SYSTEM}:{planet.PLANET}]</div>
+      <!-- ENDIF -->
+
+      <div class="planet_list_wrap">
+        <div class="left_top images" planet_id="{planet.ID}">
+          <!--style="height: {$PLANET_IMG_SIZE}px; width: {$PLANET_IMG_SIZE}px;"-->
+
+          <img src="{dpath}planeten/<!-- IF $PLANET_IMG_SIZE == 75 -->small/s_<!-- ENDIF -->{planet.IMAGE}.jpg" class="element_fill_wrap" go="" />
+
+          <!-- IF .planet.building_que -->
+          <img src="{D_SN_ROOT_VIRTUAL}design/images/build_building.png" class="a75 icon_25per_left_1" title="{planet.STRUCTURE}" go="build" />
+          <!-- ENDIF -->
+
+          <!-- IF planet.HANGAR -->
+          <img src="{D_SN_ROOT_VIRTUAL}design/images/build_hangar.png" class="a75 icon_25per_left_2" title="{planet.HANGAR}" go="build" mode="fleet" />
+          <!-- ENDIF -->
+
+          <!-- IF planet.DEFENSE -->
+          <img src="{D_SN_ROOT_VIRTUAL}design/images/build_defense.png" class="a75 icon_25per_left_3" title="{planet.DEFENSE}" go="build" mode="defense" />
+          <!-- ENDIF -->
+
+          <!-- IF planet.PLANET_GOVERNOR_ID && planet.PLANET_GOVERNOR_LEVEL -->
+          <span class="a75 icon_25per_left_4" title="{planet.PLANET_GOVERNOR_NAME} {planet.PLANET_GOVERNOR_LEVEL}" go="" mode="manage">
+            <img src="{dpath}gebaeude/{planet.PLANET_GOVERNOR_ID}.jpg" class="icon_fill">
+            <span class="a75 left_bottom">{planet.PLANET_GOVERNOR_LEVEL}</span>
+          </span>
+          <!-- ENDIF -->
+
+          <span title="{L_flt_gather_all}" class="a75 icon_25per_right_4" go="fleet" mode="5">
+            <div class="icons icon-gather"></div>
+          </span>
+
+          <!-- IF planet.FLEET_OWN -->
+          <img src="{D_SN_ROOT_VIRTUAL}design/images/icon_fleet_own.png" class="a75 icon_25per_top_2" go="flying" onmouseover="fleet_dialog_show(this, '{planet.PLANET_FLEET_ID}')" />
+          <!-- ENDIF -->
+
+          <!-- IF planet.FLEET_ENEMY -->
+          <img src="{D_SN_ROOT_VIRTUAL}design/images/icon_warning.png" class="planet_list_moon_attack" go="" />
+          <!-- ENDIF -->
+
+          <!-- IF planet.MOON_ID -->
+            <div class="right_top percent{$MOON_IMG_SIZE}" planet_id="{planet.MOON_ID}">
+              <img src="{dpath}planeten/small/s_{planet.MOON_IMG}.jpg" class="icon_fill" go="" title="{planet.MOON_NAME} [{planet.GALAXY}:{planet.SYSTEM}:{planet.PLANET}]" />
+
+              <span title="{L_flt_gather_all}" class="a75 icon_25per_right_4" go="fleet" mode="5">
+                <div class="icons icon-gather"></div>
+              </span>
+
+              <span class="planet_list_submoon_fields">
+                <div class="fl planet_list_submoon_filler <!-- IF planet.MOON_FILL >= 100 -->negative<!-- ELSEIF planet.MOON_FILL > 80 -->neutral<!-- ELSE -->positive<!-- ENDIF -->_bg" style="width: {planet.MOON_FILL}%;"></div>
+              </span>
+
+              <!-- IF planet.MOON_ENEMY != 0 -->
+              <img src="{D_SN_ROOT_VIRTUAL}design/images/icon_warning.png" class="planet_list_moon_attack" go="">
+              <!-- ENDIF -->
+            </div>
+          <!-- ENDIF -->
+        </div>
+
+        <!-- IF planet.METAL_PERCENT < 50 --> 
+          <!-- DEFINE $FIELD_COLOR = 'negative_bg' -->
+        <!-- ELSEIF planet.METAL_PERCENT < 80 --> 
+          <!-- DEFINE $FIELD_COLOR = 'warning_bg' -->
+        <!-- ELSEIF planet.METAL_PERCENT < 100 --> 
+          <!-- DEFINE $FIELD_COLOR = 'neutral_bg' -->
+        <!-- ELSE -->
+          <!-- DEFINE $FIELD_COLOR = 'positive_bg' -->
+        <!-- ENDIF -->
+        <div class="{$FIELD_COLOR} res_bar" style="left: {$METAL_BAR}px;">
+          <div class="planet_list_bar metal_bg" style="height: {planet.METAL_PERCENT}%"></div>
+        </div>
+        <!-- IF planet.CRYSTAL_PERCENT < 50 --> 
+          <!-- DEFINE $FIELD_COLOR = 'negative_bg' -->
+        <!-- ELSEIF planet.CRYSTAL_PERCENT < 80 --> 
+          <!-- DEFINE $FIELD_COLOR = 'warning_bg' -->
+        <!-- ELSEIF planet.CRYSTAL_PERCENT < 100 --> 
+          <!-- DEFINE $FIELD_COLOR = 'neutral_bg' -->
+        <!-- ELSE -->
+          <!-- DEFINE $FIELD_COLOR = 'positive_bg' -->
+        <!-- ENDIF -->
+        <div class="{$FIELD_COLOR} res_bar" style="left: {$CRYSTAL_BAR}px;">
+          <div class="planet_list_bar crystal_bg" style="height: {planet.CRYSTAL_PERCENT}%"></div>
+        </div>
+        <!-- IF planet.DEUTERIUM_PERCENT < 50 -->
+          <!-- DEFINE $FIELD_COLOR = 'negative_bg' -->
+        <!-- ELSEIF planet.DEUTERIUM_PERCENT < 80 -->
+          <!-- DEFINE $FIELD_COLOR = 'warning_bg' -->
+        <!-- ELSEIF planet.DEUTERIUM_PERCENT < 100 -->
+          <!-- DEFINE $FIELD_COLOR = 'neutral_bg' -->
+        <!-- ELSE -->
+          <!-- DEFINE $FIELD_COLOR = 'positive_bg' -->
+        <!-- ENDIF -->
+        <div class="{$FIELD_COLOR} res_bar" style="left: {$DEUTERIUM_BAR}px;">
+          <div class="planet_list_bar deuterium_bg" style="height: {planet.DEUTERIUM_PERCENT}%"></div>
+        </div>
+
+        <!-- IF planet.FILL < 50 -->
+          <!-- DEFINE $FIELD_COLOR = 'positive_bg' -->
+        <!-- ELSEIF planet.FILL < 80 -->
+          <!-- DEFINE $FIELD_COLOR = 'neutral_bg' -->
+        <!-- ELSEIF planet.FILL < 100 -->
+          <!-- DEFINE $FIELD_COLOR = 'warning_bg' -->
+        <!-- ELSE -->
+          <!-- DEFINE $FIELD_COLOR = 'negative_bg' -->
+        <!-- ENDIF -->
+      </div>
+
+
+      <div class="planet_list_fields">
+        <div style="width: {planet.FILL}%;" class="{$FIELD_COLOR} empire_cell_filler"></div>
+        <div class="numbers">{planet.FIELDS_CUR}&nbsp;/&nbsp;{planet.FIELDS_MAX}</div>
+      </div>
+
+      <div class="ov_struc_timer" id="ov_building{planet.ID}">{L_sys_no_task}</div>
+      <!-- IF .planet.building_que -->
+        <div id="ov_building{planet.ID}_timer" style="color: darkgrey;"></div>
+
+        <script type='text/javascript'>
+          sn_timers.unshift({id: 'ov_building{planet.ID}', type: 0, active: true, start_time: {TIME_NOW}, options: { msg_done: '{L_sys_no_task}', que: [
+            <!-- BEGIN building_que -->['{building_que.ID}', '{building_que.NAME} ({building_que.LEVEL})', {building_que.TIME}, '{building_que.AMOUNT}'],<!-- END building_que -->
+          ]}});
+        </script>
+      <!-- ENDIF -->
+    </div>
+
+    <!-- IF $OVERVIEW -->
+    <br /><br />
+    <!-- ENDIF -->
+  <!-- ENDIF -->
+  </td>
+  <!-- IF $OVERVIEW && (! LIST_COLUMN_COUNT || (planet.S_ROW_COUNT + 1) % LIST_COLUMN_COUNT == 0 || planet.S_LAST_ROW)  -->
+    </tr>
+  <!-- ENDIF -->
+<!-- END planet -->

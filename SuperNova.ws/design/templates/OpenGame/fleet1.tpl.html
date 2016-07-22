@@ -1,0 +1,167 @@
+<!-- INCLUDE fleet_javascript -->
+<h2>{L_fl_floten1_ttl}</h2>
+<form action="fleet.php?fleet_page=2" method="post">
+  <input type="hidden" name="thisgalaxy"      value="{thisgalaxy}" />
+  <input type="hidden" name="thissystem"      value="{thissystem}" />
+  <input type="hidden" name="thisplanet"      value="{thisplanet}" />
+  <input type="hidden" name="thisplanet_type" value="{thisplanet_type}" />
+
+  <input type="hidden" name="target_mission"  value="{target_mission}" />
+
+  <input type="hidden" name="usedfleet"       value="{usedfleet}" />
+
+  <table border="0" cellpadding="0" cellspacing="1">
+    <tr>
+      <th>{L_fl_dest}</th>
+      <th>
+        <input type="text" name="galaxy" class="coordinate" maxlength="3" onChange="shortInfo()" onKeyUp="shortInfo()" value="{galaxy}" />
+        <input type="text" name="system" class="coordinate" maxlength="3" onChange="shortInfo()" onKeyUp="shortInfo()" value="{system}" />
+        <input type="text" name="planet" class="coordinate" maxlength="3" onChange="shortInfo()" onKeyUp="shortInfo()" value="{planet}" />
+        <select name="planet_type" onChange="shortInfo()" onKeyUp="shortInfo()">
+          <option value="1" {t1}>{L_fl_planet}</option>
+          <option value="2" {t2}>{L_fl_ruins}</option>
+          <option value="3" {t3}>{L_fl_moon}</option>
+        </select>
+        <input type="hidden" name="fleet_group" id="fleet_group" onChange="shortInfo()" onKeyUp="shortInfo()" value="0" />
+        <input type="hidden" name="acs_target_mr" onChange="shortInfo()" onKeyUp="shortInfo()" value="0:0:0" />
+      </th>
+    </tr>
+
+    <tr>
+      <th>{L_fl_speed}</th>
+      <th>
+        <select name="speed" onChange="shortInfo()" onKeyUp="shortInfo()">
+          <option value="10">100</option>
+          <option value="9">90</option>
+          <option value="8">80</option>
+          <option value="7">70</option>
+          <option value="6">60</option>
+          <option value="5">50</option>
+          <option value="4">40</option>
+          <option value="3">30</option>
+          <option value="2">20</option>
+          <option value="1">10</option>
+        </select>% {L_sys_from_speed} <span id="fleet_speed" class="ok">0</span>
+    </tr>
+
+    <tr>
+      <th>{L_fl_dist}</th>
+      <th><div id="distance">-</div></th>
+    </tr>
+
+    <tr>
+      <th>{L_fl_fltime}</th>
+      <th><div id="duration">-</div></th>
+    </tr>
+
+    <tr>
+      <th rowspan="2">{L_fl_dest_t}</th>
+      <th>{L_time_local}: <span id="time_dst_local">-</span></th>
+    </tr>
+    <tr>
+      <th>{L_time_server}: <span id="time_dst">-</span></th>
+    </tr>
+
+    <tr>
+      <th rowspan="2">{L_fl_back_t}</th>
+      <th>{L_time_local}: <span id="time_src_local">-</span></th>
+    </tr>
+    <tr>
+      <th>{L_time_server}: <span id="time_src">-</span></th>
+    </tr>
+
+    <tr>
+      <th>{L_fl_deute_need}</th>
+      <th><div id="consumption">-</div></th>
+    </tr>
+
+    <tr>
+      <td class="c_c">{L_fl_fuel_on_planet}</td>
+      <td class="c_c zero">{PLANET_DEUTERIUM}</td>
+    </tr>
+
+    <tr>
+      <th>{L_sys_capacity}</th>
+      <th><div id="capacity">-</div></th>
+    </tr>
+
+    <tr><th colspan="2" class="c_c"><input type="submit" value="{L_fl_continue}" /></th></tr>
+  </table>
+  <br />
+  <table>
+    <tr>
+      <td valign="top">
+        <table>
+        <tr><td colspan=2 class=c>{L_fl_myplanets}</td></tr>
+          <!-- BEGIN colonies -->
+            <tr>
+              <td class="c_l">
+                <button onclick="return setTarget({colonies.GALAXY}, {colonies.SYSTEM}, {colonies.PLANET}, {colonies.TYPE});">
+                  [{colonies.GALAXY}:{colonies.SYSTEM}:{colonies.PLANET}] {colonies.TYPE_PRINT} {colonies.NAME}
+                </button>
+              </td>
+            </tr>
+          <!-- BEGINELSE colonies -->
+            <tr>
+              <th colspan="2">{L_fl_nocolonies}</th>
+            </tr>
+          <!-- END colonies -->
+        </table>
+      </td>
+
+      <td valign="top">
+        <table>
+          <tr><td class=c><a href="notes.php" class="link">{L_fl_shortcut}</a></td></tr>
+          <!-- BEGIN shortcut -->
+            <tr>
+              <td class="c_l {shortcut.PRIORITY_CLASS}">
+                <button onclick="return setTarget({shortcut.GALAXY}, {shortcut.SYSTEM}, {shortcut.PLANET}, {shortcut.TYPE});">
+                  [{shortcut.GALAXY}:{shortcut.SYSTEM}:{shortcut.PLANET}] {shortcut.TYPE_PRINT} {shortcut.NAME}
+                </button>
+              </td>
+            </tr>
+          <!-- BEGINELSE shortcut -->
+            <tr>
+              <th colspan="2">{L_shortcut_none}</th>
+            </tr>
+          <!-- END shortcut -->
+        </table>
+      </td>
+
+      <td valign="top">
+        <table>
+        <tr><td class=c>{L_fl_grattack}</td></tr>
+          <!-- BEGIN acss -->
+            <tr>
+              <th>
+                <input type="button" onclick="setTarget({acss.GALAXY},{acss.SYSTEM},{acss.PLANET},{acss.TYPE});setACS({acss.ID});setACS_target('g{acss.GALAXY}s{acss.SYSTEM}p{acss.PLANET}t{acss.TYPE}');return false;" value="{acss.NAME} [{acss.GALAXY}:{acss.SYSTEM}:{acss.PLANET}] {acss.TYPE_PRINT}">
+              </th>
+            </tr>
+          <!-- BEGINELSE acss -->
+            <tr>
+              <th colspan="2">{L_fl_noacss}</th>
+            </tr>
+          <!-- END acss -->
+        </table>
+      </td>
+    </tr>
+  </table>
+  <!-- INCLUDE page_hint -->
+</form>
+
+<script type="text/javascript"><!--
+var fleet_capacity = {fleet_capacity};
+var fleet_speed    = {fleet_speed};
+var speed_factor   = {speed_factor};
+
+document.getElementById('fleet_speed').innerHTML = sn_format_number(fleet_speed);
+
+var ships = Array();
+<!-- BEGIN ships -->
+  <!-- IF (ships.SPEED > 0) -->
+  ships[{ships.ID}] = Array({ships.AMOUNT}, {ships.SPEED}, {ships.CONSUMPTION}, 0);
+  <!-- ENDIF -->
+<!-- END ships -->
+
+shortInfo();
+--></script>

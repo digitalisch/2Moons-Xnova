@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="modx.prosilver.en.xsl"?>
+<!--NOTICE: Please open this file in your web browser. If presented with a security warning, you may safely tell it to allow the blocked content.-->
+<!--For security purposes, please check: http://www.phpbb.com/mods/ for the latest version of this MOD.\nAlthough MODs are checked before being allowed in the MODs Database there is no guarantee that there are no security problems within the MOD.\nNo support will be given for MODs not found within the MODs Database which can be found at http://www.phpbb.com/mods/-->
+<mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.phpbb.com/mods/xml/modx-1.2.5.xsd">
+	<header>
+		<meta name="generator" content="MODX file generated with PP MODX Creator 1.0.1 by tumba25 (offline version)"/>
+		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
+		<title lang="en"><![CDATA[[MOD]Instant Build/Research]]></title>
+		<description lang="en"><![CDATA[This mod allowes users to instant build or research.]]></description>
+		<author-notes lang="en"><![CDATA[This is the first Mod I have released, there can be bugs.
+
+DokDobler
+08/07/2011 (DD/MM/YYYY)]]></author-notes>
+		<author-group>
+			<author>
+				<username phpbbcom="no"><![CDATA[DokDobler]]></username>
+			</author>
+		</author-group>
+		<mod-version>1.0.0</mod-version>
+		<installation>
+			<level>easy</level>
+			<time>1800</time>
+			<target-version>1.3.5</target-version>
+		</installation>
+		<history>
+			<entry>
+				<date>2011-07-08</date>
+				<rev-version>1.0.0</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[Released Version 1.0]]></change>
+				</changelog>
+			</entry>
+		</history>
+	</header>
+	<action-group>
+		<sql><![CDATA[ALTER TABLE `ui1_config` ADD `modinstant` INT NOT NULL ,
+ADD `modinstantbuilt` INT NOT NULL ,
+ADD `modinstantresearch` INT NOT NULL ,
+ADD `modinstantbuilten` INT NOT NULL ,
+ADD `modinstantresen` INT NOT NULL]]></sql>
+		<open src="\language\de\ADMIN.php">
+			<edit>
+				<find><![CDATA[?>]]></find>
+				<action type="before-add"><![CDATA[/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+$LNG['modinstant_headline']				= 'Instantbuild/research Mod - Version 1.0';
+$LNG['modinstant_active']				= 'Mod einschalten';
+$LNG['modinstant_buildings']			= 'Mod für Gebäude einschalten';
+$LNG['modinstant_research']				= 'Mod für Forschungen einschalten';
+$LNG['modinstant_costsbuild']			= 'Kosten für Gebäudebau (Dunkle Materie)';
+$LNG['modinstant_costsres']				= 'Kosten für Forschungen (Dunkle Materie)';
+$LNG['modinstant_info']					= 'Version 1.0 - Made by DokDobler';
+/* INSTANT BUILDER / RESEARCH - Version 1.0 */]]></action>
+			</edit>
+		</open>
+		<open src="\language\de\INGAME.php">
+			<edit>
+				<find><![CDATA[?>]]></find>
+				<action type="before-add"><![CDATA[/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+$LNG['bd_build_instant']					= 'Sofortbauen';
+$LNG['bd_build_next_level_instant']			= 'Sofort ausbauen auf Stufe ';
+$LNG['bd_tech_instant']						= 'Sofort forschen';
+$LNG['bd_tech_next_level_instant']			= 'Sofort forschen auf Stufe ';
+$LNG['mod_instant_costs_DM']				= 'Für Sofortbau wird zusätzlich ';
+$LNG['mod_instant_costs_DM2']				= ' benötigt.';
+$LNG['mod_instant_costs_res']				= 'Für das sofortige Erforschen wird zusätzlich ';
+$LNG['mod_instant_costs_res2']				= ' benötigt.';
+/* INSTANT BUILDER / RESEARCH - Version 1.0 */]]></action>
+			</edit>
+		</open>
+		<open src="\language\en\ADMIN.php">
+			<edit>
+				<find><![CDATA[?>]]></find>
+				<action type="before-add"><![CDATA[/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+$LNG['modinstant_headline']				= 'Instantbuild/research Mod - Version 1.0';
+$LNG['modinstant_active']				= 'Activate Mod';
+$LNG['modinstant_buildings']			= 'Activate Mod for building';
+$LNG['modinstant_research']				= 'Activate Mod for research';
+$LNG['modinstant_costsbuild']			= 'Extra costs to Build (Dark Matter)';
+$LNG['modinstant_costsres']				= 'Extra costs to research (Dark Matter)';
+$LNG['modinstant_info']					= 'Version 1.0 - Made by DokDobler';
+/* INSTANT BUILDER / RESEARCH - Version 1.0 */]]></action>
+			</edit>
+		</open>
+		<open src="\language\en\INGAME.php">
+			<edit>
+				<find><![CDATA[?>]]></find>
+				<action type="before-add"><![CDATA[/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+$LNG['bd_build_instant']					= 'Build instant';
+$LNG['bd_build_next_level_instant']			= 'Instant upgrade to level ';
+$LNG['bd_tech_instant']						= 'Instant research';
+$LNG['bd_tech_next_level_instant']			= 'Upgrade research to level ';
+$LNG['mod_instant_costs_DM']				= 'To build it instantly ';
+$LNG['mod_instant_costs_DM2']				= ' is required.';
+$LNG['mod_instant_costs_res']				= 'To research it instantly ';
+$LNG['mod_instant_costs_res2']				= ' is required.';
+/* INSTANT BUILDER / RESEARCH - Version 1.0 */]]></action>
+			</edit>
+		</open>
+		<open src="styles\theme\gow\templates\adm\ConfigBodyUni.tpl">
+			<edit>
+				<find><![CDATA[</tr><tr>
+	<td colspan="3"><input value="{$se_save_parameters}" type="submit"></td>
+</tr>]]></find>
+				<action type="before-add"><![CDATA[</tr><tr>
+	<th colspan="2">{$modinstant_headline}</th><th><img src="./styles/images/Adm/i.gif" width="16" height="16" alt="" class="tooltip" name="{$modinstant_info}"></th>
+</tr><tr>
+	<td>{$modinstant_active}</td>
+	<td><input name="modinstant"{if $modinstant} checked="checked"{/if} type="checkbox"></td>
+	<td>&nbsp;</td>
+</tr><tr>
+	<td>{$modinstant_buildings}</td>
+	<td><input name="instantbuildings"{if $modinstantbuildingen} checked="checked"{/if} type="checkbox" ></td>
+	<td>&nbsp;</td>
+</tr><tr>
+	<td>{$modinstant_research}</td>
+	<td><input name="instantresearch"{if $modinstantresearchen} checked="checked"{/if} type="checkbox" >
+	<td>&nbsp;</td>
+</tr><tr>
+	<td>{$modinstant_costsbuild}</td>
+	<td><input name="mod_costsbuilding" value="{$mod_costsbuilding}" type="text"></td>
+	<td>&nbsp;</td>
+</tr><tr>
+	<td>{$modinstant_costsres}</td>
+	<td><input name="mod_costsresearch" value="{$mod_costsresearch}" type="text" ></td>
+	<td>&nbsp;</td>]]></action>
+			</edit>
+		</open>
+		<open src="styles\theme\gow\templates\buildings_overview.tpl">
+			<edit>
+				<find><![CDATA[							<span style="color:red">{lang}bd_no_more_fields{/lang}</span>
+							{/if}
+						</td>]]></find>
+				<action type="after-add"><![CDATA[						{if $modinstant == 1 && $modinstantbuilten == 1}
+						<td>						
+						{if ($isBusy.research && ($ID == 6 || $ID == 31)) || ($isBusy.shipyard && ($ID == 15 || $ID == 21))}
+						<span style="color:red">{lang}bd_working{/lang}</span>
+						{else}
+						{if $RoomIsOk}
+								{if $CanBuildElement && $Element.buyable && $modinstantbuilt == 1}
+									<a href="game.php?page=buildings&amp;cmd=instant&amp;building={$ID}" class="post" style="color:lime">{if $Element.level == 0}{lang}bd_build_instant{/lang}{else}{lang}bd_build_next_level_instant{/lang}{$Element.level + 1}{/if}</a>
+									{else}
+									<span style="color:red">{if $Element.level == 0}{lang}bd_build_instant{/lang}{else}{lang}bd_build_next_level_instant{/lang}{$Element.level + 1}{/if}</span>
+								{/if}
+							{else}
+							<span style="color:red">{lang}bd_no_more_fields{/lang}</span>
+						
+						</td>{/if}{/if}{/if}]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[							{lang}bd_remaining{/lang}<br>
+							{foreach key=ResName item=ResCount from=$Element.restprice}
+							{$ResName}: <span style="font-weight:700">{$ResCount}</span><br>
+							{/foreach}]]></find>
+				<action type="after-add"><![CDATA[							{lang}mod_instant_costs_DM{/lang}<span style="font-weight:700">{$mod_building_cost} DM</span> {lang}mod_instant_costs_DM2{/lang}<br><br>
+]]></action>
+			</edit>
+		</open>
+		<open src="styles\theme\gow\templates\buildings_research.tpl">
+			<edit>
+				<find><![CDATA[						{else}
+							<a href="game.php?page=buildings&amp;mode=research&amp;cmd=insert&amp;tech={$ID}" class="post" style="color:lime">{if $Element.level == 0}{lang}bd_tech{/lang}{else}{lang}bd_tech_next_level{/lang}{$Element.level + 1}{/if}</a>
+						{/if}
+						</td>]]></find>
+				<action type="after-add"><![CDATA[						{if $modinstant == 1 && $modinstantresen == 1}
+						<td>						
+						{if ($isBusy.research && ($ID == 6 || $ID == 31))}
+						<span style="color:red">{lang}bd_working{/lang}</span>
+						{else}
+							{if $IsLabinBuild || $IsFullQueue || !$Element.buyable}
+							<span style="color:red">{if $Element.level == 0}{lang}bd_tech_instant{/lang}{else}{lang}bd_tech_next_level_instant{/lang}{$Element.level + 1}{/if}</span>
+							{else}
+							<a href="game.php?page=buildings&amp;mode=research&amp;cmd=instant&amp;tech={$ID}" class="post" style="color:lime">{if $Element.level == 0}{lang}bd_tech_instant{/lang}{else}{lang}bd_tech_next_level_instant{/lang}{$Element.level + 1}{/if}</a>
+							{/if}		
+						</td>{/if}{/if}	]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[						<td class="transparent left">
+							{lang}bd_remaining{/lang}<br>
+							{foreach key=ResName item=ResCount from=$Element.restprice}
+							{$ResName}: <span style="font-weight:700">{$ResCount}</span><br>
+	{/foreach}]]></find>
+				<action type="after-add"><![CDATA[							{lang}mod_instant_costs_res{/lang}<span style="font-weight:700">{$mod_research_cost} DM</span> $DM{lang}mod_instant_costs_res2{/lang}<br><br>
+]]></action>
+			</edit>
+		</open>
+		<open src="includes/pages/ShowConfigUniPage.php">
+			<edit>
+				<find><![CDATA[			'ref_minpoints'			=> $CONF['ref_minpoints'],
+			'ref_max_referals'		=> $CONF['ref_max_referals'],
+			'silo_factor'			=> $CONF['silo_factor'],]]></find>
+				<action type="after-add"><![CDATA[			/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+			'modinstant'			=> $CONF['modinstant'],
+			'mod_costsbuilding'		=> $CONF['modinstantbuilt'],
+			'mod_costsresearch'		=> $CONF['modinstantresearch'],
+			'modinstantbuilten'		=> $CONF['modinstantbuilten'],
+			'modinstantresen'		=> $CONF['modinstantresen'],
+			/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[		$CONF['ref_active']				= isset($_POST['ref_active']) && $_POST['ref_active'] == 'on' ? 1 : 0;
+]]></find>
+				<action type="after-add"><![CDATA[		/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+		$CONF['modinstant']				= isset($_POST['modinstant']) && $_POST['modinstant'] == 'on' ? 1 : 0;
+		$CONF['modinstantbuilten']		= isset($_POST['modinstantbuilten']) && $_POST['modinstantbuilten'] == 'on' ? 1 : 0;
+		$CONF['modinstantresen']		= isset($_POST['modinstantresen']) && $_POST['modinstantresen'] == 'on' ? 1 : 0;
+		/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[		$CONF['ref_minpoints']			= request_var('ref_minpoints', 0);
+		$CONF['silo_factor']			= request_var('silo_factor', 0);
+		$CONF['ref_max_referals']		= request_var('ref_max_referals', 0);
+]]></find>
+				<action type="after-add"><![CDATA[		/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+		$CONF['modinstantbuilt']		= request_var('mod_costsbuilding',0);
+		$CONF['modinstantresearch']		= request_var('mod_costsresearch',0);
+		/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[			'ref_bonus'				=> $CONF['ref_bonus'],
+			'ref_minpoints'			=> $CONF['ref_minpoints'],
+			'ref_max_referals'		=> $CONF['ref_max_referals'],
+			'silo_factor'			=> $CONF['silo_factor'],
+]]></find>
+				<action type="after-add"><![CDATA[			/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+			'modinstant'			=> $CONF['modinstant'],
+			'modinstantbuilt'		=> $CONF['modinstantbuilt'],
+			'modinstantresearch'	=> $CONF['modinstantresearch'],
+			'modinstantbuilten'		=> $CONF['modinstantbuilten'],
+			'modinstantresen'		=> $CONF['modinstantresen'],
+			/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+	]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[	));
+	
+	$template->show('adm/ConfigBodyUni.tpl');]]></find>
+				<action type="before-add"><![CDATA[		/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+		'modinstant'					=> $CONF['modinstant'],
+		'modinstantbuildingen'			=> $CONF['modinstantbuilten'],
+		'modinstantresearchen'			=> $CONF['modinstantresen'],
+		'mod_costsbuilding'				=> $CONF['modinstantbuilt'],
+		'mod_costsresearch'				=> $CONF['modinstantresearch'],
+		
+		'modinstant_info'				=> $LNG['modinstant_info'],
+		'modinstant_headline'			=> $LNG['modinstant_headline'],
+		'modinstant_active'				=> $LNG['modinstant_active'],
+		'modinstant_buildings'			=> $LNG['modinstant_buildings'],
+		'modinstant_research'			=> $LNG['modinstant_research'],
+		'modinstant_costsbuild'			=> $LNG['modinstant_costsbuild'],
+		'modinstant_costsres'			=> $LNG['modinstant_costsres'],
+		/* INSTANT BUILDER / RESEARCH - Version 1.0 */]]></action>
+			</edit>
+		</open>
+		<open src="includes/pages/class.ShowBuildingsPage.php">
+			<edit>
+				<find><![CDATA[private function AddBuildingToQueue ($Element, $AddMode = true)
+]]></find>
+				<action type="replace-with"><![CDATA[private function AddBuildingToQueue ($Element, $AddMode = true, $instant = false)
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[if(!IsElementBuyable($USER, $PLANET, $Element, true, $ForDestroy))
+return;]]></find>
+				<action type="after-add"><![CDATA[/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+			if($instant == true && (($USER['darkmatter'] - $CONF['modinstantbuilt']) < 0))
+				return;
+			/* INSTANT BUILDER / RESEARCH - Version 1.0 */]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[$USER['darkmatter']			-= $Resses['darkmatter'];]]></find>
+				<action type="after-add"><![CDATA[/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+			if($CONF['modinstant'] == 1 && $instant == true)
+			{$BuildTime					= 0;
+			$USER['darkmatter']		    -= $CONF['modinstantbuilt'];}
+			/* INSTANT BUILDER / RESEARCH - Version 1.0 */]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[			$BuildTime  				= GetBuildingTime($USER, $PLANET, $Element, !$AddMode);
+]]></find>
+				<action type="after-add"><![CDATA[			/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+			if($CONF['modinstant'] == 1 && $instant == true)
+			{$BuildTime					= 0;
+			$USER['darkmatter']		    -= $CONF['modinstantbuilt'];}
+			/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[		include_once(ROOT_PATH . 'includes/functions/IsTechnologieAccessible.php');
+		include_once(ROOT_PATH . 'includes/functions/GetElementPrice.php');
+]]></find>
+				<action type="after-add"><![CDATA[		/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+		if($CONF['modinstant'] == 1 && $CONF['modinstantbuilten'] == 1)
+		{
+		if($USER['darkmatter'] >= $CONF['modinstantbuilt'] )
+		{$modinstantbuilt = 1;}
+		else
+		{$modinstantbuilt = 0;}
+		}
+		/* INSTANT BUILDER / RESEARCH - VERSION 1.0 */
+	]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[case 'destroy':
+					$this->AddBuildingToQueue($Element, false);
+				break;]]></find>
+				<action type="after-add"><![CDATA[				/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+				case 'instant':
+					$this->AddBuildingToQueue($Element, true, true);
+				break;
+				/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+	]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[));
+
+$template->show("buildings_overview.tpl");]]></find>
+				<action type="before-add"><![CDATA[			/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+			'modinstant'		=> $CONF['modinstant'],
+			'modinstantbuilt'	=> $modinstantbuilt,
+			'modinstantbuilten' => $CONF['modinstantbuilten'],
+			'mod_building_cost' => $CONF['modinstantbuilt'],
+			'mod_instant_costs_DM'=>$LNG['mod_instant_costs_DM'],
+			'mod_instant_costs_DM2'=>$LNG['mod_instant_costs_DM2'],
+			'DM'				=> $LNG['Darkmatter'],
+			/* INSTANT BUILDER / RESEARCH - Version 1.0 */]]></action>
+			</edit>
+		</open>
+		<open src="includes/pages/class.ShowResearchPage.php">
+			<edit>
+				<find><![CDATA[	private function AddBuildingToQueue($Element, $AddMode = true)]]></find>
+				<action type="replace-with"><![CDATA[	private function AddBuildingToQueue($Element, $AddMode = true, $instant = false)]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[if(!IsElementBuyable($USER, $PLANET, $Element))
+				return;]]></find>
+				<action type="after-add"><![CDATA[				/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+			/* Check ob User genügend DM hat.*/
+			if($instant == true && (($USER['darkmatter'] - $CONF['modinstantresearch']) < 0))
+				return;
+			/* INSTANT BUILDER / RESEARCH - Version 1.0 */]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[$BuildTime   				= GetBuildingTime($USER, $PLANET, $Element);]]></find>
+				<action type="after-add"><![CDATA[			/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+			if($CONF['modinstant'] == 1 && $instant == true)
+			{$BuildTime					= 0;
+			$USER['darkmatter']		    -= $CONF['modinstantresearch'];}
+			/* INSTANT BUILDER / RESEARCH - Version 1.0 */			
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[			$BuildTime  				= GetBuildingTime($USER, $PLANET, $Element);
+]]></find>
+				<action type="after-add"><![CDATA[			/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+			if($CONF['modinstant'] == 1 && $instant == true)
+			{$BuildTime					= 0;
+			$USER['darkmatter']		    -= $CONF['modinstantresearch'];}
+			/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[		include_once(ROOT_PATH . 'includes/functions/IsTechnologieAccessible.php');
+		include_once(ROOT_PATH . 'includes/functions/GetElementPrice.php');
+]]></find>
+				<action type="after-add"><![CDATA[		/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+		if($CONF['modinstant'] == 1 && $CONF['modinstantresen'] == 1)
+		{
+		if($USER['darkmatter'] >= $CONF['modinstantresearch'] )
+		{$modinstantresearch = 1;}
+		else
+		{$modinstantresearch = 0;}
+		}
+		/* INSTANT BUILDER / RESEARCH - VERSION 1.0 */
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[				case 'destroy':
+					$this->AddBuildingToQueue($Element, false);
+				break;
+]]></find>
+				<action type="after-add"><![CDATA[				/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+				case 'instant':
+					$this->AddBuildingToQueue($Element, false, true);
+				break;
+				/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+]]></action>
+			</edit>
+			<edit>
+				<find><![CDATA[		));
+		
+		$template->show('buildings_research.tpl');
+]]></find>
+				<action type="before-add"><![CDATA[			/* INSTANT BUILDER / RESEARCH - Version 1.0 */
+			'modinstant'	=> $CONF['modinstant'],
+			'modinstantresen' => $CONF['modinstantresen'],
+			'modinstantres' => $modinstantresen,
+mod_research_cost'	=> $CONF['modinstantresearch'],
+			'mod_instant_costs_res'=>$LNG['mod_instant_costs_res'],
+			'mod_instant_costs_res2'=>$LNG['mod_instant_costs_res2'],
+			/* INSTANT BUILDER / RESEARCH - Version 1.0 */]]></action>
+			</edit>
+		</open>
+		<php-installer><![CDATA[----]]></php-installer>
+		<diy-instructions lang="en"><![CDATA[-----]]></diy-instructions>
+	</action-group>
+</mod>

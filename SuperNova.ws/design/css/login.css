@@ -1,0 +1,286 @@
+/* Login and Registration screens */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+  /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+  /* Styles */
+  body
+  {
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  /* Styles */
+  body
+  {
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  /* Styles */
+  body
+  {
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  /* Styles */
+  body
+  {
+  }
+}
+
+/* Desktops and laptops medium-res */
+@media only screen
+and (min-width : 760px) {
+  /* Styles */
+  body
+  {
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+  /* Styles */
+  body 
+  {
+  }
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+  /* Styles */
+  body 
+  {
+  }
+}
+
+/* iPhone 4+ ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+  /* Styles */
+}
+
+@media screen
+{
+  body, form, table, input, select
+  {
+    font-size: 13px;
+  }
+
+  #log_skipper
+  {
+    height: 200px;
+  }
+
+  #log_title
+  {
+    font-size: 200%;
+  }
+
+  #log_description
+  {
+    margin: 20px;
+  }
+
+  #log_register {
+    margin:20px;
+  }
+
+  #log_menu {
+    padding: 10px 0;
+  }
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#login_menu .menu_line a {
+  color: #e6ebfb;
+}
+
+
+#log_main, #copyright
+{
+  background-repeat: no-repeat;
+
+  position: relative;
+  border:1px solid #FFFFFF;
+
+  width: 450px;
+  margin: auto;
+
+  filter               : alpha(opacity=90);
+  -moz-opacity         : 0.9;
+  -khtml-opacity       : 0.9;
+  opacity              : 0.9;
+}
+
+#log_main {
+  color: #e6ebfb;
+  background-color : #000000;
+}
+
+#copyright, #copyright #supernova_ws
+{
+  padding: 0;
+
+  color: #0a1c25;
+  background-color     : #FFFFFF;
+
+  font-size: 10px;
+  font-weight: bold;
+
+}
+
+/*
+
+#log_status, #log_title
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+  color: #0a1c25;
+  width: 100%;
+  text-align: center;
+
+  background-color     : #FFFFFF;
+  filter               : alpha(opacity=90);
+  -moz-opacity         : 0.9;
+  -khtml-opacity       : 0.9;
+  opacity              : 0.9;
+}
+
+#log_description
+{
+  color:  #b1daf2;
+  text-align: justify;
+}
+
+#log_register {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 160%;
+
+  padding: 0.3em;
+  text-align: center;
+  font-weight: bold;
+  color:#497ec7;
+  cursor: pointer;
+
+  background-color     : #000000;
+  border:1px solid #FFFFFF;
+}
+
+#log_register:hover
+{
+  color:#ffffff;
+}
+
+#log_form {
+  padding: 2%;
+  height: 5em;
+}
+
+.log_input_wrapper
+{
+  float: left;
+  margin-left: 2%;
+  width: 46%;
+  text-align: left;
+}
+
+.log_input
+{
+  border:1px solid #000000;
+  background:#ffffff url(../design/images/bg_login.png) repeat-x;
+  color: #000000;
+  width: 100%;
+  left: 0;
+}
+
+
+#log_menu {
+  border-top: solid 1px;
+}
+
+#page_body {
+  margin: 0;
+}
+*/
+
+#log_error {
+  font-size: 160%;
+  color: red;
+}
+
+#login_container {
+  width: 430px;
+  font-size: 13px;
+  display: none;
+  margin-top: 10px;
+}
+
+#login_container .ui-tabs-nav {
+/*  height: 2.35em;*/
+  text-align: center;
+}
+
+#login_container .ui-tabs-nav li {
+/*  width:32%;*/
+}
+
+#login_container .ui-tabs-nav li a {
+/*
+ display: inline-block;
+ float: none;
+ width: 100%;
+ padding: 5px 0;
+ top: 0px;
+ margin: 0em;
+*/
+}
+
+
+#login_container ol li.ui-tabs-selected a {
+/*  background: #344566 url("../../skins/EpicBlue/images/ui-bg_highlight-hard_75_344566_1x100.png") repeat-x 50% 50%;*/
+/*  background: #344566 url("../../skins/EpicBlue/images/ui-bg_inset-soft_95_13233e_1x100.png") repeat-x 50% 50%;*/
+  background: #344566 url("images/ui-bg_inset-soft_95_13233e_1x100.png") repeat-x 50% 50%;
+}
+
+#login_menu {
+  padding: 10px 0;
+  border-top: 1px solid white;
+}
+
+.menu_line :not(:last-child):after
+{
+  content: ' :: ';
+}
+
+.password_show {
+  width: 130px;
+}

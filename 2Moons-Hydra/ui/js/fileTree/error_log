@@ -1,0 +1,3 @@
+[25-Mar-2014 00:41:48 UTC] PHP Warning:  scandir(/.gnupg/): failed to open dir: Permission denied in /home/qwa/public_html/games/2moons/ui/js/fileTree/jqueryFileTree.php on line 22
+[25-Mar-2014 00:41:48 UTC] PHP Warning:  scandir(): (errno 13): Permission denied in /home/qwa/public_html/games/2moons/ui/js/fileTree/jqueryFileTree.php on line 22
+[25-Mar-2014 00:41:48 UTC] PHP Warning:  natcasesort() expects parameter 1 to be array, boolean given in /home/qwa/public_html/games/2moons/ui/js/fileTree/jqueryFileTree.php on line 23

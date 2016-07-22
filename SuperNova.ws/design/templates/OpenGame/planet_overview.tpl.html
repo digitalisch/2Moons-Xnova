@@ -1,0 +1,178 @@
+<!-- DEFINE $OVERVIEW = true -->
+<script type="text/javascript" src="js/sn_ajax_send_fleet.js?{C_var_db_update}"></script>
+<script type="text/javascript">
+  var MT_SPY = {D_MT_SPY};
+  var MT_COLONIZE = {D_MT_COLONIZE};
+  var MT_RECYCLE = {D_MT_RECYCLE};
+  var MT_MISSILE = {D_MT_MISSILE};
+  var uni_galaxy = "{PLANET_GALAXY}";
+  var uni_system = "{PLANET_SYSTEM}";
+// --></script>
+
+<br />
+
+<table align="center">
+  <tr>
+    <th valign=top class="tr">
+      <!-- IF NEW_MESSAGES || NEW_LEVEL_MINER || NEW_LEVEL_RAID -->
+        <table width="522">
+          <!-- IF NEW_MESSAGES -->
+            <tr><th colspan=2><a href=messages.php>
+              {L_ov_you_have}
+              <!-- IF NEW_MESSAGES == 1 -->
+                {L_ov_new_message}
+              <!-- ELSE -->
+                {NEW_MESSAGES} {L_ov_new_messages}
+              <!-- ENDIF -->
+            </a></th></tr>
+          <!-- ENDIF -->
+
+          <!-- IF NEW_LEVEL_MINER -->
+            <tr><th colspan=2><a href=officer.php>{L_ov_rpg_new_level_miner}</a></th></tr>
+          <!-- ENDIF -->
+
+          <!-- IF NEW_LEVEL_RAID -->
+            <tr><th colspan=2><a href=officer.php>{L_ov_rpg_new_level_raid}</a></th></tr>
+          <!-- ENDIF -->
+        </table>
+      <!-- ENDIF -->
+
+      <table width="522">
+        <tr>
+          <th class="c_l" colspan=3>
+            <a href="galaxy.php?mode=0&galaxy={PLANET_GALAXY}&system={PLANET_SYSTEM}" class="link">[{PLANET_GALAXY}:{PLANET_SYSTEM}:{PLANET_PLANET}] {PLANET_TYPE_TEXT} "{PLANET_NAME}"</a>
+          </th>
+          <th class="c_r " colspan=2>
+            <span class="positive link" go="" mode="manage">
+              [ {L_ov_manage} ]
+            </span>
+          </th>
+        </tr>
+
+        <!-- IF GATE_LEVEL -->
+          <tr>
+            <th class="c_c" colspan="2">{L_tech[D_STRUC_MOON_GATE]}</th>
+            <th class="c_c" colspan="3">
+              <a href="jumpgate.php">
+                <!-- IF GATE_JUMP_REST_TIME -->
+                  {L_ov_gate_time_left} <span  id="gate_jump_time" class="error"></span>
+                  <script type="text/javascript"><!--
+                    sn_timers.unshift({id: 'gate_jump_time', type: 0, active: true, start_time: '{TIME_NOW}', options: {
+                      msg_done: '{L_gate_ready}',
+                      que: [
+                        ['1', '', {GATE_JUMP_REST_TIME}, '1']
+                      ]
+                    }});
+                  // --></script>
+                <!-- ELSE -->
+                  <span class="ok">{L_gate_ready}</span>
+                <!-- ENDIF -->
+              </a>
+            </th>
+          </tr>
+        <!-- ENDIF -->
+
+        <tr>
+          <td class="c_c" width="120" rowspan="5">
+            <!-- DEFINE $PLANET_ID = '{PLANET_ID}' -->
+            <!-- INCLUDE planet_governor -->
+          </td>
+
+          <th width=100 align="center">{L_buildings_on_planet}</th>
+          <th colspan="3" style="padding: 0 2px;">
+            <div class="ov_planet_fill_bar">
+              <!-- IF PLANET_FILL >= 100 -->
+                <!-- DEFINE $BAR_COLOR = 'negative_bg' -->
+              <!-- ELSEIF PLANET_FILL >= 80 -->
+                <!-- DEFINE $BAR_COLOR = 'neutral_bg' -->
+              <!-- ELSE -->
+                <!-- DEFINE $BAR_COLOR = 'positive_bg' -->
+              <!-- ENDIF -->
+              <div class="left_top {$BAR_COLOR}" style="height:100%; width: {PLANET_FILL_BAR}%;">&nbsp;</div>
+              <div class="left_top fill_parent va_m">{planet_field_current}/{planet_field_max} ({PLANET_FILL}%)</div>
+            </div>
+            <!-- IF PLANET_TYPE == 1 -->
+              <!-- IF SECTOR_CAN_BUY -->
+                <a href="overview.php?sector_buy=1" class="positive link">{L_sys_sector_buy} {L_sys_for} {SECTOR_COST_TEXT} {L_sys_dark_matter_sh}</a>
+              <!-- ELSE -->
+                <span class="negative">{L_sys_sector_buy} {L_sys_for} {SECTOR_COST_TEXT} {L_sys_dark_matter_sh}</span>
+              <!-- ENDIF -->
+            <!-- ENDIF -->
+          </th>
+        </tr>
+
+        <tr>
+          <th width=100>{L_orb}</th>
+          <th colspan="3" id="fleetstatusrow">{L_sys_metal}: {metal_debris} / {L_sys_crystal}: {crystal_debris}
+            <!-- IF PLANET_RECYCLERS -->
+              <!--<br><span id="ov_recycle" style="cursor: pointer" onclick="doit(MT_RECYCLE, {PLANET_PLANET}, {PLANET_TYPE});">[ {L_type_mission[8]} ]</span>-->
+              <br><button id="ov_recycle" style="cursor: pointer" onclick="doit(MT_RECYCLE, {PLANET_PLANET}, {PLANET_TYPE});"<!-- IF ! PLANET_DEBRIS --> disabled="disabled"<!-- ENDIF -->><span>[ {L_type_mission[8]} ]</span></button>
+              <table id="fleetstatustable" cellspacing="0" cellpadding="0"></table>
+            <!-- ENDIF -->
+          </th>
+        </tr>
+        <tr>
+          <th colspan="4">{L_Diameter}&nbsp;{planet_diameter}&nbsp;{L_km}</th>
+        </tr>
+        <tr>
+          <th colspan="4">{L_Temperature}&nbsp;({L_min_avg_max}):&nbsp;{planet_temp_min}&deg;C&nbsp;/&nbsp;{planet_temp_avg}&deg;C&nbsp;/&nbsp;{planet_temp_max}&deg;C</th>
+        </tr>
+        <tr>
+          <th colspan="2">
+            {L_sys_planet_density_core}: {planet_density_text}
+            <div class="icons link icon-info_empire" go="info" unit_id="{D_UNIT_PLANET_DENSITY}"></div>
+          </th>
+          <th colspan="2">
+            {L_sys_planet_density}:&nbsp;{planet_density}&nbsp;{L_sys_planet_density_units}
+          </th>
+        </tr>
+
+        </tr>
+        <tr><td colspan=5 class="c">{L_Planet_menu}</td></tr>
+        <!-- BEGIN ques -->
+          <tr>
+            <th width=100 height=33%>
+              <!-- IF ques.LENGTH -->
+                <div id="ov_{ques.ID}"></div>
+                <!-- DEFINE $QUE_ID = '{ques.ID}' -->
+                <!-- INCLUDE eco_queue -->
+              <!-- ELSE -->
+                {ques.NAME}<br>
+              <!-- ENDIF -->
+                <div id="ov_{ques.ID}_timer" style="color: lime"></div>
+                <div id="ov_{ques.ID}_total" style="color: red"></div>
+            </th>
+            <th colspan=4 id="ov_{ques.ID}_que">
+              {L_eco_que_empty}
+            </th>
+          </tr>
+        <!-- END ques -->
+
+        <!-- INCLUDE planet_resources -->
+      </table>
+
+      <!-- INCLUDE planet_fleet_list -->
+    </th>
+
+    <th valign=top class="tr">
+      <table border="0" cellspacing=0 cellpadding=0 width="200">
+        <!-- INCLUDE planet_list -->
+      </table>
+    </th>
+  </tr>
+
+</table>
+
+<div id="admin_message"></div>
+
+<script type="text/javascript"><!--
+  jQuery(document).bind("ready", function() {
+    // send requests
+    jQuery.post("scheduler.php", {rating: jQuery(this).html()}, function(xml) {
+      // format result
+      var result = [ jQuery("message", xml).text() ];
+      // output result
+      jQuery("#admin_message").html(result.join(""));
+    } );
+  });
+--></script>

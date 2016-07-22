@@ -1,0 +1,792 @@
+html, body
+{
+  height: 100%;
+/*
+  overflow-y: none;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;*/
+}
+
+html, body, form, iframe
+{
+  margin: 0; padding: 0; border: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+.bar_anchor_h {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#sn_menu {
+/*  float:left; */
+  width: 130px;
+  max-width: 130px;
+/*  height: 100%;*/
+  /*  top:0;left:0;bottom:0;position: absolute;*/
+  padding-left:5px;
+  padding-right:5px;
+}
+
+#sn_navbar {
+  /*   margin-left: 150px;*/
+}
+
+#page_body
+{
+  margin-left: 150px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+}
+
+
+input.button
+{
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+@media screen
+{
+  input.frameles
+  {
+    border               : #ff0000;
+    text-align           : center;
+    font-size            : 11px;
+  }
+}
+
+ul /* Unmarked list */
+{
+  margin: 0;
+  padding-left: 20px;
+  text-align: left;
+}
+
+li
+{
+  padding-top: 4px;
+}
+
+/* System classes */
+.fl /* Float left */
+{
+  float: left;
+}
+
+.fr /* Float right */
+{
+  float: right;
+}
+
+.hide  /* Hide */
+{
+  display: none;
+}
+
+.tr /* Transparent */
+{
+  background-color: transparent;
+  border: 0;
+}
+
+.strong /* strong tag emulation */
+{
+  font-weight: bold;
+}
+
+.icons
+{
+  width: 16px;
+  height: 16px;
+}
+
+/* Icon file */
+.icons { background-image: url(../images/icons.png); }
+
+.icon-plus { background-position: 0 0; }
+.icon-minus { background-position: -16px 0; }
+.icon-info { background-position: -32px 0; }
+.icon-cancel { background-position: -48px 0; }
+.icon-gather { background-position: -64px 0; }
+
+.icon-info_empire {
+  background-position: -32px 0;
+  display: inline-block; vertical-align: middle;
+}
+
+.icon_alpha, .alpha75, .a75 /* Partially transparent background for over-planet-image icons */
+{
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgb(0, 0, 0);
+  /* RGBa with 0.75 opacity */
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.alpha50
+{
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgb(0, 0, 0);
+  /* RGBa with 0.50 opacity */
+  background: rgba(0, 0, 0, 0.50);
+}
+
+.alpha25
+{
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgb(0, 0, 0);
+  /* RGBa with 0.25 opacity */
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* jQuery-UI */
+/*--------------------------------------------------------*/
+/* Patches */
+/* Turning off headers in dialogs */
+.ui-dialog .ui-dialog-titlebar { display: none; }
+/* Turning off resize grapplers */
+.ui-dialog .ui-resizable-se { display: none; }
+/* Setting no-padding to content inside dialog */
+.ui-dialog .ui-dialog-content { padding: 0; }
+
+/* Hack: Setting no background and border for dialogs */
+body .ui-dialog, div .ui-dialog-content { background: transparent; border: none; }
+
+/* Coloring Slider Range */
+.ui-slider-range { background: #f6a828; }
+
+table {margin-left: auto; margin-right: auto}
+
+.table th, .table tr, .table td
+{
+  vertical-align: top;
+  text-align: left;
+}
+
+.error
+{
+  color: red;
+}
+
+.noborder, .noborder tr, .noborder th
+{
+  border: 0;
+}
+
+.markup, .markup > tbody > tr, .markup > tbody > tr > th, .markup > tbody > tr > td
+{
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  /* font-weight: normal;*/
+  /* border-spacing: 0;*/
+  /* border-collapse: collapse;*/
+}
+
+#chat_box {
+  width: 100%;
+  padding-right: 15px;
+}
+
+#copyright
+{
+  text-align: center;
+}
+
+
+#sn_menu td, #sn_menu th
+{
+  height: 16px;
+  vertical-align: middle;
+}
+
+#resources
+{
+  margin: auto;
+}
+
+.affiliates
+{
+  color: #993333;
+}
+
+/* Message & numbers color coding */
+.important
+{
+  color: red;
+  text-decoration: blink;
+  font-weight: bold;
+}
+
+.disabled {
+  color: grey;
+}
+
+.ok, .success, .positive {
+  color: lime;
+}
+
+.notice, .zero, .neutral {
+  color: yellow;
+}
+
+.warning {
+  color: orange;
+}
+
+.error, .negative {
+  color: red;
+}
+
+.ok_bg, .success_bg, .positive_bg {
+  background-color: darkgreen;
+}
+
+.notice_bg, .zero_bg, .neutral_bg {
+  background-color: #AAAA00 !important;
+}
+
+.warning_bg {
+  background-color: #924200;
+}
+
+.error_bg, .negative_bg {
+  background-color: darkred;
+}
+
+.errormessage a, .success a, .notice a, .warning a, .error a {
+  text-decoration: underline;
+}
+
+.nick_developer
+{
+  color: purple;
+}
+
+.nick_admin
+{
+  color: #0066FF;
+}
+
+.nick_operator
+{
+  color: red;
+}
+
+.nick_moderator
+{
+  color: green;
+}
+
+.nick_premium, .bonus, #menu_premium
+{
+  color: gold;
+}
+
+.same_alliance, .same_player
+{
+  color: #33CCFF;
+}
+
+.element_fill_wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%
+}
+
+
+.planet_list_top87 {
+  width: 87px;
+}
+.planet_list_top87 > .planet_list_wrap
+{
+  height: 75px;
+}
+.planet_list_top87 > .planet_list_wrap > .images {
+  height: 100%;
+  width: 75px;
+}
+
+.planet_list_top112 {
+  width: 112px;
+}
+.planet_list_top112 > .planet_list_wrap
+{
+  height: 100px;
+}
+.planet_list_top112 > .planet_list_wrap > .images {
+  height: 100%;
+  width: 100px;
+}
+
+
+.planet_list_wrap {
+  position: relative;
+  border: 0 solid blue;
+  width: inherit;
+}
+.planet_list_wrap > .res_bar
+{
+  position: absolute;
+  top: 0;
+
+  overflow: hidden;
+
+  width: 4px;
+  height: 100%;
+}
+
+
+
+
+.planet_list_fields
+{
+  position: relative;
+
+  width: 100%;
+  height: 10px;
+
+  overflow: hidden;
+}
+.planet_list_fields > .numbers
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+
+  font-size: 9px;
+  font-weight: bold;
+}
+.planet_list_bar
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.ov_struc_timer{
+  white-space: normal;
+}
+
+
+
+.planet_list_moon_attack
+{
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  cursor: pointer;
+}
+
+.planet_list_submoon_fields
+{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 100%;
+  height: 10%;
+  overflow: hidden;
+}
+
+.planet_list_submoon_filler {
+  position: relative;
+  left: 0;
+  height: 100%;
+}
+
+.planet_list_submoon_attack
+{
+  position: absolute;
+  top: 26%;
+  left: 26%;
+  width: 48%;
+  height: 48%;
+}
+
+
+
+.left
+{
+  position: absolute;
+  left: 0;
+}
+.right
+{
+  position: absolute;
+  right: 0;
+}
+.bottom
+{
+  position: absolute;
+  bottom: 0;
+}
+.left_top
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.left_bottom
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.right_top {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.right_bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.icon_25per_left_1
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 25%
+}
+
+.icon_25per_left_2
+{
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 25%;
+  height: 25%
+}
+
+.icon_25per_left_3
+{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 25%;
+  height: 25%;
+}
+
+.icon_25per_left_4
+{
+  position: absolute;
+  top: 75%;
+  left: 0;
+  width: 25%;
+  height: 25%;
+}
+
+.icon_25per_right_4
+{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.icon_25per_top_2
+{
+  position: absolute;
+  top: 0;
+  left: 25%;
+  width: 25%;
+  height: 25%;
+}
+
+.icon_fill
+{
+  height: 100%;
+  width: 100%;
+  border-style: none;
+  cursor: pointer;
+}
+
+.fill_parent {
+  height: 100%;
+  width: 100%;
+}
+
+.va_m {
+  vertical-align: middle;
+}
+
+#copyright #supernova_ws
+{
+  font-weight: normal;
+}
+
+th.c_l, td.c_l
+{
+  text-align: left;
+}
+th.c_r, td.c_r
+{
+  text-align: right;
+}
+th.c_c, td.c_c, td.c
+{
+  text-align: center;
+}
+th.c_j, td.c_j
+{
+  text-align: justify;
+}
+
+.cell_left, .c_l
+{
+  text-align: left;
+}
+.cell_right, .c_r
+{
+  text-align: right;
+}
+.cell_center, .c_c
+{
+  text-align: center;
+}
+
+.cell_justify, .c_j
+{
+  text-align: justify;
+}
+
+.transparent_cell
+{
+  background-color: transparent;
+  border: 0;
+}
+
+.chat_online, #onlinebox td
+{
+  background-color: black;
+  border: 0;
+  white-space: nowrap;
+  text-align: left;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+.link
+{
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.link_action {
+  border-bottom: 1px dashed;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.link_external {
+  border-bottom: 3px double;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pointer
+{
+  cursor: pointer;
+}
+
+#universe_main img {
+  border: 0;
+  cursor: pointer;
+}
+
+#menu_admin_exit {
+  color: red;
+}
+
+#menu_admin_server_time, #menu_admin_version_info {
+  text-align: center;
+}
+
+.chat_message {
+  text-align: left;
+  background-color:black;
+  color:white;
+  font-weight: normal;
+}
+
+.news_header {
+  background-color: #233452;
+}
+
+.news_date {
+  color: yellow;
+}
+
+.news_publisher {
+}
+
+.news_fresh, .news_future {
+  color: red;
+  font-weight: bold;
+}
+
+.news_text {
+  text-align: justify;
+}
+
+.news_link {
+  color: green;
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.survey_block {
+  text-align: left;
+  padding: 5px;
+}
+.survey_header {
+  background-color: #233452;
+}
+.survey_votes_text {
+  width: 50%;
+  max-width: 50%;
+}
+.survey_bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+
+  background-color: darkgreen;
+}
+.survey_bar_number {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: right;
+  width: 100%;
+}
+
+.percent33{
+  width: 33%;
+  height: 33%;
+}
+
+.percent66{
+  width: 66%;
+  height: 66%;
+}
+
+.percent100{
+  width: 100%;
+  height: 100%;
+}
+
+.global_admin_warning{
+  text-align: center;
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  color:red;
+}
+
+.benchmark {
+  color: white;
+  font-size: 10px;
+  text-align: left;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+#unit_require li {
+  margin: 0;
+  padding: 0;
+}
+
+.ui-textfield {
+  font: inherit;
+  color: inherit;
+  outline: none;
+}
+
+input[type=button].ui-textfield, input[type=submit].ui-textfield {
+  text-align: inherit;
+}
+
+input[type=text].ui-textfield, input[type=password].ui-textfield, input[type=file].ui-textfield, textarea.ui-textfield {
+  text-align: left;
+  background-image: none;
+  cursor: text;
+}
+
+input[type=checkbox].ui-textfield {
+  width: 20px;
+  height: 20px;
+  background-image: none;
+}
+
+input[type=text].coordinate {
+  max-width: 20px;
+  padding: 4px;
+}
+
+/*
+input[type=text].ui-textfield:hover, input[type=password].ui-textfield, input[type=file].ui-textfield, textarea.ui-textfield
+
+{
+  cursor: text;
+}
+*/
+
+.payment_mm_amount, .payment_mm_method, .payment_mm_module {
+  display: inline-block;
+  width: 150px;
+  /* border: 1px solid white;*/
+  margin: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.payment_mm_method {
+  /* height: 50px;*/
+}
+
+.i_icon_mail, .i_icon_mail_userlist {
+  background-image: url(../images/icon_mail.gif);
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+.i_icon_delete_userlist {
+  background-image: url(../images/r1.png);
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+.i_icon_impers_userlist {
+  background-image: url(../images/icon_impersonate.gif);
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}

@@ -1,0 +1,8 @@
+[23-Mar-2014 12:22:33 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/qwa/public_html/games/2moons/includes/pages/game/class.AbstractPage.php on line 161
+[23-Mar-2014 12:22:35 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/qwa/public_html/games/2moons/includes/pages/game/class.AbstractPage.php on line 161
+[23-Mar-2014 16:41:12 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/qwa/public_html/games/2moons/includes/pages/game/class.AbstractPage.php on line 162
+[23-Mar-2014 16:41:13 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/qwa/public_html/games/2moons/includes/pages/game/class.AbstractPage.php on line 162
+[23-Mar-2014 16:42:35 UTC] PHP Parse error:  syntax error, unexpected ''tinyCrystal_current'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/qwa/public_html/games/2moons/includes/pages/game/class.AbstractPage.php on line 164
+[29-Mar-2014 13:35:15 UTC] PHP Warning:  require(includes/pages/login/AbstractPage.class.php): failed to open stream: No such file or directory in /home/hydrasys/public_html/index.php on line 33
+[29-Mar-2014 13:35:15 UTC] PHP Warning:  require(includes/pages/login/AbstractPage.class.php): failed to open stream: No such file or directory in /home/hydrasys/public_html/index.php on line 33
+[29-Mar-2014 13:35:15 UTC] PHP Fatal error:  require(): Failed opening required 'includes/pages/login/AbstractPage.class.php' (include_path='/home/hydrasys/public_html/') in /home/hydrasys/public_html/index.php on line 33

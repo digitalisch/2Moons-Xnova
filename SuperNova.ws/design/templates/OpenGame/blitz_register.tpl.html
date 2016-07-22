@@ -1,0 +1,117 @@
+<h1>{PAGE_HEADER}</h1>
+
+<br />
+<table>
+  <tr>
+    <!-- IF REGISTRATION_DISCLOSURE_NAMES -->
+    <th class="c_l">
+      {Место}
+    </th>
+    <th class="c_l">
+      {Очки}
+    </th>
+    <th class="c_l">
+      {L_sys_blitz_registration_player_blitz_name}
+    </th>
+    <th class="c_l">
+      {Награда ТМ}
+    </th>
+    <!-- ENDIF -->
+    <th class="c_l">{L_sys_player}</th>
+  </tr>
+
+  <!-- BEGIN registrations -->
+  <tr>
+    <!-- IF REGISTRATION_DISCLOSURE_NAMES -->
+    <td class="c_l">
+      {registrations.BLITZ_PLACE}
+    </td>
+    <td class="c_l">
+      {registrations.BLITZ_POINTS}
+    </td>
+    <td class="c_l">
+      {registrations.BLITZ_NAME}
+    </td>
+    <td class="c_l">
+      {registrations.BLITZ_REWARD_DARK_MATTER}
+    </td>
+    <!-- ENDIF -->
+    <td class="c_l">
+      {registrations.NAME}
+    </td>
+  </tr>
+  <!-- BEGINELSE -->
+  <tr>
+    <td>
+      {L_sys_blitz_registration_no_users}
+    </td>
+  </tr>
+  <!-- END registrations -->
+</table>
+<br />
+<!-- IF REGISTRATION_OPEN -->
+  <!-- IF PLAYER_REGISTERED -->
+    <form action="" method="post">
+      <input type="submit" name="register_me_not" value="{L_sys_blitz_registration_player_register_un}" />
+    </form>
+  <!-- ELSE -->
+    <form action="" method="post">
+      <input type="submit" name="register_me" value="{L_sys_blitz_registration_player_register}" /><br />
+      {L_sys_blitz_registration_price} {C_game_blitz_register_price} {L_sys_metamatter}
+    </form>
+  <!-- ENDIF -->
+<!-- ELSE -->
+  {L_sys_blitz_registration_closed}
+  <br />
+  <!-- IF REGISTRATION_SHOW_LOGIN && PLAYER_REGISTERED -->
+    <h2>
+      {L_sys_blitz_registration_player_name} {BLITZ_NAME}<br />
+      {L_sys_blitz_registration_player_password} {BLITZ_PASSWORD}<br />
+      <a href="http://blitz.supernova.ws/" class="link">{L_sys_blitz_registration_server_link} http://blitz.supernova.ws/</a>
+    </h2>
+  <!-- ENDIF -->
+  <h2><a href="stat.php?source=blitz" class="link">{L_sys_blitz_registration_view_stat}</a></h2>
+<!-- ENDIF -->
+
+
+<!-- IF USER_AUTHLEVEL >= 3 -->
+<div class="blitz_admin">
+  <!-- IF GAME_BLITZ -->
+  <div>
+    <form action="" method="post">
+      <textarea rows="" cols="" name="generated_string"></textarea>
+      <input type="submit" name="import_generated" value="{L_sys_blitz_registration_player_import_generated}" />
+    </form>
+  </div>
+  <!-- ELSE -->
+  <div>
+    <textarea rows="" cols="">{BLITZ_GENERATED}</textarea>
+    <form action="" method="post">
+      <input type="submit" name="generate" value="{L_sys_blitz_registration_player_generate}" />
+    </form>
+  </div>
+  <!-- ENDIF -->
+
+  <div>
+    {Результат раунда}
+    <form action="" method="post">
+      <textarea rows="" cols="" name="blitz_result_string">{BLITZ_RESULT}</textarea>
+      <!-- IF ! GAME_BLITZ -->
+      <input type="submit" name="import_result" value="{Импортировать результаты}" />
+      <!-- ENDIF -->
+    </form>
+  </div>
+
+  <!-- IF ! GAME_BLITZ -->
+  <div>
+    <form action="" method="post">
+      {Призовой фонд} <input type="text" name="blitz_prize_dark_matter" value="{BLITZ_PRIZE_DARK_MATTER}" /><br />
+      {Количество призеров} <input type="text" name="blitz_prize_places" value="{BLITZ_PRIZE_PLACES}" /><br />
+      <input type="submit" name="prize_calculate" value="{Начислить призы и медали}" />
+    </form>
+  </div>
+  <!-- ENDIF -->
+</div>
+<!-- ENDIF -->
+
+<!-- INCLUDE page_hint -->

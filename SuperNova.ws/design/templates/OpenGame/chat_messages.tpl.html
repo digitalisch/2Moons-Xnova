@@ -1,0 +1,23 @@
+<!-- IF HISTORY -->
+  <div style='width:100%; padding:12px;' align=center>
+    <b><font size=3>{L_chat_history}&nbsp;-&nbsp;<!-- IF ALLY -->{L_chat_ally}<!-- ELSE -->{L_chat_common}<!-- ENDIF --></font></b>
+    <!-- IF .page -->
+      <div class="fr">
+        <b><font size=2>{L_chat_page}:</font></b>
+        <select name='page' onchange='document.location.assign("index.php?page=chat_msg&ally={ALLY}&history={HISTORY}&sheet=" + this.value);'>
+        <!-- BEGIN page -->
+          <option value={page.NUMBER}<!-- IF PAGE == page.NUMBER --> selected<!-- ENDIF -->>{page.NUMBER}</option>
+        <!-- END page -->
+        </select>
+      </div>
+    <!-- ENDIF -->
+  </div>
+<!-- ENDIF -->
+
+<!-- BEGIN chat -->
+  <div align="left" style='background-color:black; color:white; font-weight: normal;'>
+    <!-- IF chat.TIME -->[{chat.TIME}]&nbsp;<!-- ENDIF --><!-- IF chat.NICK --><span style="font-weight: bold;">{chat.NICK}&gt;&nbsp;</span><!-- ENDIF --><!-- IF chat.TEXT -->{chat.TEXT}<!-- ENDIF -->
+    <!-- IF chat.DISABLE --><span class="warning"><b>{L_chat_timeout}</b></span><!-- ENDIF -->
+    <br>
+  </div>
+<!-- END chat -->

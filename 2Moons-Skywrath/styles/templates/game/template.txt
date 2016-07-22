@@ -1,0 +1,16 @@
+<section id="playground">
+<div class="full-width">
+<div class="box">
+<div class="inner"> 
+<div class="titlebar">{$LNG.lm_alliance}</div>
+<div class="contents">
+<table style="width:100%">
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+</section>

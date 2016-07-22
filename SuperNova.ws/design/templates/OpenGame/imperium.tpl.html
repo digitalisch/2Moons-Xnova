@@ -1,0 +1,202 @@
+<!-- INCLUDE fleet_javascript -->
+
+<!-- DEFINE $CELL_HEADER = '70px' -->
+<!-- DEFINE $CELL_PLANET = '70px' -->
+
+<h2>{L_imp_overview}</h2>
+<form method="post">
+<table border="0" cellpadding="0" cellspacing="1" align=center id="empire_overview"><tbody>
+  <tr><th width="{$CELL_HEADER}" class="c_l" colspan="{amount}">{L_sys_planets}</th></tr>
+
+  <tr class="c_c">
+    <td width="{$CELL_HEADER}">{L_imp_name}</td>
+    <!-- BEGIN planet -->
+      <td width="{$CELL_PLANET}">
+        <!-- IF planet.ID -->
+          <a href="overview.php?cp={planet.ID}">{planet.NAME}</a>
+        <!-- ELSE -->
+          {planet.NAME}
+        <!-- ENDIF -->
+      </td>
+    <!-- END planet -->
+  </tr>
+
+  <tr class="c_c">
+    <td width="{$CELL_HEADER}">{L_sys_coordinates}</td>
+    <!-- BEGIN planet -->
+      <td width="{$CELL_HEADER}">
+        <!-- IF planet.ID -->
+          <a href="overview.php?cp={planet.ID}">{planet.COORDINATES}</a>
+        <!-- ENDIF -->&nbsp;
+      </td>
+    <!-- END planet -->
+  </tr>
+
+  <tr class="c_c">
+    <td width="{$CELL_HEADER}">
+      {L_sys_colonies} {COLONIES_CURRENT}/{COLONIES_MAX}<br />
+      {L_sys_expeditions} {EXPEDITIONS_CURRENT}/{EXPEDITIONS_MAX}
+    </td>
+    <!-- INCLUDE planet_list -->
+  </tr>
+
+  <tr class="c_c">
+    <td>{L_sys_temperature}</td>
+    <!-- BEGIN planet -->
+      <!-- IF planet.TEMP_MAX < 40 --> 
+        <!-- DEFINE $FIELD_COLOR = 'negative' -->
+      <!-- ELSEIF planet.TEMP_MAX > 40 --> 
+        <!-- DEFINE $FIELD_COLOR = 'positive' -->
+      <!-- ELSE -->
+        <!-- DEFINE $FIELD_COLOR = '' -->
+      <!-- ENDIF -->
+
+      <td class="{$FIELD_COLOR}">
+        {planet.TEMP_MIN} / {planet.TEMP_MAX}
+      </td>
+    <!-- END planet -->
+  </tr>
+
+  <tr class="c_c">
+    <td>
+      {L_sys_planet_density_core}
+      <div class="icons link icon-info_empire" go="info" unit_id="{D_UNIT_PLANET_DENSITY}"></div>
+    </td>
+    <!-- BEGIN planet -->
+      <!-- IF planet.DENSITY_CLASS == 4 -->
+        <!-- DEFINE $FIELD_COLOR = 'positive' -->
+      <!-- ELSEIF planet.DENSITY_CLASS == 3 || planet.DENSITY_CLASS == 5 -->
+        <!-- DEFINE $FIELD_COLOR = 'zero' -->
+      <!-- ELSEIF planet.DENSITY_CLASS == 2 || planet.DENSITY_CLASS == 6 -->
+        <!-- DEFINE $FIELD_COLOR = 'warning' -->
+      <!-- ELSE -->
+        <!-- DEFINE $FIELD_COLOR = 'negative' -->
+      <!-- ENDIF -->
+
+      <td class="{$FIELD_COLOR}">
+        {planet.DENSITY_CLASS_TEXT}
+      </td>
+    <!-- END planet -->
+  </tr>
+
+  <tr>
+    <th class="c_l" colspan="{amount}">
+      {L_sys_resources}
+    </th>
+  </tr>
+  <tr class="c_c">
+    <td>{L_sys_metal}<br>{L_imp_production}</td>
+    <!-- BEGIN planet -->
+      <!-- IF planet.METAL_PERCENT < 50 --> 
+        <!-- DEFINE $FIELD_COLOR = 'negative' -->
+      <!-- ELSEIF planet.METAL_PERCENT < 80 --> 
+        <!-- DEFINE $FIELD_COLOR = 'warning' -->
+      <!-- ELSEIF planet.METAL_PERCENT < 100 --> 
+        <!-- DEFINE $FIELD_COLOR = 'neutral' -->
+      <!-- ELSE -->
+        <!-- DEFINE $FIELD_COLOR = 'positive' -->
+      <!-- ENDIF -->
+      <td<!-- IF planet.ID --> go="res" planet_id="{planet.ID}"<!-- ENDIF -->>
+        {planet.METAL_CUR}<br />
+        <span class="{$FIELD_COLOR}">{planet.METAL_PROD}</span>
+      </td>
+    <!-- END planet -->
+  </tr>
+  <tr class="c_c">
+    <td>{L_sys_crystal}<br>{L_imp_production}</td>
+    <!-- BEGIN planet -->
+      <!-- IF planet.CRYSTAL_PERCENT < 50 --> 
+        <!-- DEFINE $FIELD_COLOR = 'negative' -->
+      <!-- ELSEIF planet.CRYSTAL_PERCENT < 80 --> 
+        <!-- DEFINE $FIELD_COLOR = 'warning' -->
+      <!-- ELSEIF planet.CRYSTAL_PERCENT < 100 --> 
+        <!-- DEFINE $FIELD_COLOR = 'neutral' -->
+      <!-- ELSE -->
+        <!-- DEFINE $FIELD_COLOR = 'positive' -->
+      <!-- ENDIF -->
+      <td<!-- IF planet.ID --> go="res" planet_id="{planet.ID}"<!-- ENDIF -->>
+        {planet.CRYSTAL_CUR}<br />
+        <span class="{$FIELD_COLOR}">{planet.CRYSTAL_PROD}</span>
+      </td>
+    <!-- END planet -->
+  </tr>
+  <tr class="c_c">
+    <td>{L_sys_deuterium}<br>{L_imp_production}</td>
+    <!-- BEGIN planet -->
+      <!-- IF planet.DEUTERIUM_PERCENT < 50 --> 
+        <!-- DEFINE $FIELD_COLOR = 'negative' -->
+      <!-- ELSEIF planet.DEUTERIUM_PERCENT < 80 --> 
+        <!-- DEFINE $FIELD_COLOR = 'warning' -->
+      <!-- ELSEIF planet.DEUTERIUM_PERCENT < 100 --> 
+        <!-- DEFINE $FIELD_COLOR = 'neutral' -->
+      <!-- ELSE -->
+        <!-- DEFINE $FIELD_COLOR = 'positive' -->
+      <!-- ENDIF -->
+      <td<!-- IF planet.ID --> go="res" planet_id="{planet.ID}"<!-- ENDIF -->>
+        {planet.DEUTERIUM_CUR}<br /><span class="{$FIELD_COLOR}">{planet.DEUTERIUM_PROD}</span>
+      </td>
+    <!-- END planet -->
+  </tr>
+  <tr class="c_c">
+    <td>{L_sys_energy}<br>{L_imp_production}</td>
+    <!-- BEGIN planet -->
+    <td<!-- IF planet.ID --> go="res" planet_id="{planet.ID}"<!-- ENDIF -->>
+      {planet.ENERGY_CUR}<br />
+      {planet.ENERGY_MAX}
+    </td>
+    <!-- END planet -->
+  </tr>
+
+  <!-- BEGIN prods -->
+  <tr class="c_c" prod_mode="{prods.MODE}">
+    <!-- IF prods.MODE -->
+      <td width="{$CELL_HEADER}">{prods.NAME}</td>
+    <!-- ELSE -->
+      <th colspan="{amount}"><span>{prods.NAME}</span><input type="submit" name="save_production" value="{L_sys_save}" /></th>
+    <!-- ENDIF -->
+
+    <!-- BEGIN planet -->
+      <!-- IF prods.URL -->
+        <!-- DEFINE $FIELD_URL = '{prods.URL}' -->
+      <!-- ELSE -->
+        <!-- DEFINE $FIELD_URL = '' -->
+        <!-- DEFINE $PLANET_ID = '{prods.planet.ID}' -->
+      <!-- ENDIF -->
+
+      <!-- IF prods.planet.LEVEL_PLUS_GREEN >= 0 -->
+        <!-- DEFINE $PLUS_CLASS = 'positive' -->
+      <!-- ELSEIF prods.planet.LEVEL_PLUS_GREEN < 0 -->
+        <!-- DEFINE $PLUS_CLASS = 'negative' -->
+      <!-- ENDIF -->
+
+      <td <!-- IF prods.planet.FACTORY && prods.planet.PERCENT != -1 -->ecd<!-- ELSE -->ecs<!-- ENDIF -->>
+          <!-- IF prods.planet.PERCENT >= 0 -->
+            <!-- IF prods.planet.PERCENT <= 0 -->
+              <!-- DEFINE $FIELD_COLOR = '' -->
+            <!-- ELSEIF prods.planet.PERCENT < 50 -->
+              <!-- DEFINE $FIELD_COLOR = 'negative_bg' -->
+            <!-- ELSEIF prods.planet.PERCENT < 80 -->
+              <!-- DEFINE $FIELD_COLOR = 'warning_bg' -->
+            <!-- ELSEIF prods.planet.PERCENT < 100 -->
+              <!-- DEFINE $FIELD_COLOR = 'neutral_bg' -->
+            <!-- ELSE -->
+              <!-- DEFINE $FIELD_COLOR = 'positive_bg' -->
+            <!-- ENDIF -->
+            <span style="width: {prods.planet.PERCENT}%;" class="{$FIELD_COLOR}"></span>
+          <!-- ENDIF -->
+          <span>
+            {prods.planet.LEVEL}<!-- IF prods.planet.LEVEL_PLUS_GREEN --><span class="{$PLUS_CLASS}">{prods.planet.LEVEL_PLUS_GREEN}</span><!-- ENDIF --><!-- IF prods.planet.LEVEL_PLUS_YELLOW --><span class="neutral">{prods.planet.LEVEL_PLUS_YELLOW}</span><!-- ENDIF -->
+            <!-- IF prods.planet.FACTORY && prods.planet.PERCENT >= 0 -->
+              <br />
+              <select name="percent[{prods.ID}][{prods.planet.ID}]" <!-- IF prods.planet.ID == 0 -->selector="{prods.ID}"<!-- ENDIF -->>
+                <!-- IF prods.planet.ID == 0 --><option>-</option><!-- ENDIF -->
+                <!-- BEGIN !percent --><option value="{percent.PERCENT}"<!-- IF prods.planet.PERCENT === percent.PERCENT --> selected<!-- ENDIF -->>{percent.PERCENT}%</option><!-- END !percent -->
+              </select>
+            <!-- ENDIF -->
+          </span>
+      </td>
+    <!-- END planet -->
+  </tr>
+  <!-- END prods -->
+</tbody></table>
+</form>

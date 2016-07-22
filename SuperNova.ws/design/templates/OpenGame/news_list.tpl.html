@@ -1,0 +1,80 @@
+<script type="text/javascript" src="{D_SN_ROOT_VIRTUAL}js/sn_survey.js?{C_var_db_update}"></script>
+<script type="text/javascript">
+  var LA_survey_result_sent = '{LA_survey_result_sent}';
+</script>
+<!-- BEGIN announces -->
+  <tr>
+    <td>
+      <div class="news_header">
+        <div class="news_date fl"><!-- IF announces.FUTURE --><span class="news_future">{L_news_future}</span>&nbsp;<!-- ELSEIF announces.NEW --><span class="news_fresh">{L_news_new}</span>&nbsp;<!-- ENDIF -->{announces.TIME}</div>
+        <!-- IF announces.USER_NAME -->
+          <div class="news_publisher fr">
+            {announces.USER_NAME}
+          </div>
+        <!-- ENDIF -->
+        <br />
+      </div>
+      <div class="news_text">
+        {announces.ANNOUNCE}
+        <!-- IF announces.DETAIL_URL -->
+         <a class="news_link" href="{announces.DETAIL_URL}">{L_news_more}</a>
+        <!-- ENDIF -->
+      </div>
+      <!-- IF announces.SURVEY_TEXT -->
+      <div class="survey_block" survey_id="{announces.SURVEY_ID}">
+        <table width="100%" class="c_l">
+          <tr>
+            <th class="survey_header" colspan="2">
+              {L_survey}: {announces.SURVEY_TEXT}
+            </th>
+          </tr>
+        <!-- IF announces.SURVEY_CAN_VOTE -->
+          <!-- BEGIN survey_answers -->
+          <tr>
+            <td colspan="2">
+              <input type="radio" name="survey[{announces.SURVEY_ID}]" id="sa_{survey_answers.ID}" value="{survey_answers.ID}" />
+              <label for="sa_{survey_answers.ID}">{survey_answers.TEXT}</label><br />
+            </td>
+          </tr>
+          <!-- END survey_answers -->
+          <tr>
+            <th class="survey_header" colspan="2">
+              {L_survey_select_one} <button name="survey_confirm" value="{announces.SURVEY_ID}">{L_survey_confirm}</button>
+            </th>
+          </tr>
+        <!-- ELSE -->
+          <!-- BEGIN survey_votes -->
+          <tr>
+            <td class="survey_votes_text">{survey_votes.TEXT}</td>
+            <td>
+              <div class="bar_anchor_h">
+                &nbsp;
+                <div class="survey_bar" style="width: {survey_votes.PERCENT}%;">&nbsp;</div>
+                <div class="survey_bar_number">{survey_votes.VOTES}</div>
+              </div>
+            </td>
+          </tr>
+          <!-- END survey_votes -->
+        <!-- ENDIF -->
+          <tr>
+            <th class="c_c" colspan="2">
+              <!-- IF announces.SURVEY_COMPLETE -->
+                <span class="warning">{L_survey_complete}</span>
+              <!-- ELSE -->
+                <span class="ok">{L_survey_lasts_until} {announces.SURVEY_UNTIL}</span>
+              <!-- ENDIF -->
+            </th>
+          </tr>
+        </table>
+      </div>
+      <!-- ENDIF -->
+    </td>
+    <!-- IF AUTHLEVEL >= 3 -->
+      <td><a href="announce.php?mode=edit&id={announces.ID}"><img src="design/images/icon_edit.png"></a></td>
+      <td><a href="announce.php?mode=copy&id={announces.ID}"><img src="design/images/icon_copy.gif"></a></td>
+      <td><a href="announce.php?mode=del&id={announces.ID}"><img src="design/images/r1.png"></a></td>
+    <!-- ENDIF -->
+  </tr>
+<!-- BEGINELSE announces -->
+  <tr><th class="c">{L_news_none}</th></tr>
+<!-- END announces -->

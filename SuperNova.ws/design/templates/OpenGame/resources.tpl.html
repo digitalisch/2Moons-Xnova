@@ -1,0 +1,160 @@
+<!-- INCLUDE _result_message -->
+
+<script type="text/javascript"><!--
+var production = Array();
+<!-- BEGIN production -->
+  <!-- IF production.ID && production.LEVEL -->
+    production[{production.ID}] = [{production.LEVEL}];
+  <!-- ENDIF -->
+<!-- END production -->
+
+function res_set_all(obj)
+{
+  for(production_id in production)
+  {
+    document.getElementById('production' + production_id).value = obj.value;
+  }
+}
+--></script>
+
+<br>
+  <table width="569"><tbody>
+    <tr><td class="c" colspan="6">{L_res_planet_production} "{PLANET_NAME}"</td></tr>
+    <tr>
+      <th colspan="6" style="position: relative; border: 1px solid rgb(153, 153, 255); padding: 0px;">
+      <div style="position: relative; width: 100%;">
+        <!-- IF PRODUCTION_LEVEL == 100 -->
+          <!-- DEFINE $BAR_COLOR = '#00C000' -->
+        <!-- ELSE -->
+          <!-- DEFINE $BAR_COLOR = '#C00000' -->
+        <!-- ENDIF -->
+        <div style="position: absolute; top: 0px; left: 0px; width: {PRODUCTION_LEVEL}%; background-color: {$BAR_COLOR};">&nbsp;</div>
+        <div style="position: absolute; top: 0px; left: 0px; width: 100%;">{PRODUCTION_LEVEL}%</div>
+        &nbsp;
+      </div>
+      </th>
+    </tr>
+
+    <!-- IF PLANET_TYPE == 1 -->
+    <tr>
+      <th colspan="6">
+        <form method="POST">
+        <div class="icons icon-info link" style="display: inline-block; vertical-align: middle;" onclick="document.location='infos.php?gid={D_UNIT_PLANET_DENSITY}'"></div>
+        {L_ov_core_type_current}: "{PLANET_CORE_TEXT}"<br/>
+        <label for="density_type">{L_ov_core_change_to}</label>
+        <select name="density_type" id="density_type">
+          <!-- BEGIN densities -->
+          <option value="{densities.ID}" rest="{densities.REST}" html="{densities.COST_TEXT}" html_class="{densities.COST_TEXT_CLASS}"<!-- IF PLANET_DENSITY_INDEX == densities.ID --> selected<!-- ENDIF -->>{densities.TEXT}</option>
+          <!-- END densities -->
+        </select>
+        <input type="submit" id="transmute_button" name="transmute" value="{L_sys_change}" disabled="1"/> {L_sys_for} <span id="transmutation_cost" class="positive">0</span> {L_sys_dark_matter_sh}
+        </form>
+
+        <script type="text/javascript">
+          jQuery("#density_type").change(function(){
+            selected = jQuery("#density_type option:selected");
+            $("#transmutation_cost").html(selected.attr("html")).removeClass().addClass(selected.attr("html_class"));
+            parseInt(selected.attr("rest")) <= 0 ? $("#transmute_button").attr("disabled", 1) : $("#transmute_button").removeAttr("disabled");
+          });
+        </script>
+      </th>
+    </tr>
+    <!-- ENDIF -->
+
+<form action="" method="post">
+    <tr align=center>
+      <td class="c">&nbsp;</td>
+      <td class="c" width="60">{L_sys_metal}</td>
+      <td class="c" width="60">{L_sys_crystal}</td>
+      <td class="c" width="60">{L_sys_deuterium}</td>
+      <td class="c" width="60">{L_sys_energy}</td>
+      <td class="c">
+        <select size="1" onChange="res_set_all(this)" id="res_set_all()">
+          <option>-</option>
+          <!-- BEGIN !option -->
+            <option value="{option.VALUE}">{option.VALUE}%</option>
+          <!-- END option -->
+        </select>
+      </td>
+    </tr>
+    <!-- BEGIN production -->
+      <tr>
+        <th height="22">{production.TYPE}<!-- IF production.LEVEL --> (<!-- IF production.LEVEL_TYPE -->{production.LEVEL_TYPE}&nbsp;<!-- ENDIF -->{production.LEVEL}<!-- IF production.LEVEL_BONUS > 0 --><span class="bonus">+{production.LEVEL_BONUS}</span><!-- ENDIF -->)<!-- ENDIF --></th>
+        <th>
+          {production.METAL_TYPE}
+          <!-- IF production.METAL_FULL != '' && production.METAL_FULL != production.METAL_TYPE --><br />({production.METAL_FULL})<!-- ENDIF -->
+        </th>
+        <th>
+          {production.CRYSTAL_TYPE}
+          <!-- IF production.CRYSTAL_FULL != '' && production.CRYSTAL_FULL != production.CRYSTAL_TYPE --><br />({production.CRYSTAL_FULL})<!-- ENDIF -->
+        </th>
+        <th>
+          {production.DEUTERIUM_TYPE}
+          <!-- IF production.DEUTERIUM_FULL != '' && production.DEUTERIUM_FULL != production.DEUTERIUM_TYPE --><br />({production.DEUTERIUM_FULL})<!-- ENDIF -->
+        </th>
+        <th>
+          {production.ENERGY_TYPE}
+          <!-- IF production.ENERGY_FULL != '' && production.ENERGY_FULL != production.ENERGY_TYPE --><br />({production.ENERGY_FULL})<!-- ENDIF -->
+        </th>
+        <th>
+          <!-- IF production.LEVEL -->
+            <select name="production[{production.ID}]" id="production{production.ID}" size="1">
+              <!-- BEGIN !option -->
+                <option value="{option.VALUE}"<!-- IF option.VALUE == production.PERCENT --> selected<!-- ENDIF -->>{option.VALUE}%</option>
+              <!-- END option -->
+            </select>
+          <!-- ELSE -->
+            &nbsp;
+          <!-- ENDIF -->
+        </th>
+      </tr>
+    <!-- END production -->
+    <tr><th class="c" colspan="6"><input value="{L_res_calculate}" type="submit"></th></tr>
+  </tbody></table>
+</form>
+
+<table width="569"><tbody>
+  <tr><td class="c" colspan="4">{Widespread_production}</td></tr>
+  <tr>
+    <th width="100">&nbsp;</th>
+    <th>{L_res_hourly}</th>
+    <th>{L_res_daily}</th>
+    <th>{L_res_weekly}</th>
+    <th>{L_res_monthly}</th>
+  </tr>
+  <!-- BEGIN resources -->
+    <tr>
+      <th>{resources.NAME}</th>
+      <th><div align="right">{resources.HOURLY}</div></th>
+      <th><div align="right">{resources.DAILY}</div></th>
+      <th><div align="right">{resources.WEEKLY}</div></th>
+      <th><div align="right">{resources.MONTHLY}</div></th>
+    </tr>
+  <!-- END resources -->
+</tbody></table>
+<br>
+
+<table width="569"><tbody>
+  <tr><td class="c" colspan="2">{L_res_storage_fill}</td></tr>
+  <!-- BEGIN resources -->
+    <tr>
+      <th>{resources.NAME}</th>
+      <th width="469" style="position: relative; border: 1px solid rgb(153, 153, 255); padding: 0px; height: 100%;">
+      <div style="position: relative; width: 100%; height: 100%;">
+        <!-- IF resources.STORAGE > 100 -->
+          <!-- DEFINE $BAR_COLOR = '#C00000' -->
+        <!-- ELSEIF resources.STORAGE > 80 -->
+          <!-- DEFINE $BAR_COLOR = '#C0C000' -->
+        <!-- ELSE -->
+          <!-- DEFINE $BAR_COLOR = '#00C000' -->
+        <!-- ENDIF -->
+        <div style="position: absolute; top: 0px; left: 0px; height: 100%; width: {resources.BAR}%; background-color: {$BAR_COLOR};">&nbsp;</div>
+        <div style="position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; vertical-align: middle;">{resources.STORAGE}%</div>
+        &nbsp;
+      </div>
+      </th>
+    </tr>
+  <!-- END resources -->
+</tbody></table>
+
+<!-- INCLUDE page_hint -->

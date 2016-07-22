@@ -1,0 +1,161 @@
+<!-- IF .menu -->
+<script type="text/javascript">
+  sn_timers.unshift({'id': 'menu_admin_server_time', 'type': 4, 'active': true, 'start_time': {TIME_NOW}, 'options': {
+    'format': 3,
+    'delta': 0
+  }});
+
+  var MENU_HIDDEN = "{MENU_START_HIDE}" ? 1 : 0;
+  var SN_COOKIE = "{D_SN_COOKIE}";
+  var SN_ROOT_RELATIVE = "{D_SN_ROOT_RELATIVE}";
+  var PLAYER_OPTION_MENU_SHOW_ON_BUTTON = '{PLAYER_OPTION_MENU_SHOW_ON_BUTTON}';
+  var PLAYER_OPTION_MENU_HIDE_ON_BUTTON = '{PLAYER_OPTION_MENU_HIDE_ON_BUTTON}';
+  var PLAYER_OPTION_MENU_HIDE_ON_LEAVE = '{PLAYER_OPTION_MENU_HIDE_ON_LEAVE}';
+  var PLAYER_OPTION_MENU_ITEMS_AS_BUTTONS = '{PLAYER_OPTION_MENU_ITEMS_AS_BUTTONS}';
+
+  var LA_menu_show = "{LA_menu_show}";
+  var LA_menu_hide = "{LA_menu_hide}";
+  var LA_menu_unpin = "{LA_menu_unpin}";
+  var LA_menu_pin = "{LA_menu_pin}";
+  var LA_menu_customize_show_items = "{LA_menu_customize_show_items}";
+  var LA_menu_customize_hide_items = "{LA_menu_customize_hide_items}";
+
+
+</script>
+<!-- IF MENU_CUSTOMIZE -->
+  <!-- IF MENU_START_HIDE -->
+    <style type="text/css">
+      #left_menu {
+        display: none;
+      }
+    </style>
+    <!-- DEFINE $MENU_START_BUTTON_PIN = '{LA_menu_pin}' -->
+    <!-- DEFINE $MENU_START_BUTTON_SHOW = '{LA_menu_show}' -->
+  <!-- ELSE -->
+    <!-- DEFINE $MENU_START_BUTTON_PIN = '{LA_menu_unpin}' -->
+    <!-- DEFINE $MENU_START_BUTTON_SHOW = '{LA_menu_hide}' -->
+  <!-- ENDIF -->
+  <style type="text/css">
+    <!-- IF PLAYER_OPTION_MENU_HIDE_SHOW_BUTTON == 0 -->
+    #left_menu_show {
+      position: fixed;
+     /* float: left;*/
+    }
+    /*
+    #left_menu {
+      margin-top: 28px;
+    }
+    */
+    <!-- ELSEIF PLAYER_OPTION_MENU_HIDE_SHOW_BUTTON == 1 -->
+    /*
+    #left_menu_show {
+      float: left;
+      margin-bottom: 4px;
+    }
+    */
+    <!-- ELSE -->
+    #left_menu_show, #menu_pin {
+      display: none;
+    }
+    <!-- ENDIF -->
+
+    <!-- IF PLAYER_OPTION_MENU_UNPIN_ABSOLUTE -->
+    #left_menu {
+      position: absolute;
+      /*
+      <!-- IF PLAYER_OPTION_MENU_HIDE_SHOW_BUTTON == 1 -->
+        margin-top: 28px;
+      <!-- ENDIF -->
+      */
+    }
+    <!-- ENDIF -->
+  </style>
+
+  <!--<input type="button" id="left_menu_show" value="{$MENU_START_BUTTON_SHOW}" />-->
+<!-- ENDIF -->
+  <table cellspacing="0" cellpadding="0" id="left_menu">
+  <!-- BEGIN menu -->
+  <!-- IF (! menu.AUTH_LEVEL || menu.AUTH_LEVEL <= AUTH_LEVEL) && ! menu.DISABLED -->
+
+    <!-- IF menu.LEVEL == 'header' -->
+      <!-- DEFINE $TX = 'th' -->
+    <!-- ELSE -->
+      <!-- DEFINE $TX = 'td' -->
+    <!-- ENDIF -->
+
+    <!-- DEFINE $HEADER_PREFIX = '' -->
+    <!-- DEFINE $HEADER_SUFFIX = '' -->
+    <!-- IF menu.LINK -->
+      <!-- IF menu.LEVEL == 'header' -->
+        <!-- DEFINE $HEADER_PREFIX = '[&nbsp;' -->
+        <!-- DEFINE $HEADER_SUFFIX = '&nbsp;]' -->
+      <!-- ENDIF -->
+      <!-- IF menu.BLANK -->
+        <!-- DEFINE $LINK_BLANK = ' target="_blank"' -->
+      <!-- ELSE -->
+        <!-- DEFINE $LINK_BLANK = '' -->
+      <!-- ENDIF -->
+    <!-- ELSE -->
+      <!-- DEFINE $LINK_CLOSE = '' -->
+    <!-- ENDIF -->
+    <tr id="{menu.ID}"
+      <!-- IF menu.HIDE && !menu.HIDE_LOCK --> is_hide="1" style="display: none"<!-- ELSEIF menu.HIDE_LOCK --> hide_lock="1"<!-- ENDIF -->
+      <!-- IF menu.MOVEABLE && menu.MOVE_LOCK --> move_lock="1"<!-- ENDIF -->
+    >
+      <{$TX} nowrap
+        <!-- IF menu.CLASS --> class="{menu.CLASS}"<!-- ENDIF -->
+        <!-- IF menu.TITLE --> title="{menu.TITLE}"<!-- ELSEIF menu.ALT --> title="{menu.ALT}"<!-- ENDIF -->
+        <!-- IF menu.STYLE --> style="{menu.STYLE}"<!-- ENDIF -->
+      >
+
+    <!-- IF menu.WRAP_START -->{menu.WRAP_START}<!-- ENDIF -->
+
+    <!-- IF PLAYER_OPTION_MENU_ITEMS_AS_BUTTONS -->
+      <!-- IF menu.ICON --><img src="{dpath}icons/{menu.ICON}" height="14px" border="0" style="margin-right: 5px;" /><!-- ENDIF -->
+
+      <!-- IF menu.LINK -->
+        <!-- IF menu.TYPE == 'image' -->
+          <a href="{menu.LINK}" class="link"{$LINK_BLANK}>
+          <!-- DEFINE $LINK_CLOSE = '</a>' -->
+        <!-- ELSE -->
+          <input type="button" class="link ui-button ui-widget ui-state-default ui-corner-all ui-textfield" value="{$HEADER_PREFIX}{menu.ITEM}{$HEADER_SUFFIX}" go_url="{menu.LINK}"{$LINK_BLANK} />
+          <!-- DEFINE $LINK_CLOSE = '' -->
+        <!-- ENDIF -->
+      <!-- ENDIF -->
+
+
+      <!-- IF menu.TYPE == 'image' -->
+        <img border="0" src="{menu.ITEM}" <!-- IF menu.ALT --> alt="{menu.ALT}"<!-- ELSEIF menu.TITLE --> alt="{menu.TITLE}"<!-- ENDIF --> />
+      <!-- ELSEIF ! menu.LINK -->
+        {$HEADER_PREFIX}{menu.ITEM}{$HEADER_SUFFIX}
+      <!-- ENDIF -->
+    <!-- ELSE -->
+      <!-- IF menu.LINK -->
+        <!-- DEFINE $LINK_CLOSE = '</a>' -->
+        <a href="{menu.LINK}" class="link<!-- IF $LINK_BLANK && menu.TYPE != 'image' -->_external<!-- ENDIF -->"{$LINK_BLANK}><!-- ENDIF --><!-- IF menu.ICON --><img src="{dpath}icons/{menu.ICON}" height="14px" border="0" style="margin-right: 5px;" /><!-- ENDIF -->{$HEADER_PREFIX}<!-- IF menu.TYPE == 'image' -->
+            <img border="0" src="{menu.ITEM}"
+              <!-- IF menu.ALT --> alt="{menu.ALT}"<!-- ELSEIF menu.TITLE --> alt="{menu.TITLE}"<!-- ENDIF -->
+            /><!-- ELSE -->{menu.ITEM}<!-- ENDIF -->{$HEADER_SUFFIX}
+      <!-- ENDIF -->
+    {$LINK_CLOSE}
+
+    <!-- IF menu.WRAP_END -->{menu.WRAP_END}<!-- ENDIF -->
+      </{$TX}>
+    </tr>
+  <!-- ENDIF -->
+  <!-- END menu --></table>
+</td>
+<td valign="top"><!-- IF MENU_CUSTOMIZE --><input type="button" id="left_menu_show" value="{$MENU_START_BUTTON_SHOW}" />  <script type="text/javascript">
+  jQuery(document).ready(function(){
+    MENU_HIDDEN ? jQuery('#left_menu').attr('menu_hidden', '1') : (
+            jQuery('#left_menu_show').offset().left < 50 ?
+            jQuery('#left_menu_show').offset({top: $('#left_menu_show').offset().top, left: $('#left_menu_show').offset().left + jQuery('#left_menu').width()}).css('visibility', 'visible')
+                    : false
+    );
+//    if(MENU_HIDDEN) {
+//      jQuery('#left_menu').attr('menu_hidden', '1');
+//    }
+  });
+</script><!-- ELSE -->&nbsp;<!-- ENDIF --></td>
+<td width="100%" valign="top" align="center"><div style="margin: 0 auto">
+<!-- ENDIF -->

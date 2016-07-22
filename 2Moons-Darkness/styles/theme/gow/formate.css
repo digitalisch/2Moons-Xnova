@@ -1,0 +1,301 @@
+body {
+	background:url("img/bkd_page.gif") repeat scroll right top #0d0d0d;
+}
+
+body,input,select,textarea,a,td,th,tr,table{
+	color:#CCC;
+}
+
+input,select,option,textarea {
+	background:#393939
+}
+
+#menu li:first-child, #menu li:last-child{
+	background-color:transparent;
+}
+
+a:focus {
+	outline:none
+}
+
+a:hover {
+	color:red;
+	text-decoration:none
+}
+
+table,td,th {
+	font-weight:400
+}
+
+table table,img {
+	border:0
+}
+
+td, textarea  {
+	border:1px solid #222
+}
+
+td {
+	text-align:center;
+}
+
+#planet_menu_content, td{
+	background: url("img/bkd_bg.png") repeat-x scroll 0 0 transparent;
+}
+
+input {
+	border:1px solid #212121;
+	text-align:center
+}
+
+th, #planet_menu_header, .ui-widget-header {
+	background: url("img/bkd_title.png") repeat scroll 0 0 transparent;
+	color: #666666;
+	font-weight: 400;
+	height: 22px;
+	line-height: 18px;
+	padding-left: 3px;
+	text-align: left;
+	padding: 0 3px;
+	border: 1px solid #212121;
+}
+
+th a:hover, #planet_menu_header a:hover, .ui-widget-header a:hover, #menu a:hover  {
+	color:#FFF;
+}
+
+th a:hover, #planet_menu_header a:hover, .ui-widget-header a:hover {
+	text-decoration:underline;
+}
+
+textarea {
+	background:transparent;
+}
+
+select {
+	border:1px solid #212121
+}
+
+/*Global Messgae */
+
+.admin {
+	color:red;
+}
+.mod {
+	color:yellow;
+}
+.ops {
+	color:skyblue;
+}
+
+.messages_body .admin {
+	font-weight:700;
+	color:red;
+}
+.messages_body .mod {
+	font-weight:700;
+	color:yellow;
+}
+.messages_body .ops {
+	font-weight:700;
+	color:skyblue;
+}
+
+.res_max {
+	color:#0F0
+}
+
+.res_name{
+	color:#FFFF00;
+	font-weight:700
+}
+
+.strong {
+	color:#ffa0a0
+}
+
+.vacation {
+	color:#659ec7
+}
+
+.inactive {
+	color:#ccc
+}
+
+.longinactive {
+	color:#999
+}
+
+.ownattack {
+	color:#6c3
+}
+
+.owncolony {
+	color:#c1c1c1
+}
+
+.owndeploy {
+	color:#666
+}
+
+.owndestroy {
+	color:#ff9
+}
+
+.ownfederation {
+	color:#c66
+}
+
+.ownharvest {
+	color:#ceff68
+}
+
+.ownhold {
+	color:#80a0c0
+}
+
+.destroy {
+	color:#d4a017
+}
+
+.hold {
+	color:#39c
+}
+
+.warning {
+	color:#FF8040
+}
+
+.notice {
+	color:#FF0
+}
+
+.return {
+	color:#444
+}
+
+.allymember,.colony,.deploy,.harvest,.transport,.success {
+	color:lime
+}
+
+.noob,.owntransport {
+	color:#a0ffa0
+}
+
+.banned,.s_button {
+	text-decoration:line-through
+}
+
+.ownespionage,.ownmissile {
+	color:#fc6
+}
+
+.espionage,.missile {
+	color:#f60
+}
+
+/** HEADER **/
+
+#resources{
+	text-align:center;
+}
+
+/** MENU **/
+
+#leftmenu {
+	width:190px;
+}
+
+#menu {
+	background: url("img/menu-bg.png") repeat scroll 0 0 transparent;
+    padding: 1px;
+	border-radius:0 0 60px 0;
+}
+
+#menu li {
+	background: url("img/td_test.jpg") no-repeat scroll 0 0 transparent;
+}
+
+#menu a {
+	padding:6px 20px 0;
+}
+
+#menu a:hover {
+	background: url("img/link_hover.jpg") no-repeat scroll 0 4px transparent
+}
+
+.menu-head {
+	background: url('./img/menu-head.jpg') no-repeat scroll 0 0 transparent !important;
+	margin-left: -1px !important;
+	height:50px;
+}
+
+.menucat1-head, .menucat2-head, .menucat3-head {
+	background-image: url('./img/menu-sep.jpg');
+	height: 8px;
+}
+
+.menu-footer{
+	height:60px;
+}
+
+/* PLANETMENU */
+
+#planet_menu_link{
+	font-weight:700;
+}
+
+#planet_menu_header{
+	text-align:right;
+}
+
+#planet_menu_content li {
+	text-align:center;
+}
+
+
+/* CONTENT */
+
+.tip th{
+text-align:center
+}
+
+.top {
+vertical-align:top
+}
+
+.transparent,#header td, .tip td, .tip th {
+background: transparent;
+border:none
+}
+
+.mes_unread td {
+	font-weight:700;
+}
+
+a {
+	text-decoration:none
+}
+
+th a,.res_current{
+	color:#FFF
+}
+
+.res_current_max,.attack,.federation,.error {
+	color:red
+}
+
+#fleetstatustable td{
+	background: transparent;
+	background-image: none;
+	border: 0 none
+}
+
+.tip {
+	color: #fff;
+	background:#1d1d1d;
+}
+
+.ui-progressbar-value {
+background-image: url(img/processbar.png)
+}

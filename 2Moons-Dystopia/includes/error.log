@@ -1,0 +1,46 @@
+[13-Jan-2015 23:20:25 Europe/Paris] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(includes/config.php): failed to open stream: No such file or directory' in C:\Wamp\www\Dystopia\install\index.php:589
+Stack trace:
+#0 C:\Wamp\www\Dystopia\install\index.php(589): errorHandler(2, 'require_once(in...', 'C:\\Wamp\\www\\Dys...', 589, Array)
+#1 C:\Wamp\www\Dystopia\install\index.php(589): require_once()
+#2 {main}
+  thrown in C:\Wamp\www\Dystopia\install\index.php on line 589
+[13-Jan-2015 23:20:25 Europe/Paris] PHP Stack trace:
+[13-Jan-2015 23:20:25 Europe/Paris] PHP   1. {main}() C:\Wamp\www\Dystopia\install\index.php:0
+[13-Jan-2015 23:20:25 Europe/Paris] PHP Fatal error:  main(): Failed opening required 'includes/config.php' (include_path='.;C:\php\pear') in C:\Wamp\www\Dystopia\install\index.php on line 589
+[13-Jan-2015 23:20:25 Europe/Paris] PHP Stack trace:
+[13-Jan-2015 23:20:25 Europe/Paris] PHP   1. {main}() C:\Wamp\www\Dystopia\install\index.php:0
+[13-Jan-2015 23:21:59] USER ERROR: "SQL Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1Query Code: SHOW TABLE STATUS FROM 1;"
+File: C:\Wamp\www\Dystopia\includes\classes\class.Database.php | Line: 81
+URL: http://localhost/Dystopia/cronjob.php?cronjobID=3 | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/cronjob/DailyCronjob.class.php(42): Database-&gt;query('SHOW TABLE STAT...')
+#1 /includes/classes/cronjob/DailyCronjob.class.php(34): DailyCronJob-&gt;optimizeTables()
+#2 /includes/classes/Cronjob.class.php(53): DailyCronJob-&gt;run()
+#3 /cronjob.php(62): Cronjob::execute(3)
+#4 {main}
+[14-Jan-2015 00:51:07] USER ERROR: "unmatched {block} {/block} pairs in template file 'page.research.default.tpl'"
+File: C:\Wamp\www\Dystopia\includes\libs\Smarty\sysplugins\smarty_internal_resource_extends.php | Line: 115
+URL: http://localhost/Dystopia/game.php?page=research | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_resource.php(779): Smarty_Internal_Resource_Extends-&gt;getContent(Object(Smarty_Template_Source))
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(185): Smarty_Template_Source-&gt;__get('content')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#5 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.AbstractPage.php(254): template-&gt;display('extends:layout....')
+#7 /includes/pages/game/class.ShowResearchPage.php(375): AbstractPage-&gt;display('page.research.d...')
+#8 /game.php(65): ShowResearchPage-&gt;show()
+#9 {main}
+[14-Jan-2015 00:51:15] NOTICE: "Undefined index: isBusy"
+File: C:\Wamp\www\Dystopia\includes\libs\Smarty\sysplugins\smarty_internal_templatebase.php(252) : eval()'d code | Line: 706
+URL: http://localhost/Dystopia/game.php?page=research | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252) : eval()'d code(706): errorHandler(8, 'Undefined index...', 'C://Wamp//www//Dys...', 706, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(252): eval()
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(254): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowResearchPage.php(375): AbstractPage-&gt;display('page.research.d...')
+#6 /game.php(65): ShowResearchPage-&gt;show()
+#7 {main}

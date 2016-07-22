@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="{LANG_DIRECTION}" lang="{LANG_LANGUAGE}" xml:lang="{LANG_LANGUAGE}">
+  <head>
+    <title>{title}</title>
+    <link rel="shortcut icon" href="{D_SN_ROOT_VIRTUAL}favicon.ico?{C_var_db_update}" />
+    <link rel="stylesheet" type="text/css" href="{D_SN_ROOT_VIRTUAL}design/css/jquery.css?{C_var_db_update}" />
+    <link rel="stylesheet" type="text/css" href="{D_SN_ROOT_VIRTUAL}{dpath}jquery.css?{C_var_db_update}" />
+
+    <link rel="stylesheet" type="text/css" href="{D_SN_ROOT_VIRTUAL}design/css/global.css?{C_var_db_update}" />
+    <!-- IF LOGIN_LOGOUT -->
+    <link rel="stylesheet" type="text/css" href="{D_SN_ROOT_VIRTUAL}design/css/login.css?{C_var_db_update}" />
+    <!-- ENDIF -->
+    <link rel="stylesheet" type="text/css" href="{D_SN_ROOT_VIRTUAL}design/css/global_server.css?{C_var_db_update}" />
+    <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="{D_SN_ROOT_VIRTUAL}design/css/global-ie.css?{C_var_db_update}" />
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{D_SN_ROOT_VIRTUAL}{D_TEMPLATE_PATH}/_template.css?{C_var_db_update}" />
+    <link rel="stylesheet" type="text/css" href="{D_SN_ROOT_VIRTUAL}{dpath}skin.css?{C_var_db_update}" />
+    <!-- IF LOGIN_LOGOUT -->
+    <link rel="stylesheet" type="text/css" href="{D_SN_ROOT_VIRTUAL}design/css/{GAME_MODE_CSS_PREFIX}login_background.css?{C_var_db_update}" />
+    <!-- ELSE -->
+    <link rel="stylesheet" type="text/css" href="{D_SN_ROOT_VIRTUAL}{dpath}{GAME_MODE_CSS_PREFIX}skin_background.css?{C_var_db_update}" />
+    <!-- ENDIF -->
+    <link rel="stylesheet" type="text/css" href="{D_SN_ROOT_VIRTUAL}{dpath}skin_server.css?{C_var_db_update}" />
+    <!-- IF ADV_SEO_META_KEYWORDS -->
+    <meta name="keywords" content="{ADV_SEO_META_KEYWORDS}" />
+    <!-- ENDIF -->
+    <!-- IF ADV_SEO_META_DESCRIPTION -->
+    <meta name="description" content="{ADV_SEO_META_DESCRIPTION}" />
+    <!-- ENDIF -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    {-meta-}
+    <!--<style> body, html { margin:0px; padding: 0px; overflow: hidden; font: menu; border: none; } </style>-->
+    <base href="{D_SN_ROOT_VIRTUAL}" />
+  </head>
+
+  <body class="style">
+    <script type="text/javascript">
+      // Этот скрипт находится здесь, потому что он должен быть выполнен максимально быстро
+      var localTime = new Date();
+
+      var SN_SOUND_ENABLED = parseInt('{SOUND_ENABLED}') ? parseInt('{SOUND_ENABLED}') : 0;
+    </script>
+
+    <script type="text/javascript" src="{D_SN_ROOT_VIRTUAL}js/lib/jquery.js?{C_var_db_update}"></script>
+    <script type="text/javascript">
+      // Корректировка по времени запроса - если доступно
+      // var localTime = window.performance ? localTime = new Date(window.performance.timing.requestStart) : new Date();
+      // var localTime = window.performance ? localTime = new Date(window.performance.timing.responseStart) : new Date();
+      var timeDiff;
+      // С сервера ВСЕГДА должна передаваться РАЗНИЦА во времени - что бы корректно работали скрипты при навигации вперед-назад по страницам в браузерах!
+      if(!(timeDiff = parseInt('{D_SN_CLIENT_TIME_DIFF}'))) {
+        timeDiff = false;
+      }
+
+      var serverTime = new Date(parseFloat('{D_SN_TIME_MICRO}') * 1000);
+      var TIME_NOW = {D_SN_TIME_NOW};
+      var D_SN_TIME_NOW = {D_SN_TIME_NOW};
+//      var timeDiffSecondsMicro = localTime.valueOf() - serverTime.valueOf();
+//      var timeDiff = Math.round((localTime.valueOf()) / 1000 - '{D_SN_TIME_MICRO}')
+//              - localTime.getTimezoneOffset() * 60 - '{D_SN_TIME_ZONE_OFFSET}';
+
+      if(parseInt('{TIME_DIFF_MEASURE}') || timeDiff === false) {
+        timeDiff = 0;
+        jQuery.post("time_probe.php", {'localtime': localTime.valueOf(), 'utc_offset': -localTime.getTimezoneOffset() * 60}, function(data) {
+          timeDiff = parseInt(data);
+        });
+      }
+
+      var dpath = '{dpath}';
+      var sn_path_prefix = '{D_SN_ROOT_VIRTUAL}';
+      var SN_GOOGLE = parseInt('{SN_GOOGLE}') ? 1 : 0;
+    </script>
+
+    <script type="text/javascript" src="{D_SN_ROOT_VIRTUAL}js/lib/jquery-ui.js?{C_var_db_update}"></script>
+
+    <script type="text/javascript" src="{D_SN_ROOT_VIRTUAL}js/lib/ion.sound.min.js?{C_var_db_update}"></script>
+    <script type="text/javascript" src="{D_SN_ROOT_VIRTUAL}js/sn_sound.js?{C_var_db_update}"></script>
+
+    <script type="text/javascript" src="{D_SN_ROOT_VIRTUAL}js/sn_global.js?{C_var_db_update}"></script>
+    <script type="text/javascript" src="{D_SN_ROOT_VIRTUAL}js/sn_timer.js?{C_var_db_update}"></script>
+    <!-- BEGIN js -->
+      <script type="text/javascript" src="{D_SN_ROOT_VIRTUAL}{js.FILE}?{C_var_db_update}"></script>
+    <!-- END js -->
+
+    <!-- IF IMPERSONATING -->
+      <div style="text-align: center" class="warning">{IMPERSONATING}</div>
+    <!-- ENDIF -->
+
+    <!-- IF ADV_SEO_JAVASCRIPT -->
+      {ADV_SEO_JAVASCRIPT}
+    <!-- ENDIF -->
+
+    <table class="markup" width="100%" id="global_page_markup">
+      <tr>
+        <td valign="top" align="center"><div style="margin: 0 auto" id="main_content_center">

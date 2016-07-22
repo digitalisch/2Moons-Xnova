@@ -1,0 +1,110 @@
+<script type="text/javascript"><!--
+var sym_list = Array();
+
+<!-- BEGIN simulator -->
+  <!-- IF simulator.ID && simulator.GROUP != UNIT_DEFENCE -->
+    sym_list[{simulator.ID}] = '{simulator.VALUE}';
+  <!-- ENDIF -->
+<!-- END simulator -->
+
+function sym_set(id, value)
+{
+  if(!value)
+  {
+    value = 0;
+  }
+  else
+  {
+    value = sym_list[id];
+  }
+
+  element_cache['attacker' + id].value = value;
+}
+
+function sym_set_all(group, value)
+{
+  for(sym_id in sym_list)
+  {
+    if(sym_id >= group && sym_id < group +100)
+    {
+      sym_set(sym_id, value);
+    }
+  }
+}
+--></script>
+
+<h2>{COE_combatSimulator}</h2>
+<form action='simulator.php' method='post'>
+{L_ube_simulation} <input type="checkbox" name="simulator" checked="true" />
+<!--Проверка записи/чтения <input type="checkbox" name="reload" />-->
+  <table >
+<!--
+    <tr class="c_c">
+      <th>&nbsp;</th>
+      <th colspan="3">{L_sys_attacker}</th>
+      <th>{L_sys_defender}</th>
+    </tr>
+-->
+
+    <!-- BEGIN simulator -->
+    <tr class="c_c">
+      <!-- IF simulator.ID -->
+        <td>{simulator.NAME}</td>
+          <!-- IF simulator.GROUP != UNIT_DEFENCE && simulator.GROUP != UNIT_GOVERNORS -->
+<!--
+            <td colspan="3">
+              <table class="markup"><tr>
+-->
+                <td>
+                  <input style="height: 24px; width: 24px" type="button" class="button" tabindex=-1 value="0" onclick="sym_set({simulator.ID});">
+                </td>
+                <td>
+                  <input type='text' tabindex=1{simulator.NUM} group="attacker{simulator.ID}" id="attacker{simulator.ID}" name='attacker[{simulator.ID}]' value='{simulator.ATTACKER}' />
+                </td>
+                <td>
+                  <input style="height: 24px;" type="button" class="button" tabindex=-1 value="{L_sys_max}" onclick="sym_set({simulator.ID}, 1);">
+<!--
+                </td>
+              </tr></table>
+-->
+            </td>
+          <!-- ELSE -->
+            <td colspan="3">
+              &nbsp;
+            </td>
+          <!-- ENDIF -->
+        <td>
+          <input type='text' tabindex=2{simulator.NUM} name='defender[{simulator.ID}]' value='{simulator.DEFENDER}'>
+        </td>
+      <!-- ELSE -->
+        <!-- IF simulator.GROUP != UNIT_DEFENCE && simulator.GROUP != UNIT_GOVERNORS -->
+          <th>{simulator.NAME}</th>
+<!--
+          <th colspan="3">
+            <table class="markup"><tr>
+-->
+              <th>
+                <input style="height: 24px; width: 24px" type="button" class="button" tabindex=-1 value="0" onclick="sym_set_all({simulator.GROUP})" />
+              </th>
+              <th>{L_sys_attacker}</th>
+              <th>
+                <input style="height: 24px;" type="button" class="button" tabindex=-1 value="{L_sys_max}" onclick="sym_set_all({simulator.GROUP}, true)">
+              </th>
+<!--
+            </tr></table>
+          </th>
+-->
+          <th class=c>{L_sys_defender}</th>
+        <!-- ELSE -->
+          <th>{simulator.NAME}</th>
+          <th colspan="3">&nbsp;</th>
+          <th>{L_sys_defender}</th>
+        <!-- ENDIF -->
+      <!-- ENDIF -->
+    </tr>
+    <!-- END simulator -->
+
+    <tr class="c_c"><th colspan='5'><input type='submit' class="button" name='submit' value='{L_COE_simulate}'></th></tr>
+  </table>
+  <input type='hidden' name='BE_DEBUG' value="{BE_DEBUG}">
+</form>

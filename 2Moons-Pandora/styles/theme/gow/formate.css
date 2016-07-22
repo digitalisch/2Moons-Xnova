@@ -1,0 +1,409 @@
+
+.ui-widget-header {
+background-color : #D20000;
+}
+.res_name {
+color : gold;
+}
+body {
+background : url("img/bkd_page.jpg") center center no-repeat fixed black;
+}
+body, input, select, button, textarea, a, td, th, tr, table, a:visited {
+color : white;
+}
+body.mceContentBody, input, button, select, option, textarea, .ui-widget-content {
+background : #0D1014;
+}
+input[type="radio"] {
+background : transparent;
+border : none 0;
+}
+#menu li:first-child, #menu li:last-child {
+background-color : transparent;
+}
+a:hover {
+color : red;
+text-decoration : none;
+}
+table, td, th {
+font-weight : 400;
+}
+table table, img {
+border : 0;
+}
+input, select, textarea, #userpic, input, button {
+border : #1C1F23 solid 1px;
+}
+td, th input, .tip {
+border : silver solid 1px;
+border-radius : 7px;
+}
+td, img, .tip {
+text-align : center;
+}
+#planet_menu_content, td{
+background: transparent;
+background: transparent -moz-linear-gradient(left top , #101010 100%, #101010 100%) repeat 0 1px;
+background: transparent -webkit-gradient(linear, left top, left bottom, color-stop(100%,#101010), color-stop(100%,#101010)) repeat 0 1px;
+background: transparent -webkit-linear-gradient(top, #101010 100%,#101010 100%) repeat 0 1px;
+background: transparent -o-linear-gradient(top, #101010 100%,#101010 100%) repeat 0 1px;
+background: transparent -ms-linear-gradient(top, #101010 100%,#101010 100%) repeat 0 1px;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', endColorstr='#101010',GradientType=0 );
+background: transparent linear-gradient(top, #101010 100%,#101010 100%) repeat 0 1px;
+font-weight:400;
+text-decoration:none;
+
+-webkit-border-radius: 6px;
+top-left:6px;
+top-right:6px;
+bottom-right:6px;
+bottom-left:6px;
+
+-moz-border-radius: 6px;
+topleft:6px;
+topright:6px;
+bottomright:6px;
+bottomleft:6px;
+border-radius: 6px
+}
+
+input,button {
+	border:1px outset #CDD1D3;
+	text-align:center;
+}
+
+th, #planet_menu_header, .ui-widget-header  {
+background: transparent;
+background: transparent -moz-linear-gradient(left top , #181818 0%, #101010 100%) repeat 0 1px;
+background: transparent -webkit-gradient(linear, left top, left bottom, color-stop(0%,#181818), color-stop(100%,#101010)) repeat 0 1px;
+background: transparent -webkit-linear-gradient(top, #181818 0%,#101010 100%) repeat 0 1px;
+background: transparent -o-linear-gradient(top, #181818 0%,#101010 100%) repeat 0 1px;
+background: transparent -ms-linear-gradient(top, #181818 0%,#101010 100%) repeat 0 1px;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#181818', endColorstr='#101010',GradientType=0 );
+background: transparent linear-gradient(top, #181818 0%,#101010 100%) repeat 0 1px;
+font-weight:400;
+text-decoration:none;
+
+-webkit-border-radius: 6px;
+top-left:6px;
+top-right:6px;
+bottom-right:6px;
+bottom-left:6px;
+
+-moz-border-radius: 6px;
+topleft:6px;
+topright:6px;
+bottomright:6px;
+bottomleft:6px;
+border-radius: 6px;
+text-align:left
+}
+input, button {
+text-align : center;
+}
+th, .ui-widget-header {
+border : silver solid 1px;
+background-image : url("img/bkd_title.png");
+color : #FFF;
+font-weight : 700;
+text-align : center;
+}
+th a:hover, .ui-widget-header a:hover, #menu a:hover {
+color : #FFF;
+}
+th a:hover, .ui-widget-header a:hover {
+text-decoration : underline;
+}
+textarea {
+background : transparent;
+}
+select {
+border : #212121 solid 1px;
+}
+#g_top_nav_menu ul {
+padding : 0;
+}
+#g_top_nav_menu {
+z-index : 4;
+left : 8.5%;
+right : 5%;
+position : relative;
+margin : -8px auto;
+padding : 0;
+top : 0;
+background : rgba(13, 16, 20, 0.95);
+}
+#g_top_nav_menu li {
+float : left;
+list-style-type : none;
+}
+#g_top_nav_menu a {
+display : block;
+padding : 0 10px;
+line-height : 1.5em;
+color : #6699FF;
+text-decoration : none;
+font-weight : bold;
+}
+#g_top_nav_menu a:hover {
+color : #fff;
+}
+.admin {
+color : red;
+}
+.mod {
+color : yellow;
+}
+.ops {
+color : skyblue;
+}
+.galaxy-short-admin, .galaxy-username-admin {
+color : red;
+}
+.galaxy-short-mod, .galaxy-username-mod {
+color : yellow;
+}
+.galaxy-short-ops, .galaxy-username-ops {
+color : purple;
+}
+.messages_body .admin {
+font-weight : 700;
+color : red;
+}
+.messages_body .mod {
+font-weight : 700;
+color : yellow;
+}
+.messages_body .ops {
+font-weight : 700;
+color : skyblue;
+}
+.res_max {
+color : #0F0;
+}
+.res_name {
+color : gold;
+font-weight : 700;
+}
+.galaxy-alliance-member {
+color : #99FF66;
+}
+.galaxy-alliance-friend {
+color : #99FFFF;
+}
+.galaxy-alliance-enemy {
+color : #FF0000;
+}
+.galaxy-short-noob, .galaxy-username-noob {
+color : #a0ffa0;
+}
+.galaxy-short-strong, .galaxy-username-strong {
+color : #ffa0a0;
+}
+.galaxy-short-vacation, .galaxy-username-vacation {
+color : #659ec7;
+}
+.galaxy-short-inactive, .galaxy-username-inactive {
+color : #ccc;
+}
+.galaxy-short-longinactive, .galaxy-username-longinactive {
+color : #999;
+}
+.galaxy-alliance-ownally {
+color : gold;
+}
+.galaxy-short-banned {
+text-decoration : line-through;
+}
+.ownattack {
+color : #6c3;
+}
+.owncolony {
+color : #c1c1c1;
+}
+.owndeploy {
+color : #666;
+}
+.owndestroy {
+color : #ff9;
+}
+.ownfederation {
+color : #c66;
+}
+.ownharvest {
+color : #ceff68;
+}
+.ownhold {
+color : #80a0c0;
+}
+.destroy {
+color : #d4a017;
+}
+.hold {
+color : #39c;
+}
+.warning {
+color : #FF8040;
+}
+.notice {
+color : #FF0;
+}
+.return {
+color : #444;
+}
+.allymember, .colony, .deploy, .harvest, .transport, .success {
+color : lime;
+}
+.owntransport {
+color : #a0ffa0;
+}
+.ownespionage, .ownmissile {
+color : #fc6;
+}
+.espionage, .missile {
+color : #f60;
+}
+.build_submit {
+background : none 0 0 repeat scroll transparent;
+border : none 0;
+color : lime;
+}
+.onlist {
+color : #DDD;
+}
+#header {
+background : #0D1014;
+background : rgba(13, 16, 20, 0.6);
+border : black solid 1px;
+}
+#resourcesdiv {
+text-align : center;
+}
+#menu a {
+background : rgba(13, 16, 20, 0.95);
+}
+#menu a:hover {
+background : #212428;
+color : #00ff00;
+}
+.menu-head a {
+height : 78px;
+background : none !important ;
+padding : 0 !important ;
+text-indent : -1000em;
+}
+.menu-head {
+background : url('./img/menu-top.jpg') 0 -22px no-repeat scroll transparent;
+}
+.menucat1-head {
+background-image : url('./img/menu_wirt.png');
+}
+.menucat2-head {
+background-image : url('./img/menu_com.png');
+}
+.menucat3-head {
+background-image : url('./img/menu_acc.png');
+}
+.menu-footer {
+background-image : url('./img/menu-foot.png');
+}
+#planet_menu_link {
+font-weight : 700;
+}
+#planet_menu_header {
+text-align : right;
+}
+#planet_menu_content li {
+text-align : center;
+}
+.tip th {
+text-align : center;
+}
+.top {
+vertical-align : top;
+}
+.transparent, #header td, .tip td, .tip th, .raportMessage td {
+background : transparent;
+border : none;
+}
+.mes_unread td {
+font-weight : 700;
+}
+a {
+text-decoration : none;
+}
+th a, .res_current {
+color : #FFF;
+}
+.res_current_max, .attack, .federation, .error, .newmessage {
+color : red;
+}
+#fleetstatustable td {
+background : transparent;
+background-image : none;
+border : none 0;
+}
+.raportWin {
+color : lime;
+}
+.raportLose {
+color : red;
+}
+.ui-progressbar-value {
+background-image : url(img/processbar.gif);
+background-position : top left;
+border-color : #000;
+}
+.spyRaportContainerHead {
+background : #212428;
+color : yellow;
+font-weight : 700;
+text-align : center;
+margin : 3px 0;
+padding : 3px;
+}
+.spyRaportContainerRow {
+border-top : 1px solid #DDD;
+}
+.spyRaportContainerHead + .spyRaportContainerRow {
+border-top : 0 none;
+}
+.ui-autocomplete, .ui-state-hover, .ui-state-default, .ui-tabs-nav, .ui-tabs, .ui-progressbar, .ui-progressbar-value {
+border-radius : 0;
+}
+.ui-state-default {
+border : #000 solid 1px !important ;
+background : #0D1014 !important ;
+}
+.ui-state-default > a {
+cursor : pointer !important ;
+}
+.ui-state-hover, .ui-progressbar {
+border : #000 solid 1px !important ;
+background : silver;
+}
+.ui-tabs-nav {
+padding : 0;
+height : 30px;
+color : white;
+}
+.ui-tabs {
+border : silver solid 1px;
+background : transparent;
+}
+#aufgabe_liste {
+width : 90%;
+list-style-type : none;
+}
+.aufzaehlungszeichen {
+background : url(images/arrow_right.png) left 0.2em no-repeat;
+padding : 0.1em 0 0 1.8em;
+margin : 1em 0 0.4em 5em;
+}
+.table517 {
+width : 755px !important ;
+}
+table#galaxy {
+background : url(images/others/galaxia_bg.png);
+margin-left : 13px;
+}

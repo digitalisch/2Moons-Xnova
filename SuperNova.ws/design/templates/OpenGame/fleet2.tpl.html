@@ -1,0 +1,149 @@
+<!-- INCLUDE fleet_javascript -->
+
+<script type="text/javascript"><!--
+var fleet_capacity = {fleet_capacity};
+var resource_max = Array({planet_metal}, {planet_crystal}, {planet_deuterium});
+var fleet_slide_changing = false;
+--></script>
+
+<h2>{L_flt_page2_title}</h2>
+<h3>{TableTitle}</h3>
+<form action="fleet.php?fleet_page=3" method="post">
+  <input type="hidden" name="galaxy"          value="{galaxy}" />
+  <input type="hidden" name="system"          value="{system}" />
+  <input type="hidden" name="planet"          value="{planet}" />
+  <input type="hidden" name="planet_type"     value="{planet_type}" />
+
+  <input type="hidden" name="thisgalaxy"      value="{thisgalaxy}" />
+  <input type="hidden" name="thissystem"      value="{thissystem}" />
+  <input type="hidden" name="thisplanet"      value="{thisplanet}" />
+  <input type="hidden" name="thisplanet_type" value="{thisplanet_type}" />
+
+  <input type="hidden" name="usedfleet"       value="{usedfleet}" />
+
+  <input type="hidden" name="consumption"     value="{consumption}" />
+  <input type="hidden" name="speed"           value="{speed}" />
+  <input type="hidden" name="fleet_group"     value="{fleet_group}" />
+  <input type="hidden" name="acs_target_mr"   value="{acs_target_mr}" />
+  
+  <input type="hidden" name="speedallsmin"    value="{speedallsmin}" />
+  <input type="hidden" name="speedfactor"     value="{speedfactor}" />
+
+  <table>
+    <!--<tr><td class="c" colspan="2">{fl_mission}</td></tr>-->
+
+    <!-- BEGIN missions -->
+      <tr><th nowrap><div align=left>
+        <input id="target_mission{missions.ID}" type="radio" name="target_mission" class="frameless" value="{missions.ID}" onChange="changeMission(this);" onClick="changeMission(this);" <!-- IF missions.CHECKED -->checked <!-- ENDIF -->>
+        <label for="target_mission{missions.ID}">{missions.NAME}</label>
+        <!-- IF missions.ID == 5 || missions.ID == 15 -->
+          <!-- IF MAX_DURATION -->
+          - {L_flt_stay_duration}&nbsp;&nbsp;<select name="missiontime">
+          <!-- BEGIN !duration -->
+            <option value="{duration.ID}">{duration.TIME}</option>
+          <!-- END !duration -->
+          </select>&nbsp;&nbsp;
+          <!-- ELSE -->
+            <!-- DEFINE $CANNOTSEND = 1 -->
+            <span class="error">{L_flt_error_duration_wrong}</span>
+          <!-- ENDIF -->
+        <!-- ENDIF -->
+      </div></th></tr>
+      <!-- IF missions.ID == 15 -->
+        <tr><th class="warning">{L_fl_expe_warning}</th></tr>
+      <!-- ENDIF -->
+    <!-- BEGINELSE missions -->
+      <tr><th><font color="red">{L_fl_bad_mission}</font></th></tr>
+    <!-- END missions -->
+
+    <!-- IF CAPTAIN_ID -->
+    <tr>
+      <td class="c_l" nowrap>
+        <input type="checkbox" name="captain_id" value="{CAPTAIN_ID}" />
+        {L_module_unit_captain} {CAPTAIN_LEVEL}:
+        {L_module_unit_captain_shield} +{CAPTAIN_SHIELD}% /
+        {L_module_unit_captain_armor} +{CAPTAIN_ARMOR}% /
+        {L_module_unit_captain_attack} +{CAPTAIN_ATTACK}%
+      </td>
+    </tr>
+    <!-- ENDIF -->
+    <tr><th class="c_c">
+      <input id="fleet_page2_submit" value="{L_fl_continue}" type="submit"<!-- IF $CANNOTSEND --> disabled<!-- ENDIF -->/>
+    </th></tr>
+  </table>
+<br />
+
+  <!-- IF IS_TRANSPORT_MISSIONS -->
+  <table id="resTable" style="display: none;"><tbody>
+    <tr class="c_c">
+      <th>{L_sys_resources}</th>
+      <th>{L_fl_on_stores}</th>
+      <th>{L_fl_load_cargo}</th>
+      <th>{L_fl_rest_on_planet}</th>
+    </tr>
+    <!-- BEGIN resources -->
+      <tr>
+        <td class="c_l">{resources.NAME}</td>
+        <td class="c_r">{resources.TEXT}</td>
+        <td class="c_c">
+          <!-- <ainput type="text" name="resource{resources.ID}" id="resource{resources.ID}" max="0" step="1">step="1000"</ainput> -->
+          <script type="text/javascript">
+            // jQuery("#resource{resources.ID}").attr('max', Math.min(parseInt('{resources.ON_PLANET}'), parseInt('{fleet_capacity}')));
+            // sn_ainput_make_jquery();
+            sn_ainput_make('resource{resources.ID}', {max: Math.min({resources.ON_PLANET}, {fleet_capacity}), step: 1000, button_max: true, button_zero: true});
+
+          // jQuery(document).ready(function() {
+            jQuery('#resource{resources.ID}').on('keyup change', function(event, ui) {
+              var transportCapacity = calculateTransportCapacity();
+            });
+
+            jQuery('#resource{resources.ID}slide').on('slide slidechange', function(event, ui) {
+              if(fleet_slide_changing) {
+                return;
+              } else {
+                fleet_slide_changing = true;
+              }
+              var transportCapacity = fleet_capacity - check_resource(0) - check_resource(1) - check_resource(2);
+              for(i = 0; i < 3; i++) {
+                // jQuery('#resource' + i + 'slide').slider("option", "max", Math.min(parseInt(jQuery('#resource' + i + 'slide').slider("value")) + parseInt(transportCapacity), parseInt(resource_max[i])));
+                jQuery('#resource' + i + 'slide').slider("option", "max", Math.min(jQuery('#resource' + i + 'slide').slider("value") + transportCapacity, resource_max[i]));
+                jQuery('#resource' + i).change();
+              }
+              fleet_slide_changing = false;
+            });
+          // });
+          </script>
+        </td>
+        <td id="rest_res{resources.ID}" class="c_r">{resources.ON_PLANET}</td>
+      </tr>
+    <!-- END resources -->
+
+    <tr>
+      <th colspan="2" class="c_l">{L_fl_space_left}</th>
+      <th class="c_c">
+        <div class="fl"><input type="button" onclick="zero_resources()" value="{L_fl_none_resources}"></div>
+        <div class="fr"><input type="button" onclick="max_resources()" value="{L_fl_allressources}"></div>
+      </th>
+      <th id="remainingresources" class="c_r">-</th>
+    </tr>
+  </tbody></table>
+  <!-- ENDIF -->
+
+</form>
+
+<script type="text/javascript"><!--
+  mission_checked = 0;
+  $("[name='target_mission']:checked").each(function(){
+    mission_checked = $(this).val();
+  });
+  if(!mission_checked) {
+    $("[name='target_mission']:first").attr('checked', 1);
+    mission_checked = $("[name='target_mission']:first").attr('checked', 1).val();
+  }
+  changeMission(mission_checked);
+
+  calculateTransportCapacity();
+//  tme = document.getElementsByName("target_mission");
+//  for(i = tme.length - 1; i > 0; i--) {if(tme[i].checked) break;}
+//  changeMission(tme[i]);tme[i].checked = true;calculateTransportCapacity();
+--></script>

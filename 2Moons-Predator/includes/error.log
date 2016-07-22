@@ -1,0 +1,732 @@
+[23-Apr-2014 18:08:27] USER ERROR: "Unable to load template extends 'layout.full.tpl|page.harvest.default.tpl'"
+File: /home/u671331504/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php | Line: 127
+URL: http://www.battle-galactica.meximas.com/game.php?page=harvest | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#1 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#2 /includes/pages/game/class.AbstractPage.php(246): template-&gt;display('extends:layout....')
+#3 /includes/pages/game/class.ShowHarvestPage.php(66): AbstractPage-&gt;display('page.harvest.de...')
+#4 /game.php(65): ShowHarvestPage-&gt;show()
+#5 {main}
+[23-Apr-2014 18:49:31] USER ERROR: "Unable to load template extends 'layout.full.tpl|page.harvest.default.tpl'"
+File: /home/u671331504/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php | Line: 127
+URL: http://www.battle-galactica.meximas.com/game.php?page=harvest | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#1 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#2 /includes/pages/game/class.AbstractPage.php(246): template-&gt;display('extends:layout....')
+#3 /includes/pages/game/class.ShowHarvestPage.php(66): AbstractPage-&gt;display('page.harvest.de...')
+#4 /game.php(65): ShowHarvestPage-&gt;show()
+#5 {main}
+[23-Apr-2014 19:06:30] NOTICE: "Undefined index: transcoasts"
+File: /home/u671331504/public_html/cache/en^17991ecd09df8bb10f3ab2eabda21f624415ddc9.extends.page.harvest.default.tpl.cache.php | Line: 168
+URL: http://www.battle-galactica.meximas.com/game.php?page=harvest | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^17991ecd09df8bb10f3ab2eabda21f624415ddc9.extends.page.harvest.default.tpl.cache.php(168): errorHandler(8, 'Undefined index...', '/home/u67133150...', 168, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_53580e8e23afa2_25510013(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(246): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowHarvestPage.php(66): AbstractPage-&gt;display('page.harvest.de...')
+#6 /game.php(65): ShowHarvestPage-&gt;show()
+#7 {main}
+[25-Apr-2014 20:48:57 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/u671331504/public_html/includes/pages/game/class.ShowBlackMarketPage.php on line 479
+[25-Apr-2014 20:55:00 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/u671331504/public_html/includes/pages/game/class.ShowBlackMarketPage.php on line 479
+[25-Apr-2014 20:55:08 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/u671331504/public_html/includes/pages/game/class.ShowBlackMarketPage.php on line 479
+[25-Apr-2014 20:55:09 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/u671331504/public_html/includes/pages/game/class.ShowBlackMarketPage.php on line 479
+[25-Apr-2014 21:00:40 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/u671331504/public_html/includes/pages/game/class.ShowBlackMarketPage.php on line 479
+[25-Apr-2014 21:00:43 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/u671331504/public_html/includes/pages/game/class.ShowBlackMarketPage.php on line 479
+[25-Apr-2014 21:01:20 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/u671331504/public_html/includes/pages/game/class.ShowBlackMarketPage.php on line 479
+[25-Apr-2014 21:02:11 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/u671331504/public_html/includes/pages/game/class.ShowBlackMarketPage.php on line 479
+[25-Apr-2014 21:02:13 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/u671331504/public_html/includes/pages/game/class.ShowBlackMarketPage.php on line 479
+[25-Apr-2014 21:03:51 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/u671331504/public_html/includes/pages/game/class.ShowBlackMarketPage.php on line 479
+[25-Apr-2014 21:07:28 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/u671331504/public_html/includes/pages/game/class.ShowBlackMarketPage.php on line 567
+[25-Apr-2014 21:07:55 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/u671331504/public_html/includes/pages/game/class.ShowBlackMarketPage.php on line 530
+[25-Apr-2014 21:07:58 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/u671331504/public_html/includes/pages/game/class.ShowBlackMarketPage.php on line 530
+[25-Apr-2014 21:09:22 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/u671331504/public_html/includes/pages/game/class.ShowBlackMarketPage.php on line 530
+[25-Apr-2014 21:09:24 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/u671331504/public_html/includes/pages/game/class.ShowBlackMarketPage.php on line 530
+[25-Apr-2014 21:09:27 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/u671331504/public_html/includes/pages/game/class.ShowBlackMarketPage.php on line 530
+[25-Apr-2014 21:27:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/u671331504/public_html/includes/pages/game/class.ShowBlackMarketPage.php on line 530
+[25-Apr-2014 22:31:04] USER ERROR: "SQL Error: Unknown column 'user.race' in 'on clause'Query Code: SELECT     user.*,     stat.total_points,     stat.total_rank,    COUNT(message.message_id) as messages,        races.race_name,        races.race_id    FROM uni1_users as user     LEFT JOIN uni1_statpoints as stat ON stat.id_owner = user.id AND stat.stat_type = '1'     LEFT JOIN uni1_messages as message ON message.message_owner = user.id AND message.message_unread = '1'        LEFT JOIN uni1_races as races ON races.race_id = user.race    WHERE user.id = 1    GROUP BY message.message_owner;"
+File: /home/u671331504/public_html/includes/classes/class.Database.php | Line: 80
+URL: http://www.battle-galactica.meximas.com/admin.php | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.Database.php(92): Database-&gt;query('SELECT     user...')
+#1 /includes/classes/class.Database.php(87): Database-&gt;uniquequery('SELECT     user...')
+#2 /includes/common.php(129): Database-&gt;getFirstRow('SELECT     user...')
+#3 /admin.php(33): require('/home/u67133150...')
+#4 {main}
+[26-Apr-2014 19:07:56] NOTICE: "Undefined index: raceSpecific"
+File: /home/u671331504/public_html/includes/classes/class.BuildFunctions.php | Line: 137
+URL: http://www.battle-galactica.meximas.com/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.BuildFunctions.php(137): errorHandler(8, 'Undefined index...', '/home/u67133150...', 137, Array)
+#1 /includes/pages/game/class.ShowBuildingsPage.php(309): BuildFunctions::isTechnologieAccessible(Array, Array, '21')
+#2 /game.php(65): ShowBuildingsPage-&gt;show()
+#3 {main}
+[26-Apr-2014 19:15:40] NOTICE: "Undefined index: raceSpecific"
+File: /home/u671331504/public_html/includes/classes/class.BuildFunctions.php | Line: 137
+URL: http://www.battle-galactica.meximas.com/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.BuildFunctions.php(137): errorHandler(8, 'Undefined index...', '/home/u67133150...', 137, Array)
+#1 /includes/pages/game/class.ShowBuildingsPage.php(309): BuildFunctions::isTechnologieAccessible(Array, Array, '21')
+#2 /game.php(65): ShowBuildingsPage-&gt;show()
+#3 {main}
+[26-Apr-2014 19:17:13] NOTICE: "Undefined index: raceSpecific"
+File: /home/u671331504/public_html/includes/classes/class.BuildFunctions.php | Line: 137
+URL: http://www.battle-galactica.meximas.com/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.BuildFunctions.php(137): errorHandler(8, 'Undefined index...', '/home/u67133150...', 137, Array)
+#1 /includes/pages/game/class.ShowBuildingsPage.php(309): BuildFunctions::isTechnologieAccessible(Array, Array, '21')
+#2 /game.php(65): ShowBuildingsPage-&gt;show()
+#3 {main}
+[26-Apr-2014 19:19:45] NOTICE: "Undefined index: raceSpecific"
+File: /home/u671331504/public_html/includes/classes/class.BuildFunctions.php | Line: 137
+URL: http://www.battle-galactica.meximas.com/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.BuildFunctions.php(137): errorHandler(8, 'Undefined index...', '/home/u67133150...', 137, Array)
+#1 /includes/pages/game/class.ShowBuildingsPage.php(309): BuildFunctions::isTechnologieAccessible(Array, Array, '21')
+#2 /game.php(65): ShowBuildingsPage-&gt;show()
+#3 {main}
+[26-Apr-2014 19:23:27] NOTICE: "Undefined index: raceSpecific"
+File: /home/u671331504/public_html/includes/classes/class.BuildFunctions.php | Line: 137
+URL: http://www.battle-galactica.meximas.com/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.BuildFunctions.php(137): errorHandler(8, 'Undefined index...', '/home/u67133150...', 137, Array)
+#1 /includes/pages/game/class.ShowBuildingsPage.php(309): BuildFunctions::isTechnologieAccessible(Array, Array, '21')
+#2 /game.php(65): ShowBuildingsPage-&gt;show()
+#3 {main}
+[26-Apr-2014 19:23:34] NOTICE: "Undefined index: raceSpecific"
+File: /home/u671331504/public_html/includes/classes/class.BuildFunctions.php | Line: 137
+URL: http://www.battle-galactica.meximas.com/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.BuildFunctions.php(137): errorHandler(8, 'Undefined index...', '/home/u67133150...', 137, Array)
+#1 /includes/pages/game/class.ShowBuildingsPage.php(309): BuildFunctions::isTechnologieAccessible(Array, Array, '21')
+#2 /game.php(65): ShowBuildingsPage-&gt;show()
+#3 {main}
+[26-Apr-2014 19:27:57] NOTICE: "Undefined index: raceSpecific"
+File: /home/u671331504/public_html/includes/classes/class.BuildFunctions.php | Line: 137
+URL: http://www.battle-galactica.meximas.com/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.BuildFunctions.php(137): errorHandler(8, 'Undefined index...', '/home/u67133150...', 137, Array)
+#1 /includes/pages/game/class.ShowBuildingsPage.php(309): BuildFunctions::isTechnologieAccessible(Array, Array, '21')
+#2 /game.php(65): ShowBuildingsPage-&gt;show()
+#3 {main}
+[26-Apr-2014 19:28:00] NOTICE: "Undefined index: raceSpecific"
+File: /home/u671331504/public_html/includes/classes/class.BuildFunctions.php | Line: 137
+URL: http://www.battle-galactica.meximas.com/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.BuildFunctions.php(137): errorHandler(8, 'Undefined index...', '/home/u67133150...', 137, Array)
+#1 /includes/pages/game/class.ShowBuildingsPage.php(309): BuildFunctions::isTechnologieAccessible(Array, Array, '21')
+#2 /game.php(65): ShowBuildingsPage-&gt;show()
+#3 {main}
+[26-Apr-2014 19:28:02] NOTICE: "Undefined index: raceSpecific"
+File: /home/u671331504/public_html/includes/classes/class.BuildFunctions.php | Line: 137
+URL: http://www.battle-galactica.meximas.com/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.BuildFunctions.php(137): errorHandler(8, 'Undefined index...', '/home/u67133150...', 137, Array)
+#1 /includes/pages/game/class.ShowBuildingsPage.php(309): BuildFunctions::isTechnologieAccessible(Array, Array, '21')
+#2 /game.php(65): ShowBuildingsPage-&gt;show()
+#3 {main}
+[26-Apr-2014 19:43:16] NOTICE: "Undefined index: raceSpecific"
+File: /home/u671331504/public_html/includes/classes/class.BuildFunctions.php | Line: 137
+URL: http://www.battle-galactica.meximas.com/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.BuildFunctions.php(137): errorHandler(8, 'Undefined index...', '/home/u67133150...', 137, Array)
+#1 /includes/pages/game/class.ShowBuildingsPage.php(309): BuildFunctions::isTechnologieAccessible(Array, Array, '21')
+#2 /game.php(65): ShowBuildingsPage-&gt;show()
+#3 {main}
+[26-Apr-2014 20:26:20] NOTICE: "Undefined index: raceSpecific"
+File: /home/u671331504/public_html/includes/classes/class.BuildFunctions.php | Line: 137
+URL: http://www.battle-galactica.meximas.com/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.BuildFunctions.php(137): errorHandler(8, 'Undefined index...', '/home/u67133150...', 137, Array)
+#1 /includes/pages/game/class.ShowBuildingsPage.php(309): BuildFunctions::isTechnologieAccessible(Array, Array, '21')
+#2 /game.php(65): ShowBuildingsPage-&gt;show()
+#3 {main}
+[26-Apr-2014 20:27:24] NOTICE: "Undefined index: raceSpecific"
+File: /home/u671331504/public_html/includes/classes/class.BuildFunctions.php | Line: 137
+URL: http://www.battle-galactica.meximas.com/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.BuildFunctions.php(137): errorHandler(8, 'Undefined index...', '/home/u67133150...', 137, Array)
+#1 /includes/pages/game/class.ShowBuildingsPage.php(309): BuildFunctions::isTechnologieAccessible(Array, Array, '21')
+#2 /game.php(65): ShowBuildingsPage-&gt;show()
+#3 {main}
+[26-Apr-2014 20:39:49] NOTICE: "Undefined index: raceSpecific"
+File: /home/u671331504/public_html/includes/classes/class.BuildFunctions.php | Line: 137
+URL: http://www.battle-galactica.meximas.com/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.BuildFunctions.php(137): errorHandler(8, 'Undefined index...', '/home/u67133150...', 137, Array)
+#1 /includes/pages/game/class.ShowBuildingsPage.php(309): BuildFunctions::isTechnologieAccessible(Array, Array, '21')
+#2 /game.php(65): ShowBuildingsPage-&gt;show()
+#3 {main}
+[26-Apr-2014 21:13:32] NOTICE: "Undefined index: raceSpecific"
+File: /home/u671331504/public_html/includes/classes/class.BuildFunctions.php | Line: 137
+URL: http://www.battle-galactica.meximas.com/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.BuildFunctions.php(137): errorHandler(8, 'Undefined index...', '/home/u67133150...', 137, Array)
+#1 /includes/pages/game/class.ShowBuildingsPage.php(309): BuildFunctions::isTechnologieAccessible(Array, Array, '21')
+#2 /game.php(65): ShowBuildingsPage-&gt;show()
+#3 {main}
+[26-Apr-2014 21:13:34] NOTICE: "Undefined index: raceSpecific"
+File: /home/u671331504/public_html/includes/classes/class.BuildFunctions.php | Line: 137
+URL: http://www.battle-galactica.meximas.com/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.BuildFunctions.php(137): errorHandler(8, 'Undefined index...', '/home/u67133150...', 137, Array)
+#1 /includes/pages/game/class.ShowBuildingsPage.php(309): BuildFunctions::isTechnologieAccessible(Array, Array, '21')
+#2 /game.php(65): ShowBuildingsPage-&gt;show()
+#3 {main}
+[26-Apr-2014 21:13:41] NOTICE: "Undefined index: raceSpecific"
+File: /home/u671331504/public_html/includes/classes/class.BuildFunctions.php | Line: 137
+URL: http://www.battle-galactica.meximas.com/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.BuildFunctions.php(137): errorHandler(8, 'Undefined index...', '/home/u67133150...', 137, Array)
+#1 /includes/pages/game/class.ShowBuildingsPage.php(309): BuildFunctions::isTechnologieAccessible(Array, Array, '21')
+#2 /game.php(65): ShowBuildingsPage-&gt;show()
+#3 {main}
+[26-Apr-2014 22:28:57] NOTICE: "Undefined index: bankm"
+File: /home/u671331504/public_html/includes/pages/game/class.ShowBancoPage.php | Line: 18
+URL: http://www.battle-galactica.meximas.com/game.php?page=banco | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowBancoPage.php(18): errorHandler(8, 'Undefined index...', '/home/u67133150...', 18, Array)
+#1 /game.php(65): ShowBancoPage-&gt;show()
+#2 {main}
+[26-Apr-2014 22:29:47] NOTICE: "Undefined index: bankm"
+File: /home/u671331504/public_html/includes/pages/game/class.ShowBancoPage.php | Line: 18
+URL: http://www.battle-galactica.meximas.com/game.php?page=banco | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowBancoPage.php(18): errorHandler(8, 'Undefined index...', '/home/u67133150...', 18, Array)
+#1 /game.php(65): ShowBancoPage-&gt;show()
+#2 {main}
+[26-Apr-2014 22:59:17] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 624
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(624): errorHandler(8, 'Undefined index...', '/home/u67133150...', 624, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_535c2c355201e8_01382516(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535c218182c094_37338172(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(294): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[26-Apr-2014 22:59:41] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^022e3fe984f14c322bf870fd41e2712fddcf85de.extends.page.bancin.default.tpl.cache.php | Line: 337
+URL: http://www.battle-galactica.meximas.com/game.php?page=bankin | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^022e3fe984f14c322bf870fd41e2712fddcf85de.extends.page.bancin.default.tpl.cache.php(337): errorHandler(8, 'Undefined index...', '/home/u67133150...', 337, Array)
+#1 /cache/en^022e3fe984f14c322bf870fd41e2712fddcf85de.extends.page.bancin.default.tpl.cache.php(75): content_535c2c4e08d5e0_81805505(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535c26a33c8716_71934263(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(294): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowBankinPage.php(60): AbstractPage-&gt;display('page.bancin.def...')
+#7 /game.php(65): ShowBankinPage-&gt;show()
+#8 {main}
+[26-Apr-2014 22:59:43] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^c77d9e03979d2a06e4f56f4170551f5af8b73676.extends.page.banco.default.tpl.cache.php | Line: 324
+URL: http://www.battle-galactica.meximas.com/game.php?page=banco | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^c77d9e03979d2a06e4f56f4170551f5af8b73676.extends.page.banco.default.tpl.cache.php(324): errorHandler(8, 'Undefined index...', '/home/u67133150...', 324, Array)
+#1 /cache/en^c77d9e03979d2a06e4f56f4170551f5af8b73676.extends.page.banco.default.tpl.cache.php(75): content_535c2c500e9965_35401378(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535c260dc397e2_29353073(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(294): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowBancoPage.php(23): AbstractPage-&gt;display('page.banco.defa...')
+#7 /game.php(65): ShowBancoPage-&gt;show()
+#8 {main}
+[26-Apr-2014 23:00:47] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^c77d9e03979d2a06e4f56f4170551f5af8b73676.extends.page.banco.default.tpl.cache.php | Line: 324
+URL: http://www.battle-galactica.meximas.com/game.php?page=banco | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^c77d9e03979d2a06e4f56f4170551f5af8b73676.extends.page.banco.default.tpl.cache.php(324): errorHandler(8, 'Undefined index...', '/home/u67133150...', 324, Array)
+#1 /cache/en^c77d9e03979d2a06e4f56f4170551f5af8b73676.extends.page.banco.default.tpl.cache.php(75): content_535c2c500e9965_35401378(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535c260dc397e2_29353073(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(294): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowBancoPage.php(23): AbstractPage-&gt;display('page.banco.defa...')
+#7 /game.php(65): ShowBancoPage-&gt;show()
+#8 {main}
+[26-Apr-2014 23:00:48] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^e34abe7913ccf86f867aec194ac373262057d3e2.extends.page.techtree.default.tpl.cache.php | Line: 351
+URL: http://www.battle-galactica.meximas.com/game.php?page=techtree | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^e34abe7913ccf86f867aec194ac373262057d3e2.extends.page.techtree.default.tpl.cache.php(351): errorHandler(8, 'Undefined index...', '/home/u67133150...', 351, Array)
+#1 /cache/en^e34abe7913ccf86f867aec194ac373262057d3e2.extends.page.techtree.default.tpl.cache.php(75): content_535c2c90e56e24_93960720(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535c218490b476_16611931(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(294): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowTechtreePage.php(70): AbstractPage-&gt;display('page.techtree.d...')
+#7 /game.php(65): ShowTechtreePage-&gt;show()
+#8 {main}
+[26-Apr-2014 23:00:58] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 624
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(624): errorHandler(8, 'Undefined index...', '/home/u67133150...', 624, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_535c2c355201e8_01382516(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535c218182c094_37338172(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(294): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[26-Apr-2014 23:01:22] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 624
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(624): errorHandler(8, 'Undefined index...', '/home/u67133150...', 624, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_535c2cb22556d3_65049215(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535c218187c6e7_59516570(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(294): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[26-Apr-2014 23:09:14] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 624
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(624): errorHandler(8, 'Undefined index...', '/home/u67133150...', 624, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_535c2cb22556d3_65049215(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535c218187c6e7_59516570(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(294): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[26-Apr-2014 23:09:19] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 624
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(624): errorHandler(8, 'Undefined index...', '/home/u67133150...', 624, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_535c2cb22556d3_65049215(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535c218187c6e7_59516570(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(294): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[26-Apr-2014 23:11:01] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 624
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(624): errorHandler(8, 'Undefined index...', '/home/u67133150...', 624, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_535c2cb22556d3_65049215(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535c218187c6e7_59516570(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(274): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[26-Apr-2014 23:11:04] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 624
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(624): errorHandler(8, 'Undefined index...', '/home/u67133150...', 624, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_535c2cb22556d3_65049215(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535c218187c6e7_59516570(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(274): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[26-Apr-2014 23:15:49] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 624
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(624): errorHandler(8, 'Undefined index...', '/home/u67133150...', 624, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_535c301583f7b4_91523065(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535c218187c6e7_59516570(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(293): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[26-Apr-2014 23:18:22] USER ERROR: "Syntax Error in template &quot;/home/u671331504/public_html/styles/templates/game/main.navigation.tpl&quot;  on line 7 &quot;{/if}&quot; unexpected closing tag"
+File: /home/u671331504/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_compilebase.php(170): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unexpected clos...', 7)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_compile_if.php(197): Smarty_Internal_CompileBase-&gt;closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(473): Smarty_Internal_Compile_Ifclose-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('ifclose', Array, Array)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2493): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('ifclose', Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r58()
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(58)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '???&lt;li&gt;&lt;a href=...')
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('&lt;div id=&quot;leftme...')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_compile_include.php(146): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Include-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('include', Array, Array)
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2388): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('include', Array)
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r36()
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(36)
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '?')
+#16 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#17 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#18 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#19 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#20 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#21 /includes/pages/game/class.AbstractPage.php(293): template-&gt;display('extends:layout....')
+#22 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#23 /game.php(65): ShowOverviewPage-&gt;show()
+#24 {main}
+[26-Apr-2014 23:18:48] NOTICE: "Undefined index: secsBonus"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 626
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(626): errorHandler(8, 'Undefined index...', '/home/u67133150...', 626, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_535c30c88e5148_93231244(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535c218187c6e7_59516570(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(293): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[26-Apr-2014 23:19:27] USER ERROR: "SQL Error: Incorrect datetime value: '1398572367' for column 'bonus_attente_time' at row 1Query Code: UPDATE uni1_users SET
+                              bonus_attente_time=1398572367
+                              WHERE id= '1';"
+File: /home/u671331504/public_html/includes/classes/class.Database.php | Line: 80
+URL: http://www.battle-galactica.meximas.com/game.php?page=bonus | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowBonusPage.php(167): Database-&gt;query('UPDATE uni1_use...')
+#1 /game.php(65): ShowBonusPage-&gt;show()
+#2 {main}
+[26-Apr-2014 23:52:45] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 624
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(624): errorHandler(8, 'Undefined index...', '/home/u67133150...', 624, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_535c38bd916d06_86837407(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535c35c965c356_88539170(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(293): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[26-Apr-2014 23:54:50] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 624
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(624): errorHandler(8, 'Undefined index...', '/home/u67133150...', 624, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_535c393ad5d987_00457871(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535c35c965c356_88539170(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(293): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[27-Apr-2014 00:01:18] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 624
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(624): errorHandler(8, 'Undefined index...', '/home/u67133150...', 624, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_535c393ad5d987_00457871(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535c35c965c356_88539170(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(293): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[27-Apr-2014 21:19:14] NOTICE: "Undefined index: bankm"
+File: /home/u671331504/public_html/cache/en^ff2bc01832c90109d3debdff5f29c53ec42b504b.extends.page.moonbuy.default.tpl.cache.php | Line: 103
+URL: http://www.battle-galactica.meximas.com/game.php?page=moonbuy | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^ff2bc01832c90109d3debdff5f29c53ec42b504b.extends.page.moonbuy.default.tpl.cache.php(103): errorHandler(8, 'Undefined index...', '/home/u67133150...', 103, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535d6642cf17b7_74526266(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(293): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowMoonbuyPage.php(45): AbstractPage-&gt;display('page.moonbuy.de...')
+#6 /game.php(65): ShowMoonbuyPage-&gt;show()
+#7 {main}
+[28-Apr-2014 22:05:30] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^2320e0d23c73020921b4df713efd9e54a58db937.extends.error.default.tpl.cache.php | Line: 288
+URL: http://www.battle-galactica.meximas.com/game.php?page=bonus | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^2320e0d23c73020921b4df713efd9e54a58db937.extends.error.default.tpl.cache.php(288): errorHandler(8, 'Undefined index...', '/home/u67133150...', 288, Array)
+#1 /cache/en^2320e0d23c73020921b4df713efd9e54a58db937.extends.error.default.tpl.cache.php(75): content_535ec29a7b7c93_82112908(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535e8b5e812ed9_02667968(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(299): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.AbstractPage.php(269): AbstractPage-&gt;display('error.default.t...')
+#7 /includes/pages/game/class.ShowBonusPage.php(119): AbstractPage-&gt;printMessage('Your renewal ti...', true, Array)
+#8 /game.php(65): ShowBonusPage-&gt;show()
+#9 {main}
+[28-Apr-2014 22:05:36] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 625
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(625): errorHandler(8, 'Undefined index...', '/home/u67133150...', 625, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_535ec2a06d7413_33465513(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535e8b62364cd7_49345046(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(299): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[28-Apr-2014 22:05:38] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^2320e0d23c73020921b4df713efd9e54a58db937.extends.error.default.tpl.cache.php | Line: 288
+URL: http://www.battle-galactica.meximas.com/game.php?page=bonus | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^2320e0d23c73020921b4df713efd9e54a58db937.extends.error.default.tpl.cache.php(288): errorHandler(8, 'Undefined index...', '/home/u67133150...', 288, Array)
+#1 /cache/en^2320e0d23c73020921b4df713efd9e54a58db937.extends.error.default.tpl.cache.php(75): content_535ec29a7b7c93_82112908(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535e8b5e812ed9_02667968(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(299): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.AbstractPage.php(269): AbstractPage-&gt;display('error.default.t...')
+#7 /includes/pages/game/class.ShowBonusPage.php(119): AbstractPage-&gt;printMessage('Your renewal ti...', true, Array)
+#8 /game.php(65): ShowBonusPage-&gt;show()
+#9 {main}
+[28-Apr-2014 22:05:46] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 625
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(625): errorHandler(8, 'Undefined index...', '/home/u67133150...', 625, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_535ec2a06d7413_33465513(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535e8b62364cd7_49345046(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(299): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[28-Apr-2014 22:06:38] USER ERROR: "Syntax Error in template &quot;/home/u671331504/public_html/styles/templates/game/main.navigation.tpl&quot;  on line 7 &quot;{else}&quot; unexpected closing tag"
+File: /home/u671331504/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_compilebase.php(170): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unexpected clos...', 7)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_compile_if.php(85): Smarty_Internal_CompileBase-&gt;closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Else-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('else', Array, Array)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2393): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('else', Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r37()
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(37)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '???&lt;a title=&quot;Te...')
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('&lt;div id=&quot;leftme...')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_compile_include.php(146): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Include-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('include', Array, Array)
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2388): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('include', Array)
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r36()
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(36)
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '?')
+#16 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#17 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#18 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#19 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#20 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#21 /includes/pages/game/class.AbstractPage.php(299): template-&gt;display('extends:layout....')
+#22 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#23 /game.php(65): ShowOverviewPage-&gt;show()
+#24 {main}
+[28-Apr-2014 22:07:12] NOTICE: "Undefined index: secsBonus"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 627
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(627): errorHandler(8, 'Undefined index...', '/home/u67133150...', 627, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_535ec3002c7af4_45985947(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535e8b62364cd7_49345046(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(299): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[28-Apr-2014 22:21:13] NOTICE: "Undefined offset: 5"
+File: /home/u671331504/public_html/cache/en^51c87cdb6d7120bd73a1f252b78ca2c6db0bb1ac.extends.page.premium.default.tpl.cache.php | Line: 382
+URL: http://www.battle-galactica.meximas.com/game.php?page=premium | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^51c87cdb6d7120bd73a1f252b78ca2c6db0bb1ac.extends.page.premium.default.tpl.cache.php(382): errorHandler(8, 'Undefined offse...', '/home/u67133150...', 382, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535ec375b3acb5_73933108(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(299): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowPremiumPage.php(89): AbstractPage-&gt;display('page.premium.de...')
+#6 /game.php(65): ShowPremiumPage-&gt;show()
+#7 {main}
+[28-Apr-2014 23:22:28 Europe/London] PHP Fatal error:  Class 'ShowRisorsePage' not found in /home/u671331504/public_html/game.php on line 49
+[29-Apr-2014 20:39:54 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Use of undefined constant MODE - assumed 'MODE'' in /home/u671331504/public_html/includes/GeneralFunctions.php:670
+Stack trace:
+#0 /home/u671331504/public_html/includes/GeneralFunctions.php(670): errorHandler(8, 'Use of undefine...', '/home/u67133150...', 670, Array)
+#1 [internal function]: exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown in /home/u671331504/public_html/includes/GeneralFunctions.php on line 670
+[29-Apr-2014 20:40:27 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Use of undefined constant MODE - assumed 'MODE'' in /home/u671331504/public_html/includes/GeneralFunctions.php:670
+Stack trace:
+#0 /home/u671331504/public_html/includes/GeneralFunctions.php(670): errorHandler(8, 'Use of undefine...', '/home/u67133150...', 670, Array)
+#1 [internal function]: exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown in /home/u671331504/public_html/includes/GeneralFunctions.php on line 670
+[29-Apr-2014 20:43:57 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Use of undefined constant MODE - assumed 'MODE'' in /home/u671331504/public_html/includes/GeneralFunctions.php:670
+Stack trace:
+#0 /home/u671331504/public_html/includes/GeneralFunctions.php(670): errorHandler(8, 'Use of undefine...', '/home/u67133150...', 670, Array)
+#1 [internal function]: exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown in /home/u671331504/public_html/includes/GeneralFunctions.php on line 670
+[29-Apr-2014 20:43:57 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Use of undefined constant MODE - assumed 'MODE'' in /home/u671331504/public_html/includes/GeneralFunctions.php:670
+Stack trace:
+#0 /home/u671331504/public_html/includes/GeneralFunctions.php(670): errorHandler(8, 'Use of undefine...', '/home/u67133150...', 670, Array)
+#1 [internal function]: exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown in /home/u671331504/public_html/includes/GeneralFunctions.php on line 670
+[29-Apr-2014 20:48:37 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Use of undefined constant MODE - assumed 'MODE'' in /home/u671331504/public_html/includes/GeneralFunctions.php:670
+Stack trace:
+#0 /home/u671331504/public_html/includes/GeneralFunctions.php(670): errorHandler(8, 'Use of undefine...', '/home/u67133150...', 670, Array)
+#1 [internal function]: exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown in /home/u671331504/public_html/includes/GeneralFunctions.php on line 670
+[29-Apr-2014 20:49:14 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Use of undefined constant MODE - assumed 'MODE'' in /home/u671331504/public_html/includes/GeneralFunctions.php:670
+Stack trace:
+#0 /home/u671331504/public_html/includes/GeneralFunctions.php(670): errorHandler(8, 'Use of undefine...', '/home/u67133150...', 670, Array)
+#1 [internal function]: exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown in /home/u671331504/public_html/includes/GeneralFunctions.php on line 670
+[29-Apr-2014 22:02:01] NOTICE: "Undefined variable: BonusTemps"
+File: /home/u671331504/public_html/includes/pages/game/class.AbstractPage.php | Line: 175
+URL: http://www.battle-galactica.meximas.com/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.AbstractPage.php(175): errorHandler(8, 'Undefined varia...', '/home/u67133150...', 175, Array)
+#1 /includes/pages/game/class.AbstractPage.php(222): AbstractPage-&gt;getNavigationData()
+#2 /includes/pages/game/class.AbstractPage.php(284): AbstractPage-&gt;getPageData()
+#3 /includes/pages/game/class.ShowBuildingsPage.php(377): AbstractPage-&gt;display('page.buildings....')
+#4 /game.php(65): ShowBuildingsPage-&gt;show()
+#5 {main}
+[29-Apr-2014 22:02:12] NOTICE: "Undefined variable: BonusTemps"
+File: /home/u671331504/public_html/includes/pages/game/class.AbstractPage.php | Line: 175
+URL: http://www.battle-galactica.meximas.com/game.php?page=achievements | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.AbstractPage.php(175): errorHandler(8, 'Undefined varia...', '/home/u67133150...', 175, Array)
+#1 /includes/pages/game/class.AbstractPage.php(222): AbstractPage-&gt;getNavigationData()
+#2 /includes/pages/game/class.AbstractPage.php(284): AbstractPage-&gt;getPageData()
+#3 /includes/pages/game/class.ShowAchievementsPage.php(2534): AbstractPage-&gt;display('page.achievemen...')
+#4 /game.php(65): ShowAchievementsPage-&gt;show()
+#5 {main}
+[29-Apr-2014 22:03:20] NOTICE: "Undefined variable: BonusTemps"
+File: /home/u671331504/public_html/includes/pages/game/class.AbstractPage.php | Line: 175
+URL: http://www.battle-galactica.meximas.com/game.php?page=achievements | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.AbstractPage.php(175): errorHandler(8, 'Undefined varia...', '/home/u67133150...', 175, Array)
+#1 /includes/pages/game/class.AbstractPage.php(222): AbstractPage-&gt;getNavigationData()
+#2 /includes/pages/game/class.AbstractPage.php(284): AbstractPage-&gt;getPageData()
+#3 /includes/pages/game/class.ShowAchievementsPage.php(2534): AbstractPage-&gt;display('page.achievemen...')
+#4 /game.php(65): ShowAchievementsPage-&gt;show()
+#5 {main}
+[29-Apr-2014 22:03:35] NOTICE: "Undefined variable: BonusTemps"
+File: /home/u671331504/public_html/includes/pages/game/class.AbstractPage.php | Line: 175
+URL: http://www.battle-galactica.meximas.com/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.AbstractPage.php(175): errorHandler(8, 'Undefined varia...', '/home/u67133150...', 175, Array)
+#1 /includes/pages/game/class.AbstractPage.php(222): AbstractPage-&gt;getNavigationData()
+#2 /includes/pages/game/class.AbstractPage.php(284): AbstractPage-&gt;getPageData()
+#3 /includes/pages/game/class.ShowBuildingsPage.php(377): AbstractPage-&gt;display('page.buildings....')
+#4 /game.php(65): ShowBuildingsPage-&gt;show()
+#5 {main}
+[29-Apr-2014 22:05:44] NOTICE: "Undefined variable: BonusTemps"
+File: /home/u671331504/public_html/includes/pages/game/class.AbstractPage.php | Line: 175
+URL: http://www.battle-galactica.meximas.com/game.php | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.AbstractPage.php(175): errorHandler(8, 'Undefined varia...', '/home/u67133150...', 175, Array)
+#1 /includes/pages/game/class.AbstractPage.php(222): AbstractPage-&gt;getNavigationData()
+#2 /includes/pages/game/class.AbstractPage.php(284): AbstractPage-&gt;getPageData()
+#3 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[29-Apr-2014 22:09:40] NOTICE: "Undefined index: secsBonus"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 629
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(629): errorHandler(8, 'Undefined index...', '/home/u67133150...', 629, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_53601514253c37_95940933(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535fddd89207f2_57677512(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(299): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[29-Apr-2014 22:12:27] NOTICE: "Undefined index: secsBonus"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 629
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(629): errorHandler(8, 'Undefined index...', '/home/u67133150...', 629, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_53601514253c37_95940933(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535fddd89207f2_57677512(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(303): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[29-Apr-2014 22:12:29] NOTICE: "Undefined index: secsBonus"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 629
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(629): errorHandler(8, 'Undefined index...', '/home/u67133150...', 629, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_53601514253c37_95940933(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535fddd89207f2_57677512(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(303): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[29-Apr-2014 22:16:11] NOTICE: "Undefined index: secsBonus"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 629
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(629): errorHandler(8, 'Undefined index...', '/home/u67133150...', 629, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_53601514253c37_95940933(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535fddd89207f2_57677512(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(299): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[29-Apr-2014 22:16:44] NOTICE: "Undefined index: BonusTemps"
+File: /home/u671331504/public_html/cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php | Line: 625
+URL: http://www.battle-galactica.meximas.com/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(625): errorHandler(8, 'Undefined index...', '/home/u67133150...', 625, Array)
+#1 /cache/en^9153f93160592dfea773df19d82407a8717824ed.extends.page.overview.default.tpl.cache.php(75): content_536016bc80a8a6_26725720(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_535fddd89207f2_57677512(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.AbstractPage.php(299): template-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.ShowOverviewPage.php(274): AbstractPage-&gt;display('page.overview.d...')
+#7 /game.php(65): ShowOverviewPage-&gt;show()
+#8 {main}
+[30-Apr-2014 18:58:46] USER ERROR: "Connection to database failed: Unknown MySQL server host 'mysql.hostinger.co.uk' (25)"
+File: /home/predator/public_html/includes/classes/class.Database.php | Line: 57
+URL: https://188.121.60.171/~predator/ | Version: 1.7.2749 (FILE)
+Stack trace:
+#0 /includes/common.php(102): Database-&gt;__construct()
+#1 /index.php(35): require('/home/predator/...')
+#2 {main}
+[30-Apr-2014 18:59:03] USER ERROR: "Connection to database failed: Unknown MySQL server host 'mysql.hostinger.co.uk' (25)"
+File: /home/predator/public_html/includes/classes/class.Database.php | Line: 57
+URL: http://188.121.60.171/~predator/ | Version: 1.7.2749 (FILE)
+Stack trace:
+#0 /includes/common.php(102): Database-&gt;__construct()
+#1 /index.php(35): require('/home/predator/...')
+#2 {main}

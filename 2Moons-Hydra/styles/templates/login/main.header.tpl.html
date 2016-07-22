@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="{$lang}" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="{$lang}" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="{$lang}" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="{$lang}" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="{$lang}" class="no-js"> <!--<![endif]-->
+<head>
+
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	
+	<title>2Moons Universe</title>
+	<meta name="generator" content="2Moons {$VERSION}">
+	<meta name="keywords" content="Weltraum Browsergame, XNova, 2Moons, Space, Private, Server, Speed">
+	<meta name="description" content="2Moons Browsergame powerd by http://2moons.cc/"> <!-- Noob Check :) -->
+	
+	<!--[if lt IE 9]>
+	<script src="scripts/base/html5.js"></script>
+	<![endif]-->
+	<!-- Imports General CSS and jQuery CSS -->
+	<link href="ui/css/screen.css" rel="stylesheet" media="screen" type="text/css" />
+	
+	<!-- CSS for Fluid and Fixed Widths - Double to prevent flickering on change -->
+	<link href="ui/css/fixed.css" rel="stylesheet" media="screen" type="text/css" />
+	<link href="ui/css/fixed.css" rel="stylesheet" media="screen" type="text/css" class="width" />
+	
+	<!-- IE Stylesheet ie7 - Added in 1.2 -->
+	<!--[if lt IE 8]> <html lang="en" class="ie7"> <![endif]-->
+	
+	<!-- IE Stylesheet ie8 - Added in 1.1 -->
+	<!--[if IE 8 ]> <html lang="en" class="ie8"> <![endif]-->
+	
+	<!-- CSS for Theme Styles - Double to prevent flickering on change -->
+	<link href="ui/css/theme/blue.css" rel="stylesheet" media="screen" type="text/css" />
+	<link href="ui/css/theme/blue.css" rel="stylesheet" media="screen" type="text/css" class="theme" />
+	
+	<!-- IE Canvas Fix for Visualize Charts - Added in 1.1 -->
+	<!--[if IE]><script type="text/javascript" src="ui/js/excanvas.js"></script><![endif]-->
+	
+	<!-- jQuery thats loaded before document ready to prevent flickering - Rest are found at the bottom -->
+	<script src="scripts/login/main.js"></script>
+	<script>{if isset($code)}var loginError = {$code|json};{/if}</script>
+	
+	<!-- IE Canvas Fix for Visualize Charts - Added in 1.1 -->
+	<!--[if IE]><script type="text/javascript" src="ui/js/excanvas.js"></script><![endif]-->
+	
+	<!-- jQuery thats loaded before document ready to prevent flickering - Rest are found at the bottom -->
+	<script type="text/javascript" src="ui/js/jquery-1.4.1.min.js"></script>
+	<script type="text/javascript" src="ui/js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="ui/js/jquery.styleswitcher.js"></script>
+	<script type="text/javascript" src="ui/js/jquery.visualize.js"></script>
+	
+	<script type="text/javascript" src="ui/js/jquery.visualize-tooltip.js"></script>
+	<script type="text/javascript" src="ui/js/jquery-animate-css-rotate-scale.js"></script>
+	<script type="text/javascript" src="ui/js/jquery-ui-1.8.13.custom.min.js"></script>
+	<script type="text/javascript" src="ui/js/jquery.poshytip.min.js"></script>
+	<script type="text/javascript" src="ui/js/jquery.quicksand.js"></script>
+	<script type="text/javascript" src="ui/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="ui/js/jquery.facebox.js"></script>
+	<script type="text/javascript" src="ui/js/jquery.uniform.min.js"></script>
+	<script type="text/javascript" src="ui/js/jquery.wysiwyg.js"></script>
+	<script type="text/javascript" src="ui/js/syntaxHighlighter/shCore.js"></script>
+	<script type="text/javascript" src="ui/js/syntaxHighlighter/shBrushXml.js"></script>
+	<script type="text/javascript" src="ui/js/syntaxHighlighter/shBrushJScript.js"></script>
+	<script type="text/javascript" src="ui/js/syntaxHighlighter/shBrushCss.js"></script>
+	<script type="text/javascript" src="ui/js/syntaxHighlighter/shBrushPhp.js"></script>
+	<script type="text/javascript" src="ui/js/fileTree/jqueryFileTree.js"></script> <!-- Added in 1.2 -->
+	
+	<script type="text/javascript" src="ui/js/custom.js"></script>
+	{block name="script"}{/block}	
+</head>
+<body id="{$smarty.get.page|htmlspecialchars|default:'overview'}" class="{$bodyclass}">
+	<div id="page">

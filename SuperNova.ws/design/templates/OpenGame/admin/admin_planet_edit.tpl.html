@@ -1,0 +1,66 @@
+<h2>{L_adm_planet_edit}</h2>
+<form method="post">
+  <input type="hidden" name="mode" value="{MODE}">
+
+  <table width="500px">
+    <tr>
+      <th colspan="4" class="c_c">
+        <div>
+          <div class="fl">{L_adm_planet_id}&nbsp;<!-- IF PLANET_ID --><input type="hidden" name="planet_id" value="{PLANET_ID}">{PLANET_ID} <a href="admin/planet_edit.php">{L_sys_reset}</a><!-- ELSE --><input name="planet_id" value="{PLANET_ID}"><!-- ENDIF --></div>
+          <div class="fr"><input type="submit" name="change_data" value="{L_sys_confirm}"></div>
+        </div>
+      </th>
+    </tr>
+
+    <!-- IF PLANET_ID -->
+    <tr>
+      <td colspan="4" class="c_c">
+        <div>
+          <span class="fl">{PLANET_NAME}</span>
+
+          <span class="fr">
+            <!-- BEGIN page_menu -->
+            <a href="admin/planet_edit.php?planet_id={PLANET_ID}&mode={page_menu.ID}"><span<!-- IF MODE == page_menu.ID --> class="positive"<!-- ENDIF -->>{page_menu.TEXT}</span></a>
+            <!-- END page_menu -->
+          </span>
+        </div>
+      </td>
+    </tr>
+    <!-- ENDIF -->
+
+    <!-- IF .unit -->
+    <tr>
+      <th class="c_c">{L_sys_id}</th>
+      <th class="c_c">{L_adm_name}</th>
+      <th class="c_c">{L_sys_on_planet}</th>
+      <th class="c_c">{L_adm_planet_change}</th>
+    </tr>
+    <!-- ENDIF -->
+
+    <!-- BEGIN unit -->
+      <tr>
+        <!-- IF MODE == '__admin_planet_edit_extra' -->
+        <td class="c_l" colspan="2">{unit.NAME}</td>
+        <td class="c_l">{unit.TEXT}</td>
+        <!-- ELSE -->
+        <td class="c_r">{unit.ID}</td>
+        <td class="c_l">{unit.NAME}</td>
+        <td class="c_r">{unit.TEXT}</td>
+        <!-- ENDIF -->
+        <td width="160px">
+          <!-- IF unit.ID == "PLANET_GOVERNOR_ID" -->
+          <select name="unit_list[{unit.ID}]">
+            <!-- BEGIN !governor -->
+            <option value="{governor.ID}"<!-- IF unit.VALUE == governor.ID --> selected<!-- ENDIF -->>{governor.NAME}</option>
+            <!-- END !governor -->
+          </select>
+          <!-- ELSE -->
+          <input name="unit_list[{unit.ID}]" value="{unit.VALUE}">
+          <!-- ENDIF -->
+        </td>
+      </tr>
+    <!-- END unit -->
+  </table>
+</form>
+
+<!-- INCLUDE page_hint -->
