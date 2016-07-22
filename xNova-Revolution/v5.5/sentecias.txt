@@ -1,0 +1,15 @@
+ALTER TABLE  `uni1_config` ADD `uni_name` VARCHAR( 30 ) NOT NULL DEFAULT 'Universo 1' AFTER `bgm_file` ;
+
+
+ALTER TABLE `uni1_planets` DROP `id_level`;
+ALTER TABLE  `uni1_users` ADD `authattack` ENUM( '0', '1', '2', '3' ) NOT NULL DEFAULT '0' AFTER `authlevel`;
+
+ALTER TABLE `uni1_users` CHANGE `b_tech_queue` `b_tech_queue` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '';
+ALTER TABLE `uni1_planets` DROP  `b_hangar_plus`;
+ALTER TABLE `uni1_planets` CHANGE `b_building_id` `b_building_id` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '', CHANGE `b_hangar_id` `b_hangar_id` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '';
+
+ALTER TABLE `uni1_config` CHANGE `trade_allowed_ships` `trade_allowed_ships` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '202,208,401';
+
+ALTER TABLE `uni1_users` ADD `norio_proc_tech` TINYINT( 3 ) UNSIGNED NOT NULL DEFAULT '0' AFTER `deuterium_proc_tech`;
+
+ALTER TABLE `uni1_users` ADD `norio_proc_tech` TINYINT( 3 ) UNSIGNED NOT NULL DEFAULT '0' AFTER `deuterium_proc_tech`;
